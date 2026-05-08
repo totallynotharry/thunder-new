@@ -77,7 +77,7 @@
       .p-char,
       .o-char,
       .r-char,
-      .v4-text,
+      .brand-text,
       .random-text-container {
         visibility: hidden;
       }
@@ -176,7 +176,7 @@
         transform: scale(1);
       }
 
-      .v4-text {
+      .brand-text {
         color: rgba(var(--cb), 0.7);
         opacity: 0;
         transition: 0.6s ease;
@@ -185,7 +185,7 @@
         transform: scale(0.9);
         margin-left: 20px;
       }
-      .v4-text.visible {
+      .brand-text.visible {
         opacity: 1;
         transform: scale(1);
       }
@@ -346,7 +346,7 @@
           ><span class="o-char" id="o-char">O</span
           ><span class="r-char" id="r-char">R</span>
         </span>
-        <span class="v4-text" id="v4-text">v4</span>
+        <span class="brand-text" id="brand-text">v4</span>
       </h1>
     </div>
 
@@ -386,7 +386,7 @@
         "splash responsibly",
         "SHUT THE FRONT DOOR",
         "Also try <a href='https://cherrion.top/' target='_blank' class='splashlink'>Cherri!</a>",
-        "VAPOR costs money to run",
+        "THUNDER costs money to run",
         "TURN OFF THE ADS BRO",
         "w vapor ❤️‍🩹",
         "w speed ❤️‍🩹",
@@ -454,18 +454,10 @@
       function populateFooterInfo() {
         const textEl = document.getElementById("footer-info-text");
 
-        textEl.innerHTML = `<span style="color: rgba(var(--cb),0.8);">
-  <div class="footer-tooltip">
-    This build of VAPOR is running in a <b>static environment</b>.<br><br>
-    Some features may be limited, especially Browse.
-  </div>
-  Static Version
-</span><div class="footer-divider"></div><span id="version-link" class="clickable"><div class="footer-tooltip">Click to open changelog</div>${VERSION}</span><span><div class="footer-divider"></div></span><span id="discord-link" class="clickable"><div class="footer-tooltip">Join the Discord for new links, updates, and exclusive content!</div><i class="ri-discord-fill"></i>Discord</span>`;
+        textEl.innerHTML = `<span style="color: rgba(var(--cb),0.8);">THUNDER</span><div class="footer-divider"></div><span id="version-link" class="clickable"><div class="footer-tooltip">Click to open changelog</div>${VERSION}</span>`;
 
         document.getElementById("version-link").onclick = () =>
           window.open("/asset/changelog.txt", "_blank");
-        document.getElementById("discord-link").onclick = () =>
-          window.open("https://discord.gg/cD926JG5Re", "_blank");
 
         document.getElementById("vortex-link").onclick = () =>
           window.open("https://vtx.chat", "_blank");
@@ -513,7 +505,7 @@
         );
 
         setTimeout(() => {
-          document.getElementById("v4-text").classList.add("visible");
+          document.getElementById("brand-text").classList.add("visible");
           document
             .getElementById("header-info-container")
             .classList.add("info-visible");

@@ -112,7 +112,7 @@
 
   const STARTUP_NOTIFICATION = {
     iconClass: "ri-meteor-line",
-    title: "VAPOR v4.4",
+    title: "THUNDER",
     content: `
     🤖 <b>New AI System</b>
     Multi-model AI Chat with custom personalities
@@ -142,7 +142,7 @@
     &nbsp;&nbsp;* Automatic
 
     - Added personality system
-    - (AI also has knowledge about VAPOR)
+    - (AI also has knowledge about THUNDER)
   
     🎮 Play
     - Added 3 new gamelists:

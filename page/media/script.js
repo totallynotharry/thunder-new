@@ -808,7 +808,7 @@ function setupTMDBPlayer(id) {
                 }
             </style>
             <div>Click the server icon to select a source</div>
-            <p><b>Note:</b> VAPOR streams movies from third-party sources, each with their own ads.<br>
+            <p><b>Note:</b> THUNDER streams movies from third-party sources, each with their own ads.<br>
             We don’t control or endorse the content or advertisements shown.</p>
                         `;
   playerContainer.appendChild(iframe);
