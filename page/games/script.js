@@ -7,9 +7,7 @@ const gameOverlay = document.getElementById("game-overlay");
 const sourceDropdownWrapper = document.getElementById(
   "source-dropdown-wrapper"
 );
-const sourceOptionsContainer = document.getElementById(
-  "source-options-container"
-);
+const sourceOptionsContainer = document.getElementById("source-options-container");
 const sourceSelectorText = sourceDropdownWrapper.querySelector(
   ".dropdown-menu .dropdown-text"
 );
@@ -660,6 +658,7 @@ dropdowns.forEach((wrapper) => {
       }
     });
   }
+  if (!options) return;
   options.addEventListener("click", (e) => {
     const opt = e.target.closest(".option");
     if (opt) {

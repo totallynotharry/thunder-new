@@ -5,67 +5,7 @@
       "Icon": "ri-calculator-line",
       "File": "/asset/json/zones/gnmath.json",
       "Type": "mix"
-    },
-    {
-      "Name": "gn-ports",
-      "Icon": "ri-terminal-box-line",
-      "File": "/asset/json/zones/gnports.json",
-      "Type": "jsd"
-    },
-    { "Type": "divider" },
-    {
-      "Name": "Truffled",
-      "Icon": "ri-sailboat-line",
-      "File": "/asset/json/zones/truffled.json",
-      "Type": "jsd"
-    },
-    {
-      "Name": "UGS",
-      "Icon": "ri-file-line",
-      "File": "/asset/json/zones/ugs.json",
-      "Type": "jsd"
-    },
-    {
-      "Name": "TGLSC",
-      "Icon": "ri-pentagon-line",
-      "File": "/asset/json/zones/tglsc.json",
-      "Type": "jsd"
     }
   ],
-  "Col2": [
-    {
-      "Name": "Mirrors",
-      "Icon": "ri-external-link-line",
-      "File": "/asset/json/zones/mirrors.json",
-      "Type": "proxy",
-      "Description": "These games are <b>mirrored</b>, meaning they're ρroxied behind VAPOR's servers. They may not function correctly."
-    },
-    {
-      "Name": "Now.GG",
-      "Icon": "ri-play-circle-line",
-      "File": "/asset/json/zones/nowgg.json",
-      "Type": "proxy",
-      "Description": "Now.GG games are powered by nowgg.fun/frogiesarcade.win.<br>Some games may not function correctly."
-    },
-    { "Type": "divider" },
-    {
-      "Name": "Selenite",
-      "Icon": "ri-moon-line",
-      "File": "/asset/json/zones/selenite.json",
-      "Type": "jsd"
-    },
-    {
-      "Name": "Seraph",
-      "Icon": "ri-pen-nib-line",
-      "File": "/asset/json/zones/seraph.json",
-      "Type": "jsd"
-    },
-    {
-      "Name": "3kh0",
-      "Icon": "ri-gamepad-line",
-      "File": "/asset/json/zones/3kh0.json",
-      "Type": "jsd",
-      "Description": "Some games may not function with this source."
-    }
-  ]
+  "Col2": []
 }
