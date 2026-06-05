@@ -2,7 +2,7 @@ const API_KEY = "0c7387ed17fe3d2959530a2f0ca70022";
 const API_URL = "https://api.themoviedb.org/3";
 const IMAGE_URL_POSTER = "https://image.tmdb.org/t/p/w500";
 const IMAGE_URL_BACKDROP = "https://image.tmdb.org/t/p/w780";
-const YOUTUBE_SEARCH_URL = BURLFULL + "/api/youtube/search/";
+const YOUTUBE_BASE_URL = "https://vapor.plasmii.vip/api/youtube/search/";
 const YOUTUBE_MAX_RESULTS = 20;
 const TWITCH_ACTIVE_STREAMS_URL = BURLFULL + "/worker/watch/ttv/active";
 const TWITCH_GET_STREAM_URL = BURLFULL + "/worker/watch/ttv/get/";
@@ -264,8 +264,9 @@ function updateSearchBarPlaceholder() {
 async function fetchYoutubeData(fetchId) {
   if (isLoading) return;
   toggleLoading(true);
-  const query = currentQuery.trim().replace(/\s/g, "+") || "popular videos";
-  const url = `${YOUTUBE_SEARCH_URL}${query}?max=${YOUTUBE_MAX_RESULTS}`;
+  const query = currentQuery.trim() || "popular videos";
+  const safeQuery = encodeURIComponent(query);
+  const url = `${YOUTUBE_BASE_URL}${safeQuery}?max=${YOUTUBE_MAX_RESULTS}`;
 
   grid.innerHTML = "";
   grid.appendChild(loadingSpinner);
@@ -282,17 +283,14 @@ async function fetchYoutubeData(fetchId) {
     const data = await res.json();
 
     if (!data || !data.items || data.items.length === 0) {
-      throw new Error("API returned an empty or invalid result set.");
+      throw new Error("API returned empty or invalid results.");
     }
 
-    renderItems(data.items || []);
+    renderItems(data.items);
   } catch (err) {
     if (fetchId === currentFetchId) {
       console.error("YouTube data fetching error:", err);
-      const errorMessage = `YouTube Fetch Failed: ${
-        err.message || err.toString()
-      }. Please check console for full error details.`;
-      noResultsMessage.textContent = errorMessage;
+      noResultsMessage.textContent = `YouTube Fetch Failed: ${err.message}`;
       noResultsMessage.style.display = "block";
     }
   } finally {
@@ -808,7 +806,7 @@ function setupTMDBPlayer(id) {
                 }
             </style>
             <div>Click the server icon to select a source</div>
-            <p><b>Note:</b> VAPOR streams movies from third-party sources, each with their own ads.<br>
+            <p><b>Note:</b> THUNDER streams movies from third-party sources, each with their own ads.<br>
             We don’t control or endorse the content or advertisements shown.</p>
                         `;
   playerContainer.appendChild(iframe);

@@ -34,13 +34,5 @@
     "type": "item",
     "url": "/page/music/index.html",
     "tag": "UPDATED"
-
-  },
-  {
-    "iconClass": "ri-global-line",
-    "name": "Browse",
-    "type": "item",
-    "url": "/browser.html",
-    "disabled": true
   }
 ]

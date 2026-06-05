@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const allThemeOpts = document.querySelectorAll(".theme-opt, .alt-theme-opt");
-  const activeTheme = localStorage.getItem(THEME_KEY) || "vapor";
+  const activeTheme = localStorage.getItem(THEME_KEY) || "midnight";
   allThemeOpts.forEach((opt) => {
     if (opt.dataset.theme === activeTheme) opt.classList.add("active-server");
     opt.addEventListener("click", async () => {
@@ -97,39 +97,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "wisp",
     "wss://gointospace.app/wisp/"
   );
-  setupOptions(".cloak-tab-opt", "tab_cloak_setting", "cloakTab", "vapor");
-  setupOptions(
-    ".cloak-auto-opt",
-    "auto_cloak_setting",
-    "cloakAuto",
-    "disabled"
-  );
-
-  const closePreventToggle = document.getElementById("closePreventToggle");
-  const CLOSE_PREVENT_KEY = "close_prevention_enabled";
-  if (closePreventToggle) {
-    if (localStorage.getItem(CLOSE_PREVENT_KEY) === "true")
-      closePreventToggle.classList.add("active");
-    closePreventToggle.addEventListener("click", () => {
-      const isActive = closePreventToggle.classList.toggle("active");
-      localStorage.setItem(CLOSE_PREVENT_KEY, isActive ? "true" : "false");
-      showNotif();
-    });
-  }
-
-  const adsToggle = document.getElementById("adsToggle");
-  const ADS_ENABLED_KEY = "ADS_ENABLED";
-  if (adsToggle) {
-    if (localStorage.getItem(ADS_ENABLED_KEY) !== "false") {
-      adsToggle.classList.add("active");
-    }
-    adsToggle.addEventListener("click", () => {
-      const isActive = adsToggle.classList.toggle("active");
-      localStorage.setItem(ADS_ENABLED_KEY, isActive ? "true" : "false");
-      showNotif();
-    });
-  }
-
   const KEYS_TO_SAVE = [
     "arcora_playlists",
     "default_music_provider",
@@ -139,10 +106,9 @@ document.addEventListener("DOMContentLoaded", () => {
     "is_alt_theme",
     "WATCH_STARTING_SOURCE",
     "wispServer",
-    "tab_cloak_setting",
-    "auto_cloak_setting",
-    "close_prevention_enabled",
-    "ADS_ENABLED",
+    
+    
+    
     "bookmarks",
     "bookmarksBarVisible",
     "clockFormat",

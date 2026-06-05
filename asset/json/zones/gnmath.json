@@ -1,3171 +1,4102 @@
 [
   {
+    "name": "Submit your game!",
+    "cover": "https://blog.udemy.com/wp-content/uploads/2014/02/shutterstock_61850923.jpg",
+    "url": "https://forms.office.com/r/7WDCYNZ81H?embed=true",
+    "featured": true,
+    "special": [
+      "port"
+    ]
+  },
+  {
     "name": "Bowmasters",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/0.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/0.html"
+    "cover": "/covers/0.png",
+    "url": "/games/0.html"
   },
   {
     "name": "OvO",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/1.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/1-a.html"
+    "cover": "/covers/1.png",
+    "url": "/games/1-fde.html"
   },
   {
     "name": "OvO 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/2.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/2.html"
+    "cover": "/covers/2.png",
+    "url": "/games/2e.html"
   },
   {
     "name": "OvO 3 Dimensions",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/3.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/3.html"
+    "cover": "/covers/3.png",
+    "url": "/games/3.html"
   },
   {
     "name": "Gladihoppers",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/4.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/4.html"
+    "cover": "/covers/4.png",
+    "url": "/games/4.html"
   },
   {
     "name": "Ice Dodo",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/5.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/5.html"
+    "cover": "/covers/5.png",
+    "url": "/games/5.html"
   },
   {
     "name": "Block Blast",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/6.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/6.html",
-    "featured": true
+    "cover": "/covers/6.png",
+    "url": "/games/6.html"
   },
   {
     "name": "Jetpack Joyride",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/7.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/7.html",
-    "featured": true
+    "cover": "/covers/7.png",
+    "url": "/games/7.html"
   },
   {
     "name": "Friday Night Funkin",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/8.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/8-a.html",
-    "featured": true
+    "cover": "/covers/8.png",
+    "url": "/games/8-wow.html"
   },
   {
     "name": "Sprunki",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/9.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/9.html"
+    "cover": "/covers/9.png",
+    "url": "/games/9.html"
   },
   {
     "name": "Temple Run 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/10.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/10.html",
-    "featured": true
+    "cover": "/covers/10.png",
+    "url": "/games/10.html"
   },
   {
     "name": "Stickman Hook",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/11.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/11.html"
+    "cover": "/covers/11.png",
+    "url": "/games/11.html"
   },
   {
     "name": "Attack Hole",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/13.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/13.html"
+    "cover": "/covers/13.png",
+    "url": "/games/13.html"
   },
   {
     "name": "Bridge Race",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/14.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/14.html"
+    "cover": "/covers/14.png",
+    "url": "/games/14.html"
   },
   {
     "name": "Color Water Sort 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/15.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/15.html"
+    "cover": "/covers/15.png",
+    "url": "/games/15.html"
   },
   {
     "name": "Hide N Seek",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/16.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/16.html"
+    "cover": "/covers/16.png",
+    "url": "/games/16.html"
   },
   {
     "name": "Magic Tiles 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/17.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/17.html",
-    "featured": true
+    "cover": "/covers/17.png",
+    "url": "/games/17.html"
   },
   {
     "name": "Stacky Dash",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/18.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/18.html"
+    "cover": "/covers/18.png",
+    "url": "/games/18.html"
   },
   {
     "name": "Supreme Duelist",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/19.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/19.html"
+    "cover": "/covers/19.png",
+    "url": "/games/19.html"
   },
   {
     "name": "Tall Man Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/20.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/20.html"
+    "cover": "/covers/20.png",
+    "url": "/games/20a.html"
   },
   {
     "name": "Turbo Stars",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/21.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/21.html"
+    "cover": "/covers/21.png",
+    "url": "/games/21.html"
   },
   {
     "name": "Mob Control HTML5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/22.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/22.html"
+    "cover": "/covers/22.png",
+    "url": "/games/22.html"
   },
   {
     "name": "Pou",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/23.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/23.html"
+    "cover": "/covers/23.png",
+    "url": "/games/23.html"
   },
   {
     "name": "Crossy Road",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/24.png",
-    "url": "https://azgames.io/game/crossy-road/",
-    "featured": true,
-    "direct": true,
-    "prx": true
+    "cover": "/covers/24.png",
+    "url": "/games/24.html"
   },
   {
     "name": "Basket Battle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/25.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/25.html"
+    "cover": "/covers/25.png",
+    "url": "/games/25.html"
   },
   {
     "name": "Amaze",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/26.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/26.html"
+    "cover": "/covers/26.png",
+    "url": "/games/26.html"
   },
   {
-    "name": "Geometry Dash Lite",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/27.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/27.html"
+    "name": "Geometry Dash Lite (REMAKE)",
+    "cover": "/covers/27.png",
+    "url": "/games/27-f.html"
   },
   {
     "name": "Basketball Frvr",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/28.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/28.html"
+    "cover": "/covers/28.png",
+    "url": "/games/28.html"
   },
   {
     "name": "Bazooka Boy",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/29.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/29.html"
+    "cover": "/covers/29.png",
+    "url": "/games/29.html"
   },
   {
     "name": "Bottle Jump 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/30.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/30.html"
+    "cover": "/covers/30.png",
+    "url": "/games/30.html"
   },
   {
     "name": "Color Match",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/31.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/31.html"
+    "cover": "/covers/31.png",
+    "url": "/games/31.html"
   },
   {
     "name": "Dig Deep",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/32.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/32.html"
+    "cover": "/covers/32.png",
+    "url": "/games/32.html"
   },
   {
     "name": "Retro Bowl",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/33.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/33.html"
+    "cover": "/covers/33.png",
+    "url": "/games/33.html"
   },
-  
   {
     "name": "Retro Bowl College",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/34.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/34.html"
+    "cover": "/covers/34.png",
+    "url": "/games/34-fixed.html"
   },
   {
     "name": "Monster Tracks",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/36.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/36.html"
+    "cover": "/covers/36.png",
+    "url": "/games/36.html"
   },
   {
     "name": "Gobble",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/37.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/37.html"
+    "cover": "/covers/37.png",
+    "url": "/games/37.html"
+  },
+  {
+    "name": "Five Nights at Freddy's",
+    "cover": "/covers/38.png",
+    "url": "/games/38.html"
+  },
+  {
+    "name": "Five Nights at Freddy's 2",
+    "cover": "/covers/39.png",
+    "url": "/games/39.html"
+  },
+  {
+    "name": "Five Nights at Freddy's 3",
+    "cover": "/covers/40.png",
+    "url": "/games/40.html"
+  },
+  {
+    "name": "Five Nights at Freddy's 4",
+    "cover": "/covers/41.png",
+    "url": "/games/41.html"
   },
   {
     "name": "Road of Fury",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/42.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/42.html"
+    "cover": "/covers/42.png",
+    "url": "/games/42.html"
   },
   {
     "name": "Driven Wild",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/43.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/43.html"
+    "cover": "/covers/43.png",
+    "url": "/games/43.html"
   },
   {
     "name": "Ragdoll Hit",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/44.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/44.html"
+    "cover": "/covers/44.png",
+    "url": "/games/44-fix.html"
   },
   {
     "name": "Vex 1",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/45.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/45.html",
-    "special": [
-      "flash"
-    ],
-    "featured": true
+    "cover": "/covers/45.png",
+    "url": "/games/45.html"
   },
   {
     "name": "Vex 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/46.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/46.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/46.png",
+    "url": "/games/46.html"
   },
   {
     "name": "Vex 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/47.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/47.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/47.png",
+    "url": "/games/47.html"
   },
   {
     "name": "Vex 3 XMAS",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/48.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/48.html"
+    "cover": "/covers/48.png",
+    "url": "/games/48.html"
   },
   {
     "name": "Vex 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/49.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/49.html"
+    "cover": "/covers/49.png",
+    "url": "/games/49.html"
   },
   {
     "name": "Vex 5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/50.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/50.html"
+    "cover": "/covers/50.png",
+    "url": "/games/50.html"
   },
   {
     "name": "Vex 6",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/51.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/51.html"
+    "cover": "/covers/51.png",
+    "url": "/games/51.html"
   },
   {
     "name": "Vex 7",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/52.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/52.html"
+    "cover": "/covers/52.png",
+    "url": "/games/52.html"
   },
   {
     "name": "Vex 8",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/53.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/53.html"
+    "cover": "/covers/53.png",
+    "url": "/games/53.html"
   },
   {
     "name": "Vex Challenges",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/54.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/54.html"
+    "cover": "/covers/54.png",
+    "url": "/games/54.html"
   },
   {
     "name": "Vex X3M",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/55.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/55.html"
+    "cover": "/covers/55.png",
+    "url": "/games/55.html"
   },
   {
     "name": "Vex X3M 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/56.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/56.html"
+    "cover": "/covers/56.png",
+    "url": "/games/56.html"
   },
   {
     "name": "1v1.LoL",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/58.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/58.html"
+    "cover": "/covers/58.png",
+    "url": "/games/58.html"
   },
   {
     "name": "A Dance of Fire and Ice",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/59.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/59.html"
+    "cover": "/covers/59.png",
+    "url": "/games/59.html"
   },
   {
     "name": "Achievement Unlocked",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/60.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/60.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/60.png",
+    "url": "/games/60.html"
   },
   {
     "name": "Achievement Unlocked 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/61.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/61.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/61.png",
+    "url": "/games/61.html"
   },
   {
     "name": "Achievement Unlocked 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/62.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/62.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/62.png",
+    "url": "/games/62.html"
   },
   {
     "name": "Angry Birds",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/63.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/63.html"
+    "cover": "/covers/63.png",
+    "url": "/games/63.html"
   },
   {
     "name": "Backrooms",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/64.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/64.html"
+    "cover": "/covers/64.png",
+    "url": "/games/64-fix.html"
   },
   {
     "name": "Baldi's Basics",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/65.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/65.html"
+    "cover": "/covers/65.png",
+    "url": "/games/65-fixed.html"
   },
   {
     "name": "Basket Random",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/66.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/66.html"
+    "cover": "/covers/66.png",
+    "url": "/games/66.html"
   },
   {
     "name": "Big Tower Tiny Square",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/67.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/67.html"
+    "cover": "/covers/67.png",
+    "url": "/games/67-f.html"
   },
   {
     "name": "Big NEON Tower Tiny Square",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/68.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/68.html"
+    "cover": "/covers/68.png",
+    "url": "/games/68.html"
   },
   {
     "name": "Big ICE Tower Tiny Square",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/69.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/69.html"
+    "cover": "/covers/69.png",
+    "url": "/games/69.html"
   },
   {
     "name": "BitLife",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/70.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/70.html"
+    "cover": "/covers/70.png",
+    "url": "/games/70.html"
   },
   {
     "name": "Bloons TD",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/71.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/71.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/71.png",
+    "url": "/games/71.html"
   },
   {
     "name": "Bloons TD 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/72.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/72.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/72.png",
+    "url": "/games/72.html"
   },
   {
     "name": "Bloons TD 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/73.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/73.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/73.png",
+    "url": "/games/73.html"
   },
   {
     "name": "Bloons TD 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/74.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/74.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/74.png",
+    "url": "/games/74.html"
   },
   {
     "name": "Bloons TD 5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/75.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/75.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/75.png",
+    "url": "/games/75-fix.html"
   },
   {
     "name": "Bob The Robber 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/76.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/76.html"
+    "cover": "/covers/76.png",
+    "url": "/games/76-fix.html"
   },
   {
     "name": "Boxing Random",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/77.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/77.html"
+    "cover": "/covers/77.png",
+    "url": "/games/77.html"
   },
   {
-    "name": "Burrito Bison",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/78.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/78.html",
-    "special": [
-      "flash"
-    ]
+    "name": "Burrito Bison: Launcha Libre",
+    "cover": "/covers/78.png",
+    "url": "/games/78.html"
   },
   {
     "name": "Cannon Basketball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/79.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/79.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/79.png",
+    "url": "/games/79.html"
   },
   {
     "name": "Cannon Basketball 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/80.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/80.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/80.png",
+    "url": "/games/80.html"
   },
   {
     "name": "Cluster Rush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/81.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/81.html"
+    "cover": "/covers/81.png",
+    "url": "/games/81.html"
   },
   {
     "name": "Cookie Clicker",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/82.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/82-aa.html",
-    "featured": true
+    "cover": "/covers/82.png",
+    "url": "/games/82-a.html"
   },
   {
     "name": "Coreball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/83.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/83.html"
+    "cover": "/covers/83.png",
+    "url": "/games/83.html"
   },
   {
     "name": "Cubefield",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/84.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/84.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/84.png",
+    "url": "/games/84.html"
   },
   {
     "name": "Cut the Rope",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/85.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/85.html"
+    "cover": "/covers/85.png",
+    "url": "/games/85-f.html"
   },
   {
     "name": "Draw Climber",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/86.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/86.html"
+    "cover": "/covers/86.png",
+    "url": "/games/86.html"
   },
   {
     "name": "Emulator.JS",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/87.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/87.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/87.png",
+    "url": "/games/87.html"
   },
   {
     "name": "Fireboy and Watergirl 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/88.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/88.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/88.png",
+    "url": "/games/88.html"
   },
   {
     "name": "Fireboy and Watergirl 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/89.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/89.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/89.png",
+    "url": "/games/89.html"
   },
   {
     "name": "Granny",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/90.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/90.html"
+    "cover": "/covers/90.png",
+    "url": "/games/90-fix2.html"
   },
   {
     "name": "Gunspin",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/91.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/91.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/91.png",
+    "url": "/games/91.html"
   },
   {
     "name": "Highway Racer 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/92.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/92.html"
+    "cover": "/covers/92.png",
+    "url": "/games/92.html"
   },
   {
     "name": "Johnny Trigger",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/93.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/93.html"
+    "cover": "/covers/93.png",
+    "url": "/games/93.html"
   },
   {
     "name": "Journey Downhill",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/94.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/94.html"
+    "cover": "/covers/94.png",
+    "url": "/games/94.html"
   },
   {
     "name": "Line Rider",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/95.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/95.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/95.png",
+    "url": "/games/95.html"
   },
   {
     "name": "Moto X3M",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/96.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/96.html",
-    "featured": true
+    "cover": "/covers/96.png",
+    "url": "/games/96.html"
   },
   {
     "name": "Moto X3M 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/97.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/97.html"
+    "cover": "/covers/97.png",
+    "url": "/games/97.html"
   },
   {
     "name": "Moto X3M 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/98.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/98.html"
+    "cover": "/covers/98.png",
+    "url": "/games/98.html"
   },
   {
     "name": "Moto X3M Spooky",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/99.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/99.html"
+    "cover": "/covers/99.png",
+    "url": "/games/99.html"
   },
   {
     "name": "Moto X3M Winter",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/100.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/100.html"
+    "cover": "/covers/100.png",
+    "url": "/games/100-f.html"
   },
   {
     "name": "Ninja vs EvilCorp",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/101.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/101.html"
+    "cover": "/covers/101.png",
+    "url": "/games/101.html"
   },
   {
     "name": "Paper.io 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/102.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/102.html"
+    "cover": "/covers/102.png",
+    "url": "/games/102.html"
   },
   {
     "name": "The World's Hardest Game",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/103.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/103.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/103.png",
+    "url": "/games/103.html"
   },
   {
     "name": "The World's Hardest Game 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/104.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/104.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/104.png",
+    "url": "/games/104.html"
   },
   {
     "name": "The World's Hardest Game 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/105.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/105.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/105.png",
+    "url": "/games/105.html"
   },
   {
     "name": "This Is The Only Level",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/106.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/106.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/106.png",
+    "url": "/games/106.html"
   },
   {
     "name": "This Is The Only Level 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/107.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/107.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/107.png",
+    "url": "/games/107.html"
   },
   {
     "name": "Tiny Fishing",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/108.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/108.html"
+    "cover": "/covers/108.png",
+    "url": "/games/108.html"
   },
   {
     "name": "Tomb Of The Mask",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/109.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/109.html"
+    "cover": "/covers/109.png",
+    "url": "/games/109.html"
   },
   {
     "name": "Toss The Turtle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/110.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/110-f.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/110.png",
+    "url": "/games/110-f.html"
   },
   {
     "name": "Tube Jumpers",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/111.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/111.html"
+    "cover": "/covers/111.png",
+    "url": "/games/111.html"
   },
   {
     "name": "Wordle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/112.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/112.html"
+    "cover": "/covers/112.png",
+    "url": "/games/112-fix.html"
   },
   {
     "name": "Ruffle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/113.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/113.html",
-    "special": [
-      "emulator",
-      "flash"
-    ]
+    "cover": "/covers/113.png",
+    "url": "/games/113.html"
   },
   {
     "name": "2048",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/114.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/114.html"
+    "cover": "/covers/114.png",
+    "url": "/games/114-f.html"
   },
   {
     "name": "8 Ball Pool",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/115.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/115.html"
+    "cover": "/covers/115.png",
+    "url": "/games/115.html"
   },
   {
     "name": "Offroad Mountain Bike",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/116.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/116.html"
+    "cover": "/covers/116.png",
+    "url": "/games/116.html"
   },
   {
     "name": "Space Waves",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/117.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html"
+    "cover": "/covers/117.png",
+    "url": "/games/117-fix.html"
   },
   {
     "name": "Solar Smash",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/118.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/118.html"
+    "cover": "/covers/118.png",
+    "url": "/games/118.html"
   },
   {
     "name": "Snow Rider 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/119.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/119.html"
+    "cover": "/covers/119.png",
+    "url": "/games/119.html"
   },
   {
     "name": "Fortzone Battle Royale",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/120.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/120.html"
+    "cover": "/covers/120.png",
+    "url": "/games/120.html"
   },
   {
     "name": "Brawl Guys.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/121.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/121.html"
+    "cover": "/covers/121.png",
+    "url": "/games/121.html"
   },
   {
     "name": "Survival Race",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/122.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/122.html"
+    "cover": "/covers/122.png",
+    "url": "/games/122.html"
   },
   {
     "name": "Poly Track",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/123.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/123.html"
+    "cover": "/covers/123.png",
+    "url": "/games/123-win.html"
   },
   {
     "name": "Moto X3M Pool Party",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/124.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/124.html"
+    "cover": "/covers/124.png",
+    "url": "/games/124.html"
   },
   {
     "name": "Granny 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/125.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/125.html"
+    "cover": "/covers/125.png",
+    "url": "/games/125.html"
   },
   {
     "name": "Granny 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/126.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/126.html"
+    "cover": "/covers/126.png",
+    "url": "/games/126.html"
   },
   {
     "name": "Fashion Battle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/127.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/127.html"
+    "cover": "/covers/127.png",
+    "url": "/games/127.html"
   },
   {
     "name": "Slice it All",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/128.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/128.html"
+    "cover": "/covers/128.png",
+    "url": "/games/128.html"
   },
   {
     "name": "Flappy Bird",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/129.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/129.html",
-    "featured": true
+    "cover": "/covers/129.png",
+    "url": "/games/129.html"
   },
   {
     "name": "osu!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/130.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/130.html"
+    "cover": "/covers/130.png",
+    "url": "/games/130.html"
   },
   {
     "name": "8 Ball Classic",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/146.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/146.html"
+    "cover": "/covers/146.png",
+    "url": "/games/146.html"
   },
   {
     "name": "Angry Birds Showdown",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/147.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/147.html"
+    "cover": "/covers/147.png",
+    "url": "/games/147.html"
   },
   {
     "name": "Archery World Tour",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/148.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/148.html"
+    "cover": "/covers/148.png",
+    "url": "/games/148.html"
   },
   {
     "name": "Ball Blast",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/149.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/149.html"
+    "cover": "/covers/149.png",
+    "url": "/games/149.html"
   },
   {
     "name": "Cannon Balls 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/150.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/150.html"
+    "cover": "/covers/150.png",
+    "url": "/games/150.html"
   },
   {
     "name": "Chess Classic",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/151.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/151.html"
+    "cover": "/covers/151.png",
+    "url": "/games/151.html"
   },
   {
     "name": "Draw the Line",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/152.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/152.html"
+    "cover": "/covers/152.png",
+    "url": "/games/152.html"
   },
   {
     "name": "Flappy Dunk",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/153.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/153.html"
+    "cover": "/covers/153.png",
+    "url": "/games/153.html"
   },
   {
     "name": "Fork n Sausage",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/154.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/154.html"
+    "cover": "/covers/154.png",
+    "url": "/games/154.html"
   },
   {
     "name": "Guess Their Answer",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/155.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/155.html"
+    "cover": "/covers/155.png",
+    "url": "/games/155.html"
   },
   {
     "name": "Harvest.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/156.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/156.html"
+    "cover": "/covers/156.png",
+    "url": "/games/156.html"
   },
   {
     "name": "Hill Climb Racing Lite",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/157.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/157.html"
+    "cover": "/covers/157.png",
+    "url": "/games/157.html"
   },
   {
     "name": "Pac-Man Superfast",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/158.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/158.html"
+    "cover": "/covers/158.png",
+    "url": "/games/158.html"
   },
   {
     "name": "Parking Rush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/159.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/159.html"
+    "cover": "/covers/159.png",
+    "url": "/games/159.html"
   },
   {
     "name": "Race Master 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/160.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/160.html"
+    "cover": "/covers/160.png",
+    "url": "/games/160.html"
   },
   {
     "name": "State.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/161.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/161.html"
+    "cover": "/covers/161.png",
+    "url": "/games/161.html"
   },
   {
     "name": "Tower Crash 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/162.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/162.html"
+    "cover": "/covers/162.png",
+    "url": "/games/162.html"
   },
   {
     "name": "Trivia Crack",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/163.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/163.html"
+    "cover": "/covers/163.png",
+    "url": "/games/163.html"
+  },
+  {
+    "name": "Crazy Cattle 3D",
+    "cover": "/covers/164.png",
+    "url": "/games/164-temp2.html"
   },
   {
     "name": "Cheese Chompers 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/165.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/165.html"
+    "cover": "/covers/165.png",
+    "url": "/games/165.html"
+  },
+  {
+    "name": "Bad Parenting 1",
+    "cover": "/covers/166.png",
+    "url": "/games/166.html",
+    "featured": true
   },
   {
     "name": "Blade Ball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/167.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/167.html"
+    "cover": "/covers/167.png",
+    "url": "/games/167.html"
   },
   {
     "name": "Blocky Snakes",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/168.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/168.html"
+    "cover": "/covers/168.png",
+    "url": "/games/168.html"
   },
   {
     "name": "Bloxorz",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/169.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/169.html"
+    "cover": "/covers/169.png",
+    "url": "/games/169.html"
   },
   {
     "name": "Big Tower Tiny Square 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/170.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/170.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/170.png",
+    "url": "/games/170.html"
   },
   {
     "name": "Candy Crush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/171.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/171.html"
+    "cover": "/covers/171.png",
+    "url": "/games/171.html"
   },
   {
     "name": "Melon Playground",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/172.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/172.html"
+    "cover": "/covers/172.png",
+    "url": "/games/172.html"
   },
   {
     "name": "Drift Hunters",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/173.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/173.html",
-    "featured": true
+    "cover": "/covers/173.png",
+    "url": "/games/173.html"
   },
   {
     "name": "World Box",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/174.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/174.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/174.png",
+    "url": "/games/174.html"
   },
   {
     "name": "Run 1",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/175.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/175.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/175.png",
+    "url": "/games/175.html"
   },
   {
     "name": "Run 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/176.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/176.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/176.png",
+    "url": "/games/176.html"
   },
   {
     "name": "Run 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/177.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/177.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/177.png",
+    "url": "/games/177.html"
   },
   {
     "name": "Swords and Souls",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/178.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/178.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/178.png",
+    "url": "/games/178.html"
   },
   {
     "name": "n-gon",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/180.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/180.html"
+    "cover": "/covers/180.png",
+    "url": "/games/180.html"
   },
   {
     "name": "Minecraft 1.8.8",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/181.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/181.html",
-    "featured": true
+    "cover": "/covers/181.png",
+    "url": "/games/181.html"
   },
   {
     "name": "Minecraft 1.12.2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/182.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/182.html",
+    "cover": "/covers/182.png",
+    "url": "/games/182.html",
     "featured": true
   },
   {
     "name": "Minecraft 1.21.4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/183.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/183.html"
+    "cover": "/covers/183.png",
+    "url": "/games/183.html"
+  },
+  {
+    "name": "Five Nights at Freddy's: Sister Location",
+    "cover": "/covers/185.png",
+    "url": "/games/185.html",
+    "featured": true
   },
   {
     "name": "Ragdoll Archers",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/186.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/186.html"
+    "cover": "/covers/186.png",
+    "url": "/games/186.html"
   },
   {
     "name": "Papers, Please",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/187.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/187.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/187.png",
+    "url": "/games/187.html"
   },
   {
     "name": "Scrap Metal 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/188.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/188.html"
+    "cover": "/covers/188.png",
+    "url": "/games/188e.html"
+  },
+  {
+    "name": "Five Nights at Freddy's: World",
+    "cover": "/covers/190.png",
+    "url": "/games/190.html"
+  },
+  {
+    "name": "Five Nights at Freddy's: Pizza Simulator",
+    "cover": "/covers/191.png",
+    "url": "/games/191.html",
+    "featured": true
+  },
+  {
+    "name": "Five Nights at Freddy's: Ultimate Custom Night",
+    "cover": "/covers/192.png",
+    "url": "/games/192.html"
+  },
+  {
+    "name": "Do NOT Take This Cat Home",
+    "cover": "/covers/193.png",
+    "url": "/games/193.html"
+  },
+  {
+    "name": "People Playground",
+    "cover": "/covers/194-m.png",
+    "url": "/games/194-a.html",
+    "featured": true
+  },
+  {
+    "name": "R.E.P.O",
+    "cover": "/covers/195.png",
+    "url": "/games/195.html",
+    "featured": true
+  },
+  {
+    "name": "ULTRAKILL",
+    "cover": "/covers/196.png",
+    "url": "/games/196-fixed.html",
+    "featured": true
   },
   {
     "name": "Elastic Man",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/197.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/197.html"
+    "cover": "/covers/197.png",
+    "url": "/games/197.html"
   },
   {
     "name": "Slope",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/198.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/198.html"
+    "cover": "/covers/198.png",
+    "url": "/games/198.html"
   },
   {
     "name": "Time Shooter 1",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/199.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/199.html"
+    "cover": "/covers/199.png",
+    "url": "/games/199.html"
   },
   {
     "name": "Time Shooter 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/200.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/200.html"
+    "cover": "/covers/200.png",
+    "url": "/games/200.html"
   },
   {
     "name": "Time Shooter 3: SWAT",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/201.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/201.html"
+    "cover": "/covers/201.png",
+    "url": "/games/201.html"
   },
   {
     "name": "Carrom Clash",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/202.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/202.html"
+    "cover": "/covers/202.png",
+    "url": "/games/202.html"
   },
   {
     "name": "DOOM",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/203.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/203-a.html"
+    "cover": "/covers/203.png",
+    "url": "/games/203-a.html"
   },
   {
     "name": "Five Nights at Winston's",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/204.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/204.html",
+    "cover": "/covers/204.png",
+    "url": "/games/204-a.html"
+  },
+  {
+    "name": "Buckshot Roulette",
+    "cover": "/covers/205.png",
+    "url": "/games/205-f.html",
     "featured": true
   },
   {
     "name": "Tunnel Rush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/206.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/206.html"
+    "cover": "/covers/206.png",
+    "url": "/games/206.html"
   },
   {
     "name": "Snowbattle.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/207.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/207.html"
+    "cover": "/covers/207.png",
+    "url": "/games/207.html"
   },
   {
     "name": "Rolly Vortex",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/208.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/208.html"
+    "cover": "/covers/208.png",
+    "url": "/games/208.html"
   },
   {
     "name": "Draw the Hill",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/209.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/209.html"
+    "cover": "/covers/209.png",
+    "url": "/games/209.html"
   },
   {
     "name": "Dragon vs Bricks",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/210.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/210.html"
+    "cover": "/covers/210.png",
+    "url": "/games/210.html"
   },
   {
     "name": "Death Run 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/211.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/211.html"
+    "cover": "/covers/211.png",
+    "url": "/games/211.html"
   },
   {
     "name": "Cut the Rope",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/212.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/212.html"
+    "cover": "/covers/212.png",
+    "url": "/games/212-f.html"
   },
   {
     "name": "Cut the Rope: Time Travel",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/213.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/213.html"
+    "cover": "/covers/213.png",
+    "url": "/games/213-f.html"
   },
   {
     "name": "Cut the Rope: Holiday Gift",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/214.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/214.html"
+    "cover": "/covers/214.png",
+    "url": "/games/214-fi.html"
+  },
+  {
+    "name": "Bendy and the Ink Machine",
+    "cover": "/covers/215.png",
+    "url": "/games/215.html",
+    "featured": true
+  },
+  {
+    "name": "That's Not My Neighbor",
+    "cover": "/covers/216.png",
+    "url": "/games/216.html",
+    "featured": true
+  },
+  {
+    "name": "Hotline Miami",
+    "cover": "/covers/217.png",
+    "url": "/games/217-c.html"
   },
   {
     "name": "Papa's Bakeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/218.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/218.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/218.png",
+    "url": "/games/218.html"
   },
   {
     "name": "Papa's Burgeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/219.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/219.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/219.png",
+    "url": "/games/219.html"
   },
   {
     "name": "Papa's Cheeseria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/220.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/220.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/220.png",
+    "url": "/games/220.html"
   },
   {
     "name": "Papa's Cupcakeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/221.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/221.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/221.png",
+    "url": "/games/221.html"
   },
   {
     "name": "Papa's Donuteria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/222.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/222.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/222.png",
+    "url": "/games/222.html"
   },
   {
     "name": "Papa's Freezeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/223.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/223.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/223.png",
+    "url": "/games/223.html"
   },
   {
     "name": "Papa's Hot Doggeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/224.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/224.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/224.png",
+    "url": "/games/224.html"
   },
   {
     "name": "Papa's Pancakeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/225.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/225.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/225.png",
+    "url": "/games/225.html"
   },
   {
     "name": "Papa's Pastaria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/226.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/226.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/226.png",
+    "url": "/games/226.html"
   },
   {
     "name": "Papa's Pizeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/227.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/227.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/227.png",
+    "url": "/games/227.html"
   },
   {
     "name": "Papa's Scooperia",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/228.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/228.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/228.png",
+    "url": "/games/228.html"
   },
   {
     "name": "Papa's Sushiria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/229.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/229.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/229.png",
+    "url": "/games/229.html"
   },
   {
     "name": "Papa's Taco Mia",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/230.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/230.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/230.png",
+    "url": "/games/230.html"
   },
   {
     "name": "Papa's Wingeria",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/231.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/231.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/231.png",
+    "url": "/games/231.html"
   },
   {
     "name": "Plants vs Zombies",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/232.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/232.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/232.png",
+    "url": "/games/232.html"
   },
   {
     "name": "Superhot",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/233.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/233.html"
+    "cover": "/covers/233.png",
+    "url": "/games/233.html"
   },
   {
     "name": "Duck Life",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/234.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/234.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/234.png",
+    "url": "/games/234.html"
   },
   {
     "name": "Duck Life 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/235.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/235.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/235.png",
+    "url": "/games/235.html"
   },
   {
     "name": "Duck Life 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/236.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/236.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/236.png",
+    "url": "/games/236.html"
   },
   {
     "name": "Duck Life 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/237.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/237.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/237.png",
+    "url": "/games/237.html"
   },
   {
     "name": "Duck Life 5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/238.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/238.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/238.png",
+    "url": "/games/238.html"
   },
   {
     "name": "Red Ball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/239.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/239.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/239.png",
+    "url": "/games/239.html"
   },
   {
     "name": "Red Ball 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/240.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/240.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/240.png",
+    "url": "/games/240.html"
   },
   {
     "name": "Red Ball 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/241.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/241.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/241.png",
+    "url": "/games/241.html"
   },
   {
     "name": "Red Ball 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/242.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/242.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/242.png",
+    "url": "/games/242.html"
   },
   {
     "name": "Red Ball 4 Vol. 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/243.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/243.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/243.png",
+    "url": "/games/243.html"
   },
   {
     "name": "Red Ball 4 Vol. 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/244.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/244.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/244.png",
+    "url": "/games/244.html"
   },
   {
     "name": "Wheely",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/245.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/245.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/245.png",
+    "url": "/games/245.html"
   },
   {
     "name": "Wheely 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/246.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/246.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/246.png",
+    "url": "/games/246.html"
   },
   {
     "name": "Wheely 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/247.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/247.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/247.png",
+    "url": "/games/247.html"
   },
   {
     "name": "Wheely 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/248.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/248.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/248.png",
+    "url": "/games/248.html"
   },
   {
     "name": "Wheely 5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/249.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/249.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/249.png",
+    "url": "/games/249.html"
   },
   {
     "name": "Wheely 6",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/250.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/250.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/250.png",
+    "url": "/games/250.html"
   },
   {
     "name": "Wheely 7",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/251.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/251.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/251.png",
+    "url": "/games/251.html"
   },
   {
     "name": "Wheely 8",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/252.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/252.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/252.png",
+    "url": "/games/252.html"
+  },
+  {
+    "name": "Chat Bot AI (A.I GPT)",
+    "cover": "/covers/253.png",
+    "url": "/games/253-update.html",
+    "featured": true
   },
   {
     "name": "Crazy Chicken 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/255.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/255.html"
+    "cover": "/covers/255.png",
+    "url": "/games/255.html"
   },
   {
     "name": "Crazy Kitty 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/256.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/256.html"
+    "cover": "/covers/256.png",
+    "url": "/games/256.html"
   },
   {
     "name": "Google Baseball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/257.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/257.html"
+    "cover": "/covers/257.png",
+    "url": "/games/257.html"
+  },
+  {
+    "name": "A Bite at Freddy's",
+    "cover": "/covers/258.png",
+    "url": "/games/258.html"
+  },
+  {
+    "name": "Class of '09",
+    "cover": "/covers/259.png",
+    "url": "/games/259.html"
+  },
+  {
+    "name": "RE:RUN",
+    "cover": "/covers/260.png",
+    "url": "/games/260.html"
   },
   {
     "name": "Fruit Ninja",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/261.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/261.html"
+    "cover": "/covers/261.png",
+    "url": "/games/261.html"
+  },
+  {
+    "name": "Half Life",
+    "cover": "/covers/262.png",
+    "url": "/games/262.html",
+    "featured": true
+  },
+  {
+    "name": "Quake III Arena",
+    "cover": "/covers/263.png",
+    "url": "/games/263.html"
   },
   {
     "name": "Escape Road",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/264.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/264.html"
+    "cover": "/covers/264.png",
+    "url": "/games/264.html"
   },
   {
     "name": "Escape Road 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/265.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/265.html"
+    "cover": "/covers/265.png",
+    "url": "/games/265-fix.html"
+  },
+  {
+    "name": "Speed Stars",
+    "cover": "/covers/266.png",
+    "url": "/games/266-a.html"
+  },
+  {
+    "name": "Pizza Tower",
+    "cover": "/covers/267.png",
+    "url": "/games/267.html",
+    "featured": true
   },
   {
     "name": "Bacon May Die",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/268.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/268.html"
+    "cover": "/covers/268.png",
+    "url": "/games/268.html"
   },
   {
     "name": "Bad Ice Cream",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/269.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/269.html"
+    "cover": "/covers/269.png",
+    "url": "/games/269.html"
   },
   {
     "name": "Bad Ice Cream 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/270.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/270.html"
+    "cover": "/covers/270.png",
+    "url": "/games/270.html"
   },
   {
     "name": "Bad Ice Cream 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/271.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/271.html"
+    "cover": "/covers/271.png",
+    "url": "/games/271.html"
   },
   {
     "name": "Basketball Stars",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/272.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/272.html"
+    "cover": "/covers/272.png",
+    "url": "/games/272.html"
   },
   {
     "name": "BlockPost",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/273.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/273.html"
+    "cover": "/covers/273.png",
+    "url": "/games/273.html"
   },
   {
     "name": "CircloO",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/274.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/274.html"
+    "cover": "/covers/274.png",
+    "url": "/games/274.html"
   },
   {
     "name": "CircloO 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/275.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/275.html"
+    "cover": "/covers/275.png",
+    "url": "/games/275.html"
   },
   {
     "name": "Drift Boss",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/276.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/276.html",
-    "featured": true
+    "cover": "/covers/276.png",
+    "url": "/games/276.html"
   },
   {
     "name": "Evil Glitch",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/277.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/277.html"
+    "cover": "/covers/277.png",
+    "url": "/games/277.html"
   },
   {
     "name": "Madalin Stunt Cars 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/278.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/278.html"
+    "cover": "/covers/278.png",
+    "url": "/games/278.html"
   },
   {
     "name": "Madalin Stunt Cars 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/279.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/279.html"
+    "cover": "/covers/279.png",
+    "url": "/games/279.html"
   },
   {
     "name": "Papery Planes",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/280.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/280.html"
+    "cover": "/covers/280.png",
+    "url": "/games/280.html"
   },
   {
     "name": "Pixel Gun Survival",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/281.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/281.html"
+    "cover": "/covers/281.png",
+    "url": "/games/281.html"
   },
   {
     "name": "Protektor",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/282.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/282.html"
+    "cover": "/covers/282.png",
+    "url": "/games/282.html"
   },
   {
     "name": "Rooftop Snipers",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/283.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/283.html"
+    "cover": "/covers/283.png",
+    "url": "/games/283.html"
   },
   {
     "name": "War The Knights",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/284.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/284.html"
+    "cover": "/covers/284.png",
+    "url": "/games/284.html"
   },
   {
     "name": "Basket Bros",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/285.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/285.html"
+    "cover": "/covers/285.png",
+    "url": "/games/285.html"
+  },
+  {
+    "name": "Endoparasitic",
+    "cover": "/covers/286.png",
+    "url": "/games/286.html"
   },
   {
     "name": "Riddle School",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/287.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/287.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/287.png",
+    "url": "/games/287.html"
   },
   {
     "name": "Riddle School 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/288.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/288.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/288.png",
+    "url": "/games/288.html"
   },
   {
     "name": "Riddle School 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/289.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/289.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/289.png",
+    "url": "/games/289.html"
   },
   {
     "name": "Riddle School 4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/290.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/290.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/290.png",
+    "url": "/games/290.html"
   },
   {
     "name": "Riddle School 5",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/291.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/291.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/291.png",
+    "url": "/games/291.html"
   },
   {
     "name": "Riddle Transfer",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/292.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/292.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/292.png",
+    "url": "/games/292.html"
   },
   {
     "name": "Riddle Transfer 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/293.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/293.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/293.png",
+    "url": "/games/293.html"
   },
   {
     "name": "Idle Dice",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/294.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/294.html"
+    "cover": "/covers/294.png",
+    "url": "/games/294.html"
   },
   {
     "name": "12 Mini Battles",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/295.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/295.html"
-  },
-  {
-    "name": "Play!.js",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/296.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/296.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/295.png",
+    "url": "/games/295.html"
   },
   {
     "name": "Minecraft 1.5.2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/297.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/297.html"
+    "cover": "/covers/297.png",
+    "url": "/games/297.html"
   },
   {
     "name": "Minecraft Alpha 1.2.6",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/298.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/298.html"
+    "cover": "/covers/298.png",
+    "url": "/games/298.html"
   },
   {
     "name": "Minecraft Beta 1.3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/299.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/299.html"
+    "cover": "/covers/299.png",
+    "url": "/games/299.html"
   },
   {
     "name": "Minecraft Beta 1.7.3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/300.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/300.html"
+    "cover": "/covers/300.png",
+    "url": "/games/300.html"
   },
   {
     "name": "Minecraft Indev",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/301.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/301.html"
+    "cover": "/covers/301.png",
+    "url": "/games/301.html"
   },
   {
     "name": "Little Runmo",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/302.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/302.html"
+    "cover": "/covers/302.png",
+    "url": "/games/302.html"
   },
   {
     "name": "Territorial.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/303.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/303.html"
+    "cover": "/covers/303.png",
+    "url": "/games/303.html"
   },
   {
     "name": "Alien Hominid",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/304.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/304.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/304.png",
+    "url": "/games/304.html"
   },
   {
     "name": "Tanuki Sunset",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/305.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/305.html"
+    "cover": "/covers/305.png",
+    "url": "/games/305.html"
   },
   {
     "name": "Shipo.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/306.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/306.html"
+    "cover": "/covers/306.png",
+    "url": "/games/306.html"
   },
   {
     "name": "Rainbow Obby",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/307.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/307.html"
+    "cover": "/covers/307.png",
+    "url": "/games/307.html"
   },
   {
     "name": "Nazi Zombies: Portable",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/308.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/308.html"
+    "cover": "/covers/308.png",
+    "url": "/games/308.html"
   },
   {
     "name": "Sandboxels",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/309.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/309.html"
+    "cover": "/covers/309.png",
+    "url": "/games/309.html"
   },
   {
     "name": "Dreadhead Parkour",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/310.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/310.html"
+    "cover": "/covers/310.png",
+    "url": "/games/310.html"
   },
   {
     "name": "Sandtris",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/311.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/311.html"
+    "cover": "/covers/311.png",
+    "url": "/games/311.html"
   },
   {
     "name": "BlackJack",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/312.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/312.html"
+    "cover": "/covers/312.png",
+    "url": "/games/312.html"
   },
   {
     "name": "Minesweeper Mania",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/313.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/313.html"
+    "cover": "/covers/313.png",
+    "url": "/games/313.html"
   },
   {
     "name": "Super Mario 63",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/314.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/314.html"
+    "cover": "/covers/314.png",
+    "url": "/games/314.html"
   },
   {
     "name": "Jelly Mario",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/315.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/315.html"
+    "cover": "/covers/315.png",
+    "url": "/games/315.html"
   },
   {
     "name": "Angry Birds Chrome",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/316.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/316.html"
+    "cover": "/covers/316.png",
+    "url": "/games/316.html"
   },
   {
     "name": "sandspiel",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/317.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/317.html"
+    "cover": "/covers/317.png",
+    "url": "/games/317.html"
   },
   {
     "name": "Side Effects",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/318.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/318.html"
+    "cover": "/covers/318.png",
+    "url": "/games/318.html"
   },
   {
     "name": "Build a Queen",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/319.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/319.html"
+    "cover": "/covers/319.png",
+    "url": "/games/319.html"
   },
   {
     "name": "3D Bowling",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/320.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/320.html"
+    "cover": "/covers/320.png",
+    "url": "/games/320.html"
   },
   {
     "name": "Room Sort",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/321.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/321.html"
+    "cover": "/covers/321.png",
+    "url": "/games/321.html"
   },
   {
     "name": "Sushi Roll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/322.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/322.html"
+    "cover": "/covers/322.png",
+    "url": "/games/322.html"
   },
   {
     "name": "Find the Alien",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/323.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/323.html"
+    "cover": "/covers/323.png",
+    "url": "/games/323.html"
   },
   {
     "name": "Maze Speedrun",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/324.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/324.html"
+    "cover": "/covers/324.png",
+    "url": "/games/324.html"
   },
   {
     "name": "Kitchen Bazar",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/325.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/325.html"
+    "cover": "/covers/325.png",
+    "url": "/games/325.html"
   },
   {
     "name": "Pokey Ball",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/326.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/326.html"
+    "cover": "/covers/326.png",
+    "url": "/games/326.html"
   },
   {
     "name": "Slime.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/327.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/327.html"
+    "cover": "/covers/327.png",
+    "url": "/games/327.html"
   },
   {
     "name": "Om Nom Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/328.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/328.html"
+    "cover": "/covers/328.png",
+    "url": "/games/328.html"
   },
   {
     "name": "TileTopia",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/329.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/329.html"
+    "cover": "/covers/329.png",
+    "url": "/games/329a.html"
   },
   {
     "name": "BitPlanes",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/330.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/330.html"
+    "cover": "/covers/330.png",
+    "url": "/games/330.html"
   },
   {
     "name": "Crazy Cars",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/331.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/331.html"
-  },
-  {
-    "name": "Going Balls",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/332.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/332.html"
+    "cover": "/covers/331.png",
+    "url": "/games/331.html"
   },
   {
     "name": "Fancy Pants Adventure",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/333.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/333.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/333.png",
+    "url": "/games/333.html"
   },
   {
     "name": "Fancy Pants Adventure 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/334.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/334.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/334.png",
+    "url": "/games/334.html"
   },
   {
     "name": "Fancy Pants Adventure 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/335.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/335.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/335.png",
+    "url": "/games/335.html"
   },
   {
     "name": "Fancy Pants Adventure 4 Part 1",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/336.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/336.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/336.png",
+    "url": "/games/336.html"
   },
   {
     "name": "Fancy Pants Adventure 4 Part 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/337.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/337.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/337.png",
+    "url": "/games/337.html"
   },
   {
     "name": "Getaway Shootout",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/338.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/338.html"
+    "cover": "/covers/338.png",
+    "url": "/games/338.html"
   },
   {
     "name": "House of Hazards",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/339.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/339.html"
+    "cover": "/covers/339.png",
+    "url": "/games/339.html"
   },
   {
     "name": "Learn to Fly",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/340.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/340.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/340.png",
+    "url": "/games/340.html"
   },
   {
     "name": "Learn to Fly 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/341.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/341.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/341.png",
+    "url": "/games/341.html"
   },
   {
     "name": "Learn to Fly 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/342.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/342.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/342.png",
+    "url": "/games/342.html"
   },
   {
     "name": "Learn to Fly Idle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/343.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/343.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/343.png",
+    "url": "/games/343.html"
   },
   {
     "name": "Raft Wars",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/344.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/344.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/344.png",
+    "url": "/games/344.html"
   },
   {
     "name": "Raft Wars 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/345.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/345.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/345.png",
+    "url": "/games/345.html"
   },
   {
     "name": "Sort the Court",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/346.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/346.html"
+    "cover": "/covers/346.png",
+    "url": "/games/346.html"
   },
   {
     "name": "SpiderDoll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/347.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/347.html"
+    "cover": "/covers/347.png",
+    "url": "/games/347.html"
   },
   {
     "name": "They Are Coming",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/348.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/348.html"
+    "cover": "/covers/348.png",
+    "url": "/games/348.html"
   },
   {
     "name": "Spiral Roll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/349.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/349.html"
+    "cover": "/covers/349.png",
+    "url": "/games/349.html"
   },
   {
     "name": "Binding of Issac: Wrath of the Lamb",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/350.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/350.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/350.png",
+    "url": "/games/350.html"
   },
   {
     "name": "Happy Sheepies",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/351.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/351.html"
+    "cover": "/covers/351.png",
+    "url": "/games/351.html"
   },
   {
     "name": "DON'T YOU LECTURE ME",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/352.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/352.html",
-    "special": [
-      "tools"
-    ]
+    "cover": "/covers/352.png",
+    "url": "/games/352.html"
   },
   {
     "name": "Blumgi Rocket",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/353.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/353.html"
+    "cover": "/covers/353.png",
+    "url": "/games/353.html"
   },
   {
     "name": "Adventure Capatalist",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/354.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/354-a.html"
+    "cover": "/covers/354.png",
+    "url": "/games/354-a.html"
   },
   {
     "name": "Dadish 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/355.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/355.html"
+    "cover": "/covers/355.png",
+    "url": "/games/355.html"
   },
   {
     "name": "Dadish 3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/356.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/356.html"
+    "cover": "/covers/356.png",
+    "url": "/games/356.html"
   },
   {
     "name": "Dadish",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/357.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/357.html"
+    "cover": "/covers/357.png",
+    "url": "/games/357.html"
   },
   {
     "name": "Dadish 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/358.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/358.html"
+    "cover": "/covers/358.png",
+    "url": "/games/358.html"
   },
   {
     "name": "Daily Dadish",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/359.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/359.html"
+    "cover": "/covers/359.png",
+    "url": "/games/359.html"
   },
   {
     "name": "EvoWars.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/360.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/360.html"
+    "cover": "/covers/360.png",
+    "url": "/games/360.html"
   },
   {
     "name": "Google Feud",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/361.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/361.html"
+    "cover": "/covers/361.png",
+    "url": "/games/361.html"
   },
   {
     "name": "Idle Breakout",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/362.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/362.html"
+    "cover": "/covers/362.png",
+    "url": "/games/362.html"
   },
   {
     "name": "Idle Lumber Inc",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/363.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/363.html"
+    "cover": "/covers/363.png",
+    "url": "/games/363.html"
   },
   {
     "name": "Idle Mining Empire",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/364.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/364.html"
+    "cover": "/covers/364.png",
+    "url": "/games/364.html"
   },
   {
     "name": "JustFall.lol",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/365.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/365.html"
+    "cover": "/covers/365.png",
+    "url": "/games/365.html"
   },
   {
     "name": "Merge Harvest",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/366.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/366.html"
+    "cover": "/covers/366.png",
+    "url": "/games/366.html"
   },
   {
     "name": "Parking Fury 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/367.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/367.html"
+    "cover": "/covers/367.png",
+    "url": "/games/367.html"
   },
   {
     "name": "Slope 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/368.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/368.html"
+    "cover": "/covers/368.png",
+    "url": "/games/368.html"
   },
   {
     "name": "Slowroads",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/369.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/369.html"
+    "cover": "/covers/369.png",
+    "url": "/games/369.html"
   },
   {
     "name": "Smash Karts",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/370.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/370.html"
+    "cover": "/covers/370.png",
+    "url": "/games/370-f.html"
   },
   {
     "name": "Stickman Fight Ragdoll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/371.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/371.html"
+    "cover": "/covers/371.png",
+    "url": "/games/371e.html"
   },
   {
     "name": "Stickman Boost",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/372.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/372.html"
+    "cover": "/covers/372.png",
+    "url": "/games/372.html"
   },
   {
     "name": "Stickman Climb",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/373.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/373.html"
+    "cover": "/covers/373.png",
+    "url": "/games/373.html"
   },
   {
     "name": "Stickman Golf",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/374.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/374.html"
+    "cover": "/covers/374.png",
+    "url": "/games/374e.html"
   },
   {
     "name": "2048 Merge Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/375.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/375.html"
+    "cover": "/covers/375.png",
+    "url": "/games/375.html"
   },
   {
     "name": "Build a Big Army",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/376.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/376.html"
+    "cover": "/covers/376.png",
+    "url": "/games/376.html"
   },
   {
     "name": "Build a Plane",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/377.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/377.html"
+    "cover": "/covers/377.png",
+    "url": "/games/377.html"
   },
   {
     "name": "Camouflage and Sniper",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/378.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/378.html"
+    "cover": "/covers/378.png",
+    "url": "/games/378.html"
   },
   {
     "name": "Car Survival 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/379.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/379.html"
+    "cover": "/covers/379.png",
+    "url": "/games/379.html"
   },
   {
     "name": "City Defense",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/380.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/380.html"
+    "cover": "/covers/380.png",
+    "url": "/games/380.html"
   },
   {
     "name": "Clothing Shop 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/381.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/381.html"
+    "cover": "/covers/381.png",
+    "url": "/games/381.html"
   },
   {
     "name": "Cool Cars Run 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/382.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/382.html"
+    "cover": "/covers/382.png",
+    "url": "/games/382.html"
   },
   {
     "name": "Crush Cars 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/383.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/383.html"
+    "cover": "/covers/383.png",
+    "url": "/games/383.html"
   },
   {
     "name": "Destiny Run 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/384.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/384.html"
+    "cover": "/covers/384.png",
+    "url": "/games/384.html"
   },
   {
     "name": "Destroy The Car 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/385.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/385.html"
+    "cover": "/covers/385.png",
+    "url": "/games/385.html"
   },
   {
     "name": "Diamond Seeker",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/386.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/386.html"
+    "cover": "/covers/386.png",
+    "url": "/games/386.html"
   },
   {
     "name": "Draw Joust",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/387.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/387.html"
+    "cover": "/covers/387.png",
+    "url": "/games/387.html"
   },
   {
     "name": "Evolving Bombs 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/388.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/388.html"
+    "cover": "/covers/388.png",
+    "url": "/games/388.html"
   },
   {
     "name": "Fire and Frost Master",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/389.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/389.html"
+    "cover": "/covers/389.png",
+    "url": "/games/389.html"
   },
   {
     "name": "Fitness Empire",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/390.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/390.html"
+    "cover": "/covers/390.png",
+    "url": "/games/390.html"
   },
   {
     "name": "Flick Goal",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/391.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/391.html"
+    "cover": "/covers/391.png",
+    "url": "/games/391.html"
   },
   {
     "name": "Flip Master",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/392.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/392.html"
+    "cover": "/covers/392.png",
+    "url": "/games/392.html"
   },
   {
     "name": "Giant Wanted",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/393.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/393.html"
+    "cover": "/covers/393.png",
+    "url": "/games/393.html"
   },
   {
     "name": "Gun Clone",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/394.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/394.html"
+    "cover": "/covers/394.png",
+    "url": "/games/394.html"
   },
   {
     "name": "Gun Runner",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/395.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/395.html"
+    "cover": "/covers/395.png",
+    "url": "/games/395.html"
   },
   {
     "name": "Kaji Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/396.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/396.html"
+    "cover": "/covers/396.png",
+    "url": "/games/396.html"
   },
   {
     "name": "Make a SuperBoat",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/397.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/397.html"
+    "cover": "/covers/397.png",
+    "url": "/games/397.html"
   },
   {
     "name": "Makeover Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/398.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/398.html"
+    "cover": "/covers/398.png",
+    "url": "/games/398.html"
   },
   {
     "name": "Mega Car Jumps",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/399.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/399.html"
+    "cover": "/covers/399.png",
+    "url": "/games/399.html"
   },
   {
     "name": "Money Rush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/400.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/400.html"
+    "cover": "/covers/400.png",
+    "url": "/games/400.html"
   },
   {
     "name": "Monster Box 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/401.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/401.html"
+    "cover": "/covers/401.png",
+    "url": "/games/401.html"
   },
   {
     "name": "Office Fight",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/402.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/402.html"
+    "cover": "/covers/402.png",
+    "url": "/games/402.html"
   },
   {
     "name": "Robot Invasion",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/403.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/403.html"
+    "cover": "/covers/403.png",
+    "url": "/games/403.html"
   },
   {
     "name": "Seat Jam 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/404.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/404.html"
+    "cover": "/covers/404.png",
+    "url": "/games/404.html"
   },
   {
     "name": "Shooting Master",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/405.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/405.html"
+    "cover": "/covers/405.png",
+    "url": "/games/405.html"
   },
   {
     "name": "Supermarket 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/406.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/406.html"
+    "cover": "/covers/406.png",
+    "url": "/games/406.html"
   },
   {
     "name": "Survive to Victory",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/407.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/407.html"
+    "cover": "/covers/407.png",
+    "url": "/games/407.html"
   },
   {
     "name": "Telekinesis Attack",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/408.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/408.html"
+    "cover": "/covers/408.png",
+    "url": "/games/408.html"
   },
   {
     "name": "Telekinesis Car",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/409.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/409.html"
+    "cover": "/covers/409.png",
+    "url": "/games/409.html"
   },
   {
     "name": "Telekinesis Drive",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/410.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/410.html"
+    "cover": "/covers/410.png",
+    "url": "/games/410.html"
   },
   {
     "name": "Telekinesis",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/411.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/411.html"
-  },
-  {
-    "name": "Triple Match 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/412.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/412.html"
+    "cover": "/covers/411.png",
+    "url": "/games/411.html"
   },
   {
     "name": "Tug of War with Cars",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/413.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/413.html"
+    "cover": "/covers/413.png",
+    "url": "/games/413.html"
   },
   {
     "name": "Twerk Race 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/414.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/414.html"
+    "cover": "/covers/414.png",
+    "url": "/games/414.html"
   },
   {
     "name": "Twisted Rope 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/415.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/415.html"
+    "cover": "/covers/415.png",
+    "url": "/games/415.html"
   },
   {
     "name": "Wall Crawler",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/416.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/416.html"
+    "cover": "/covers/416.png",
+    "url": "/games/416.html"
   },
   {
     "name": "War Regions",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/417.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/417.html"
+    "cover": "/covers/417.png",
+    "url": "/games/417.html"
   },
   {
     "name": "Weapon Craft Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/418.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/418.html"
+    "cover": "/covers/418.png",
+    "url": "/games/418.html"
   },
   {
     "name": "Weapon Upgrade Rush",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/419.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/419.html"
+    "cover": "/covers/419.png",
+    "url": "/games/419.html"
   },
   {
     "name": "Weapon Scale",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/420.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/420.html"
+    "cover": "/covers/420.png",
+    "url": "/games/420.html"
   },
   {
     "name": "Rich Run 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/421.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/421.html"
+    "cover": "/covers/421.png",
+    "url": "/games/421.html"
   },
   {
     "name": "High Heels",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/422.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/422.html"
+    "cover": "/covers/422.png",
+    "url": "/games/422.html"
   },
   {
-    "name": "10 Minutes Till Dawn",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/430.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/430.html"
-  },
-  {
-    "name": "99 Balls",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/431.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/431.html"
-  },
-  {
-    "name": "Abandoned",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/432.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/432.html"
-  },
-  {
-    "name": "God's Flesh",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/434.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/434.html"
-  },
-  {
-    "name": "A Small World Cup",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/435.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/435.html"
-  },
-  {
-    "name": "Awesome Tanks",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/436.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/436.html"
-  },
-  {
-    "name": "Bouncemasters",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/437.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/437.html"
-  },
-  {
-    "name": "Awesome Tanks 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/438.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/438.html"
-  },
-  {
-    "name": "Bank Robbery 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/439.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/439.html"
-  },
-  {
-    "name": "Celeste PICO",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/440.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/440.html"
-  },
-  {
-    "name": "Kitty Toy",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/441.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/441.html"
-  },
-  {
-    "name": "Infinimoes",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/442.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/442.html"
-  },
-  {
-    "name": "Adventure Drivers",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/443.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/443.html"
-  },
-  {
-    "name": "Ages of Conflict",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/444.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/444.html"
-  },
-  {
-    "name": "Nijika's Ahoge",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/447.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/447-e.html"
-  },
-  {
-    "name": "Aquapark.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/448.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/448.html"
-  },
-  {
-    "name": "City Smash",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/449.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/449.html"
-  },
-  {
-    "name": "Station 141",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/452.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/452.html"
-  },
-  {
-    "name": "Station Saturn",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/453.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/453.html"
-  },
-  {
-    "name": "Slither.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/461.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/461.html",
+    "name": "WebFishing",
+    "cover": "/covers/423.png",
+    "url": "/games/423.html",
     "featured": true
   },
   {
+    "name": "Andy's Apple Farm",
+    "cover": "/covers/426.png",
+    "url": "/games/426.html"
+  },
+  {
+    "name": "OMORI",
+    "cover": "/covers/427.png",
+    "url": "/games/427-z.html",
+    "featured": true
+  },
+  {
+    "name": "Five Nights at Freddy's 4: Halloween",
+    "cover": "/covers/428.png",
+    "url": "/games/428.html"
+  },
+  {
+    "name": "Code Editor",
+    "cover": "/covers/429.png",
+    "url": "/games/429-f.html"
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "cover": "/covers/430.png",
+    "url": "/games/430.html"
+  },
+  {
+    "name": "99 Balls",
+    "cover": "/covers/431.png",
+    "url": "/games/431.html"
+  },
+  {
+    "name": "Abandoned",
+    "cover": "/covers/432.png",
+    "url": "/games/432.html"
+  },
+  {
+    "name": "Yume Nikki",
+    "cover": "/covers/433.png",
+    "url": "/games/433.html",
+    "featured": true
+  },
+  {
+    "name": "God's Flesh",
+    "cover": "/covers/434.png",
+    "url": "/games/434.html"
+  },
+  {
+    "name": "A Small World Cup",
+    "cover": "/covers/435.png",
+    "url": "/games/435.html"
+  },
+  {
+    "name": "Awesome Tanks",
+    "cover": "/covers/436.png",
+    "url": "/games/436.html"
+  },
+  {
+    "name": "Bouncemasters",
+    "cover": "/covers/437.png",
+    "url": "/games/437.html"
+  },
+  {
+    "name": "Awesome Tanks 2",
+    "cover": "/covers/438.png",
+    "url": "/games/438.html"
+  },
+  {
+    "name": "Bank Robbery 2",
+    "cover": "/covers/439.png",
+    "url": "/games/439.html"
+  },
+  {
+    "name": "Celeste PICO",
+    "cover": "/covers/440.png",
+    "url": "/games/440.html"
+  },
+  {
+    "name": "Kitty Toy",
+    "cover": "/covers/441.png",
+    "url": "/games/441.html"
+  },
+  {
+    "name": "Infinimoes",
+    "cover": "/covers/442.png",
+    "url": "/games/442.html"
+  },
+  {
+    "name": "Adventure Drivers",
+    "cover": "/covers/443.png",
+    "url": "/games/443.html"
+  },
+  {
+    "name": "Ages of Conflict",
+    "cover": "/covers/444.png",
+    "url": "/games/444.html"
+  },
+  {
+    "name": "Kindergarten",
+    "cover": "/covers/445.png",
+    "url": "/games/445.html",
+    "featured": true
+  },
+  {
+    "name": "Kindergarten 2",
+    "cover": "/covers/446.png",
+    "url": "/games/446.html"
+  },
+  {
+    "name": "Nijika's Ahoge",
+    "cover": "/covers/447.png",
+    "url": "/games/447-e.html"
+  },
+  {
+    "name": "Aquapark.io",
+    "cover": "/covers/448.png",
+    "url": "/games/448.html"
+  },
+  {
+    "name": "City Smash",
+    "cover": "/covers/449.png",
+    "url": "/games/449.html"
+  },
+  {
+    "name": "Amanda the Adventurer",
+    "cover": "/covers/450.png",
+    "url": "/games/450.html"
+  },
+  {
+    "name": "Slender: The 8 Pages",
+    "cover": "/covers/451.png",
+    "url": "/games/451.html"
+  },
+  {
+    "name": "Station 141",
+    "cover": "/covers/452.png",
+    "url": "/games/452.html"
+  },
+  {
+    "name": "Station Saturn",
+    "cover": "/covers/453.png",
+    "url": "/games/453.html"
+  },
+  {
+    "name": "BLOODMONEY!",
+    "cover": "/covers/454.png",
+    "url": "/games/454.html"
+  },
+  {
+    "name": "BERGENTRUCK 201x",
+    "cover": "/covers/455.png",
+    "url": "/games/455.html"
+  },
+  {
+    "name": "Undertale Yellow",
+    "cover": "/covers/456.png",
+    "url": "/games/456.html"
+  },
+  {
+    "name": "Raft",
+    "cover": "/covers/457.png",
+    "url": "/games/457.html"
+  },
+  {
+    "name": "The Deadseat",
+    "cover": "/covers/458.png",
+    "url": "/games/458.html"
+  },
+  {
+    "name": "The Man In The Window",
+    "cover": "/covers/459.png",
+    "url": "/games/459.html"
+  },
+  {
+    "name": "Fears to Fathom: Home Alone",
+    "cover": "/covers/460.png",
+    "url": "/games/460.html"
+  },
+  {
+    "name": "Slither.io",
+    "cover": "/covers/461.png",
+    "url": "/games/461.html"
+  },
+  {
+    "name": "DEAD PLATE",
+    "cover": "/covers/462.png",
+    "url": "/games/462.html"
+  },
+  {
+    "name": "Lacey's Flash Games",
+    "cover": "/covers/463.png",
+    "url": "/games/463.html"
+  },
+  {
     "name": "Choppy Orc",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/464.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/464.html"
+    "cover": "/covers/464.png",
+    "url": "/games/464.html"
+  },
+  {
+    "name": "Cuphead",
+    "cover": "/covers/465.png",
+    "url": "/games/465-fix.html",
+    "featured": true
+  },
+  {
+    "name": "Baldi's Basics Classic Remastered",
+    "cover": "/covers/466.png",
+    "url": "/games/466.html"
+  },
+  {
+    "name": "Baldi's Basics Plus",
+    "cover": "/covers/467.png",
+    "url": "/games/467-updatee.html",
+    "featured": true
+  },
+  {
+    "name": "Hollow Knight",
+    "cover": "/covers/468.png",
+    "url": "/games/468-f.html",
+    "featured": true
   },
   {
     "name": "sandstone",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/469.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/469.html",
-    "special": [
-      "tools"
-    ]
+    "cover": "/covers/469.png",
+    "url": "/games/469.html"
   },
   {
     "name": "Doodle Jump",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/470.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/470.html"
+    "cover": "/covers/470.png",
+    "url": "/games/470.html"
   },
   {
     "name": "Madness Combat: Project Nexus (classic)",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/471.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/471.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/471.png",
+    "url": "/games/471.html"
   },
   {
     "name": "Bad Time Simulator",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/472.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/472.html"
+    "cover": "/covers/472.png",
+    "url": "/games/472.html"
   },
   {
     "name": "Spacebar Clicker",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/473.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/473.html"
+    "cover": "/covers/473.png",
+    "url": "/games/473.html"
   },
   {
     "name": "Friday Night Funkin': V.S. Whitty",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/474.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/474.html"
+    "cover": "/covers/474.png",
+    "url": "/games/474.html"
   },
   {
     "name": "Friday Night Funkin': B-Sides",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/475.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/475.html"
+    "cover": "/covers/475.png",
+    "url": "/games/475.html"
   },
   {
     "name": "Friday Night Funkin': Vs. Hex",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/476.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/476.html"
+    "cover": "/covers/476.png",
+    "url": "/games/476.html"
   },
   {
     "name": "Friday Night Funkin': Vs. Hatsune Miku",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/477.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/477.html"
+    "cover": "/covers/477.png",
+    "url": "/games/477.html"
   },
   {
     "name": "Friday Night Funkin': Neo",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/478.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/478.html"
+    "cover": "/covers/478.png",
+    "url": "/games/478.html"
   },
   {
     "name": "Steal A Brainrot",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/479.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/479.html"
+    "cover": "/covers/479.png",
+    "url": "/games/479.html"
   },
   {
     "name": "Friday Night Funkin': Sarvente's Mid-Fight Masses",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/480.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/480.html"
+    "cover": "/covers/480.png",
+    "url": "/games/480.html"
   },
   {
     "name": "Friday Night Funkin': vs. Tricky",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/481.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/481.html"
+    "cover": "/covers/481.png",
+    "url": "/games/481.html"
+  },
+  {
+    "name": "Human Expenditure Program",
+    "cover": "/covers/482.png",
+    "url": "/games/482-2.html"
   },
   {
     "name": "Friday Night Funkin': Hit Single Real",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/483.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/483.html"
+    "cover": "/covers/483.png",
+    "url": "/games/483.html"
   },
   {
     "name": "Friday Night Funkin': Creepypasta JP",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/484.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/484.html"
+    "cover": "/covers/484.png",
+    "url": "/games/484.html"
   },
   {
     "name": "Friday Night Funkin': vs. Garcello",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/485.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/485.html"
+    "cover": "/covers/485.png",
+    "url": "/games/485.html"
   },
   {
     "name": "Friday Night Funkin': Sonic Legacy",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/486.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/486.html"
+    "cover": "/covers/486.png",
+    "url": "/games/486.html"
   },
   {
     "name": "Friday Night Funkin': vs. QT",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/487.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/487.html"
+    "cover": "/covers/487.png",
+    "url": "/games/487.html"
   },
   {
     "name": "Friday Night Funkin': Mistful Crimson Morning Reboot",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/488.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/488.html"
+    "cover": "/covers/488.png",
+    "url": "/games/488.html"
   },
   {
     "name": "Friday Night Funkin': Indie Cross",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/489.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/489.html"
+    "cover": "/covers/489.png",
+    "url": "/games/489.html"
   },
   {
     "name": "Rooftop Snipers 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/490.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/490.html"
+    "cover": "/covers/490.png",
+    "url": "/games/490.html"
   },
   {
     "name": "I woke up next to you again.",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/491.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/491.html"
+    "cover": "/covers/491.png",
+    "url": "/games/491.html"
   },
   {
     "name": "UNDERWHEELS",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/492.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/492.html"
+    "cover": "/covers/492.png",
+    "url": "/games/492.html"
   },
   {
     "name": "RigBMX",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/493.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/493.html"
+    "cover": "/covers/493.png",
+    "url": "/games/493.html"
   },
   {
     "name": "RigBMX 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/494.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/494.html"
+    "cover": "/covers/494.png",
+    "url": "/games/494.html"
   },
   {
     "name": "groon groon, babey!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/495.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/495.html"
+    "cover": "/covers/495.png",
+    "url": "/games/495.html"
   },
   {
     "name": "Friday Night Funkin': Jeffy's Endless Aethos",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/496.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/496.html"
+    "cover": "/covers/496.png",
+    "url": "/games/496.html"
   },
   {
     "name": "Friday Night Funkin': vs. BOPCITY",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/497.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/497.html"
+    "cover": "/covers/497.png",
+    "url": "/games/497.html"
   },
   {
     "name": "Friday Night Funkin': 17 Bucks: Floor 1",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/498.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/498.html"
+    "cover": "/covers/498.png",
+    "url": "/games/498.html"
   },
   {
     "name": "Friday Night Funkin': FIRE IN THE HOLE: Lobotomy Dash Funkin'",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/499.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/499.html"
+    "cover": "/covers/499.png",
+    "url": "/games/499.html"
   },
   {
     "name": "Friday Night Funkin': TWIDDLEFINGER",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/500.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/500.html"
+    "cover": "/covers/500.png",
+    "url": "/games/500.html"
+  },
+  {
+    "name": "Kindergarten 3",
+    "cover": "/covers/501.png",
+    "url": "/games/501.html"
+  },
+  {
+    "name": "Stick With It",
+    "cover": "/covers/502.png",
+    "url": "/games/502-fixed.html"
+  },
+  {
+    "name": "Five Nights at Candy's",
+    "cover": "/covers/503.png",
+    "url": "/games/503.html"
+  },
+  {
+    "name": "Five Nights at Candy's 2",
+    "cover": "/covers/504.png",
+    "url": "/games/504.html"
   },
   {
     "name": "Pokemon Red",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/505.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/505.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/505.png",
+    "url": "/games/505.html"
   },
   {
     "name": "Pokemon Emerald",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/506.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/506.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/506.png",
+    "url": "/games/506.html"
   },
   {
     "name": "The Impossible Quiz",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/507.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/507.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/507.png",
+    "url": "/games/507.html"
   },
   {
     "name": "Super Mario Bros",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/508.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/508.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/508.png",
+    "url": "/games/508.html"
   },
   {
     "name": "Friday Night Funkin’ Soft",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/509.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/509.html"
+    "cover": "/covers/509.png",
+    "url": "/games/509.html"
   },
   {
     "name": "Tomodachi Collection",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/510.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/510.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/510.png",
+    "url": "/games/510.html"
   },
   {
     "name": "Doge Miner",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/511.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/511.html"
+    "cover": "/covers/511.png",
+    "url": "/games/511.html"
   },
   {
     "name": "Final Earth 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/512.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/512.html"
+    "cover": "/covers/512.png",
+    "url": "/games/512.html"
   },
   {
     "name": "Swordfight!!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/513.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/513.html"
+    "cover": "/covers/513.png",
+    "url": "/games/513.html"
   },
   {
     "name": "PortaBoy+",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/514.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/514.html"
+    "cover": "/covers/514.png",
+    "url": "/games/514.html"
   },
   {
     "name": "PacMan (Horror)",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/515.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/515.html"
+    "cover": "/covers/515.png",
+    "url": "/games/515.html"
   },
   {
     "name": "Oshi Oshi Punch!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/516.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/516.html"
+    "cover": "/covers/516.png",
+    "url": "/games/516.html"
+  },
+  {
+    "name": "Nubby's Number Factory",
+    "cover": "/covers/517.png",
+    "url": "/games/517.html"
   },
   {
     "name": "Touhou: Luminous Strike",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/518.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/518.html"
+    "cover": "/covers/518.png",
+    "url": "/games/518.html"
   },
   {
     "name": "Generic Fighter Maybe",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/519.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/519.html"
+    "cover": "/covers/519.png",
+    "url": "/games/519.html"
   },
   {
     "name": "Dan The Man",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/520.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/520.html"
+    "cover": "/covers/520.png",
+    "url": "/games/520-fix.html"
   },
   {
     "name": "Bust a Loop",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/521.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/521.html"
+    "cover": "/covers/521.png",
+    "url": "/games/521.html"
   },
   {
     "name": "Bad Monday Simulator",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/522.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/522.html"
+    "cover": "/covers/522.png",
+    "url": "/games/522.html"
+  },
+  {
+    "name": "Touhou Mother",
+    "cover": "/covers/523.png",
+    "url": "/games/523-f.html"
   },
   {
     "name": "Parappa The Rapper",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/524.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/524.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/524.png",
+    "url": "/games/524.html"
   },
   {
     "name": "Friday Night Funkin': Darkness Takeover",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/525.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/525.html"
+    "cover": "/covers/525.png",
+    "url": "/games/525.html"
   },
   {
     "name": "SpongeBob SquarePants: Land Ho!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/526.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/526.html"
+    "cover": "/covers/526.png",
+    "url": "/games/526.html"
   },
   {
     "name": "SpongeBob SquarePants: SpongeBob Run",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/527.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/527.html"
+    "cover": "/covers/527.png",
+    "url": "/games/527.html"
   },
   {
     "name": "SpongeBob SquarePants: Squidward's Sizzlin' Scare",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/528.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/528.html"
+    "cover": "/covers/528.png",
+    "url": "/games/528.html"
   },
   {
     "name": "SpongeBob SquarePants: Sandy's Sponge Stacker",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/529.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/529.html"
+    "cover": "/covers/529.png",
+    "url": "/games/529.html"
   },
   {
     "name": "SpongeBob SquarePants: Tasty Pastry Party",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/530.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/530.html"
+    "cover": "/covers/530.png",
+    "url": "/games/530.html"
   },
   {
     "name": "SpongeBob SquarePants: The Kah-Ray-Tay Squid",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/531.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/531.html"
+    "cover": "/covers/531.png",
+    "url": "/games/531.html"
   },
   {
     "name": "SpongeBob SquarePants: WereSquirrel",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/532.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/532.html"
+    "cover": "/covers/532.png",
+    "url": "/games/532.html"
   },
   {
     "name": "SpongeBob SquarePants: Krabby Katch",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/533.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/533.html"
+    "cover": "/covers/533.png",
+    "url": "/games/533.html"
   },
   {
     "name": "Teen Titans GO!: Jump Jousts",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/534.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/534.html"
+    "cover": "/covers/534.png",
+    "url": "/games/534.html"
   },
   {
     "name": "Teen Titans GO!: Jump Jousts 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/535.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/535.html"
+    "cover": "/covers/535.png",
+    "url": "/games/535.html"
   },
   {
     "name": "Cat Connection",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/536.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/536.html"
+    "cover": "/covers/536.png",
+    "url": "/games/536.html"
   },
   {
     "name": "Cat Gunner: Super Zombie Shoot",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/537.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/537.html"
+    "cover": "/covers/537.png",
+    "url": "/games/537.html"
   },
   {
     "name": "Love Letters",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/538.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/538.html"
+    "cover": "/covers/538.png",
+    "url": "/games/538.html"
   },
   {
     "name": "Chiikawa Puzzle",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/539.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/539.html"
+    "cover": "/covers/539.png",
+    "url": "/games/539.html"
   },
   {
     "name": "myTeardrop",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/540.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/540.html"
+    "cover": "/covers/540.png",
+    "url": "/games/540.html"
   },
   {
     "name": "Friday Night Funkin': Pibby: Apocalypse",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/541.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/541.html"
+    "cover": "/covers/541.png",
+    "url": "/games/541.html"
+  },
+  {
+    "name": "Karlson",
+    "cover": "/covers/542.png",
+    "url": "/games/542-a.html",
+    "featured": true
+  },
+  {
+    "name": "Jelly Drift",
+    "cover": "/covers/543.png",
+    "url": "/games/543-a.html"
   },
   {
     "name": "Plinko",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/544.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/544.html"
+    "cover": "/covers/544.png",
+    "url": "/games/544.html"
   },
   {
     "name": "Clash Of Vikings",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/545.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/545.html"
+    "cover": "/covers/545.png",
+    "url": "/games/545.html"
   },
   {
     "name": "Recoil",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/546.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/546.html"
+    "cover": "/covers/546.png",
+    "url": "/games/546.html"
   },
   {
     "name": "Baseball Bros",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/547.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/547.html"
+    "cover": "/covers/547.png",
+    "url": "/games/547.html"
   },
   {
     "name": "Football Bros",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/548.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/548.html"
+    "cover": "/covers/548.png",
+    "url": "/games/548.html"
   },
   {
     "name": "Sonic the Hedgehog 2: Community's Cut",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/549.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/549.html"
+    "cover": "/covers/549.png",
+    "url": "/games/549.html"
   },
   {
     "name": "Sonic the Hedgehog 3: Angel Island Remastered",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/550.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/550.html"
+    "cover": "/covers/550.png",
+    "url": "/games/550.html"
   },
   {
     "name": "Hypper Sandbox",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/551.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/551.html"
+    "cover": "/covers/551.png",
+    "url": "/games/551.html"
   },
   {
     "name": "Aviamasters",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/552.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/552.html"
+    "cover": "/covers/552.png",
+    "url": "/games/552.html"
   },
   {
     "name": "Rolling Sky",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/553.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/553.html"
+    "cover": "/covers/553.png",
+    "url": "/games/553.html"
+  },
+  {
+    "name": "Yandere Simulator",
+    "cover": "/covers/554.png",
+    "url": "/games/554.html"
   },
   {
     "name": "Friday Night Funkin VS. KAPI",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/555.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/555.html"
+    "cover": "/covers/555.png",
+    "url": "/games/555.html"
   },
   {
     "name": "Friday Night Funkin VS. Sky",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/556.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/556.html"
+    "cover": "/covers/556.png",
+    "url": "/games/556.html"
+  },
+  {
+    "name": "Getting Over It with Bennett Foddy",
+    "cover": "/covers/557.png",
+    "url": "/games/557.html"
   },
   {
     "name": "Friday Night Funkin Vs. Cyber Sensation",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/558.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/558.html"
+    "cover": "/covers/558.png",
+    "url": "/games/558.html"
   },
   {
     "name": "Friday Night Funkin vs Shaggy",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/559.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/559.html"
+    "cover": "/covers/559.png",
+    "url": "/games/559.html"
+  },
+  {
+    "name": "Deltatraveler",
+    "cover": "/covers/560.png",
+    "url": "/games/560.html"
   },
   {
     "name": "BitGun.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/561.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/561.html"
+    "cover": "/covers/561.png",
+    "url": "/games/561.html"
   },
   {
     "name": "Boom Slingers: Reboom",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/562.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/562.html"
+    "cover": "/covers/562.png",
+    "url": "/games/562.html"
   },
   {
     "name": "CG FC 25",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/563.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/563.html"
+    "cover": "/covers/563.png",
+    "url": "/games/563.html"
   },
   {
     "name": "Count Masters: Stickman Games",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/564.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/564.html"
+    "cover": "/covers/564.png",
+    "url": "/games/564.html"
   },
   {
     "name": "Dalgona Candy Honeycomb Cookie",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/565.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/565.html"
+    "cover": "/covers/565.png",
+    "url": "/games/565.html"
   },
   {
     "name": "Highway Racer",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/567.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/567.html"
+    "cover": "/covers/567.png",
+    "url": "/games/567.html"
   },
   {
     "name": "Highway Racer 2 REMASTERED",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/568.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/568.html"
+    "cover": "/covers/568.png",
+    "url": "/games/568.html"
   },
   {
     "name": "Hula Hoop Race",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/569.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/569.html"
+    "cover": "/covers/569.png",
+    "url": "/games/569.html"
   },
   {
     "name": "Jelly Restaurant",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/570.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/570.html"
+    "cover": "/covers/570.png",
+    "url": "/games/570.html"
   },
   {
     "name": "Layers Roll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/571.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/571.html"
+    "cover": "/covers/571.png",
+    "url": "/games/571.html"
   },
   {
     "name": "Lazy Jumper",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/572.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/572.html"
+    "cover": "/covers/572.png",
+    "url": "/games/572.html"
   },
   {
     "name": "Man Runner 2048",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/573.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/573.html"
+    "cover": "/covers/573.png",
+    "url": "/games/573.html"
   },
   {
     "name": "Pottery Master",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/574.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/574.html"
+    "cover": "/covers/574.png",
+    "url": "/games/574.html"
   },
   {
     "name": "Shovel 3D",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/575.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/575.html"
+    "cover": "/covers/575.png",
+    "url": "/games/575.html"
   },
   {
     "name": "Sky Riders",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/576.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/576.html"
+    "cover": "/covers/576.png",
+    "url": "/games/576.html"
   },
   {
     "name": "Steal Brainrot Online",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/577.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/577.html"
+    "cover": "/covers/577.png",
+    "url": "/games/577.html"
   },
   {
     "name": "Stickman and Guns",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/578.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/578.html"
+    "cover": "/covers/578.png",
+    "url": "/games/578.html"
   },
   {
     "name": "Super Star Car",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/579.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/579.html"
+    "cover": "/covers/579.png",
+    "url": "/games/579.html"
   },
   {
     "name": "Traffic Rider",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/580.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/580.html"
+    "cover": "/covers/580.png",
+    "url": "/games/580.html"
   },
   {
     "name": "BuildNow.gg",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/581.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/581.html"
+    "cover": "/covers/581.png",
+    "url": "/games/581.html"
   },
   {
     "name": "Friday Night Funkin': Mario's Madness",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/582.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/582.html"
+    "cover": "/covers/582.png",
+    "url": "/games/582.html"
   },
   {
     "name": "Friday Night Funkin' vs Hypno Lullaby",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/583.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/583.html"
+    "cover": "/covers/583.png",
+    "url": "/games/583.html"
   },
   {
     "name": "Stone Grass Mowing Simulator",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/584-a.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/584.html"
+    "cover": "/covers/584-a.png",
+    "url": "/games/584.html"
+  },
+  {
+    "name": "Fallout",
+    "cover": "/covers/585.png",
+    "url": "/games/585.html"
   },
   {
     "name": "The Oregon Trail",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/586.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/586.html"
+    "cover": "/covers/586.png",
+    "url": "/games/586.html"
   },
   {
     "name": "Newgrounds Rumble",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/587.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/587.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/587.png",
+    "url": "/games/587.html"
+  },
+  {
+    "name": "Super Mario 64",
+    "cover": "/covers/588.png",
+    "url": "/games/588.html"
+  },
+  {
+    "name": "Sonic CD",
+    "cover": "/covers/589.png",
+    "url": "/games/589-f.html"
+  },
+  {
+    "name": "Sonic Mania",
+    "cover": "/covers/590.png",
+    "url": "/games/590-f.html"
+  },
+  {
+    "name": "Slime Rancher",
+    "cover": "/covers/591.png",
+    "url": "/games/591-awe.html",
+    "featured": true
   },
   {
     "name": "Pac Man World",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/592.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/592.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/592.png",
+    "url": "/games/592.html"
   },
   {
     "name": "Pac Man World 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/593.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/593.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/593.png",
+    "url": "/games/593-f.html"
   },
   {
     "name": "Waterworks!",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/594.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/594.html"
+    "cover": "/covers/594.png",
+    "url": "/games/594.html"
   },
   {
     "name": "Shapez.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/595.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/595.html"
+    "cover": "/covers/595.png",
+    "url": "/games/595.html"
   },
   {
     "name": "Plants vs. Zombies 2 Gardenless",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/597.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/597-a.html"
+    "cover": "/covers/597.png",
+    "url": "/games/597-a.html"
   },
   {
     "name": "Sonic.EXE",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/598.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/598.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/598.png",
+    "url": "/games/598.html"
   },
   {
     "name": "Metal Gear Solid",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/599.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/599.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/599.png",
+    "url": "/games/599.html"
   },
   {
     "name": "FNF Vs. Hypno's Lullaby v2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/600.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/600.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/600.png",
+    "url": "/games/600.html"
   },
   {
     "name": "FNF Vs. Sonic.EXE 3.0/4.0",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/601.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/601.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/601.png",
+    "url": "/games/601.html"
   },
   {
     "name": "Doom 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/602.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/602.html",
-    "special": [
-      "emulator"
-    ]
+    "cover": "/covers/602.png",
+    "url": "/games/602.html"
   },
   {
     "name": "Growden.io",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/603.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/603-aa.html"
+    "cover": "/covers/603.png",
+    "url": "/games/603-aa.html"
+  },
+  {
+    "name": "Minesweeper Plus",
+    "cover": "/covers/604.png",
+    "url": "/games/604-a.html"
+  },
+  {
+    "name": "Schoolboy Runaway",
+    "cover": "/covers/605.png",
+    "url": "/games/605-e.html",
+    "featured": true
+  },
+  {
+    "name": "Sonic.EXE (ORIGINAL)",
+    "cover": "/covers/606.png",
+    "url": "/games/606-e.html"
+  },
+  {
+    "name": "Tattletail",
+    "cover": "/covers/607.png",
+    "url": "/games/607-e.html",
+    "featured": true
   },
   {
     "name": "Friday Night Funkin VS Impostor v4",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/608.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/608.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/608.png",
+    "url": "/games/608.html"
   },
   {
     "name": "Friday Night Funkin vs Sunday Remastered HD",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/609.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/609-a.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/609.png",
+    "url": "/games/609-a.html"
   },
   {
     "name": "Friday Night Funkin vs Carol V2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/610.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/610.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/610.png",
+    "url": "/games/610.html"
   },
   {
     "name": "The Legend of Zelda Ocarina of Time",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/611.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/611.html",
-    "special": [
-      "emulator",
-      "n64"
-    ]
+    "cover": "/covers/611.png",
+    "url": "/games/611.html"
   },
   {
     "name": "The Legend of Zelda Majora's Mask",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/612.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/612.html",
-    "special": [
-      "emulator",
-      "n64"
-    ]
+    "cover": "/covers/612.png",
+    "url": "/games/612.html"
   },
   {
     "name": "Friday Night Funkin' Drop and Roll, but Playable",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/613.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/613.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/613.png",
+    "url": "/games/613.html"
   },
   {
     "name": "Toy Rider",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/614.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/614.html"
+    "cover": "/covers/614.png",
+    "url": "/games/614.html"
   },
   {
     "name": "Friday Night Funkin Vs. Dave and Bambi v3",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/615.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/615.html-a",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/615.png",
+    "url": "/games/615.html-a"
   },
   {
     "name": "Friday Night Funkin’ Wednesday's Infidelity",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/616.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/616.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/616.png",
+    "url": "/games/616.html"
   },
   {
     "name": "Postal",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/617.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/617-a.html"
+    "cover": "/covers/617.png",
+    "url": "/games/617-a.html"
   },
   {
     "name": "FNF vs Bob v2.0 (Bob’s Onslaught)",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/618.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/618.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/618.png",
+    "url": "/games/618.html"
   },
   {
     "name": "Friday Night Funkin': Rev-Mixed",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/619.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/619.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/619.png",
+    "url": "/games/619.html"
   },
   {
     "name": "Three Goblets",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/620.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/620.html"
+    "cover": "/covers/620.png",
+    "url": "/games/620.html"
   },
   {
     "name": "Friday Night Funkin': Gumballs",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/621.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/621.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/621.png",
+    "url": "/games/621.html"
+  },
+  {
+    "name": "Oneshot (LEGACY)",
+    "cover": "/covers/622.png",
+    "url": "/games/622.html",
+    "featured": true
+  },
+  {
+    "name": "Celeste",
+    "cover": "/covers/623.png",
+    "url": "/games/623-work.html",
+    "featured": true
   },
   {
     "name": "Happy Wheels",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/624.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/624.html"
+    "cover": "/covers/624.png",
+    "url": "/games/624.html"
   },
   {
     "name": "Get Yoked",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/625.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/625.html"
+    "cover": "/covers/625.png",
+    "url": "/games/625.html"
+  },
+  {
+    "name": "Doom 3",
+    "cover": "/covers/626.png",
+    "url": "/games/626-f.html"
   },
   {
     "name": "Tag",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/627.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/627.html"
+    "cover": "/covers/627.png",
+    "url": "/games/627.html"
+  },
+  {
+    "name": "Pizza Tower: Scoutdigo",
+    "cover": "/covers/628.png",
+    "url": "/games/628-f.html"
   },
   {
     "name": "Off",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/629.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/629.html"
+    "cover": "/covers/629.png",
+    "url": "/games/629.html"
   },
   {
     "name": "Space Funeral",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/630.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/630.html"
+    "cover": "/covers/630.png",
+    "url": "/games/630.html"
   },
   {
     "name": "Endroll",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/631.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/631-a.html"
+    "cover": "/covers/631.png",
+    "url": "/games/631-a.html"
   },
   {
     "name": "Cave Story",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/632.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/632-a.html"
+    "cover": "/covers/632.png",
+    "url": "/games/632-a.html"
   },
   {
     "name": "Friday Night Funkin': VS. Impostor: Alternated",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/633.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/633.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/633.png",
+    "url": "/games/633.html"
   },
   {
     "name": "Friday Night Funkin': Chaos Nightmare - Sonic Vs. Fleetway",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/634.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/634.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/634.png",
+    "url": "/games/634.html"
   },
   {
     "name": "Spelunky Classic HD",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/635.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/635.html"
+    "cover": "/covers/635.png",
+    "url": "/games/635.html"
   },
   {
     "name": "Friday Night Funkin' D-Sides",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/636.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/636.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/636.png",
+    "url": "/games/636.html"
   },
   {
     "name": "BFDIA 5b",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/637.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/637-f.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/637.png",
+    "url": "/games/637-f.html"
   },
   {
     "name": "BFDIA 5b: 5*30",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/638.gif",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/638-f.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/638.gif",
+    "url": "/games/638-f.html"
   },
   {
     "name": "Friday Night Funkin' VS Impostor B-Sides",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/639.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/639.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/639.png",
+    "url": "/games/639.html"
   },
   {
     "name": "Mutilate a Doll 2",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/640.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/640.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/640.png",
+    "url": "/games/640.html"
   },
   {
     "name": "Godzilla Daikaiju Battle Royale",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/641.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/641.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/641.png",
+    "url": "/games/641.html"
   },
   {
     "name": "Friday Night Funkin' Sunday Night Suicide: Rookies Edition",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/642.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/642.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/642.png",
+    "url": "/games/642.html"
   },
   {
     "name": "Rio Rex",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/643.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/643.html"
+    "cover": "/covers/643.png",
+    "url": "/games/643.html"
   },
   {
     "name": "Friday Night Funkin vs Nonsense",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/644.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/644.html",
-    "special": [
-      "fnf"
-    ]
+    "cover": "/covers/644.png",
+    "url": "/games/644.html"
+  },
+  {
+    "name": "Arthur's Nightmare",
+    "cover": "/covers/645.png",
+    "url": "/games/645-e.html"
+  },
+  {
+    "name": "Buster Jam",
+    "cover": "/covers/646.png",
+    "url": "/games/646-fixed.html"
   },
   {
     "name": "Super Smash Flash",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/647.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/647.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/647.png",
+    "url": "/games/647.html"
+  },
+  {
+    "name": "Mindwave",
+    "cover": "/covers/648.png",
+    "url": "/games/648-el.html"
+  },
+  {
+    "name": "Look Outside",
+    "cover": "/covers/649.png",
+    "url": "/games/649.html"
+  },
+  {
+    "name": "Milk Inside a Bag of Milk Inside a Bag of Milk",
+    "cover": "/covers/650.png",
+    "url": "/games/650-f.html"
+  },
+  {
+    "name": "Milk Outside A Bag Of Milk Outside A Bag Of Milk",
+    "cover": "/covers/651.png",
+    "url": "/games/651.html"
   },
   {
     "name": "1 Date Danger",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/653.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/653.html"
+    "cover": "/covers/653.png",
+    "url": "/games/653-f.html"
   },
   {
     "name": "Final Fantasy VII",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/654.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/654.html"
+    "cover": "/covers/654.png",
+    "url": "/games/654.html"
   },
   {
     "name": "Goblin Goopmaxxing",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/655.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/655.html"
+    "cover": "/covers/655.png",
+    "url": "/games/655.html"
   },
   {
     "name": "Rogue Sergeant The Final Operation",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/656.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/656.html"
+    "cover": "/covers/656.png",
+    "url": "/games/656.html"
   },
   {
     "name": "Friday Night Funkin vs Undertale",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/657.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/657.html"
+    "cover": "/covers/657.png",
+    "url": "/games/657.html"
+  },
+  {
+    "name": "Midnight Shift",
+    "cover": "/covers/658.png",
+    "url": "/games/658.html"
   },
   {
     "name": "Orange Roulette",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/659.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/659.html",
-    "special": [
-      "flash"
-    ]
+    "cover": "/covers/659.png",
+    "url": "/games/659.html"
   },
   {
     "name": "Please Dont Touch Anything",
-    "cover": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/660.png",
-    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/660.html"
+    "cover": "/covers/660.png",
+    "url": "/games/660.html"
+  },
+  {
+    "name": "Royal Towers: Medieval TD",
+    "cover": "/covers/661.png",
+    "url": "/games/661.html"
+  },
+  {
+    "name": "Going Balls",
+    "cover": "/covers/662.png",
+    "url": "/games/662.html"
+  },
+  {
+    "name": "3D Bolt Master",
+    "cover": "/covers/663.png",
+    "url": "/games/663.html"
+  },
+  {
+    "name": "Tall.io",
+    "cover": "/covers/664.png",
+    "url": "/games/664.html"
+  },
+  {
+    "name": "Match Triple 3D",
+    "cover": "/covers/665.png",
+    "url": "/games/665.html"
+  },
+  {
+    "name": "Stick War: Legacy",
+    "cover": "/covers/666.png",
+    "url": "/games/666.html",
+    "featured": true
+  },
+  {
+    "name": "In Stars and Time",
+    "cover": "/covers/667.png",
+    "url": "/games/667-fix.html"
+  },
+  {
+    "name": "Gorilla Tag",
+    "cover": "/covers/668.png",
+    "url": "/games/668-fix2.html"
+  },
+  {
+    "name": "Terraria",
+    "cover": "/covers/669.png",
+    "url": "/games/669.html",
+    "featured": true
+  },
+  {
+    "name": "Raldi's Crackhouse",
+    "cover": "/covers/670.png",
+    "url": "/games/670.html"
+  },
+  {
+    "name": "We Become What We Behold",
+    "cover": "/covers/671.png",
+    "url": "/games/671.html"
+  },
+  {
+    "name": "A Difficult Game About Climbing",
+    "cover": "/covers/672.png",
+    "url": "/games/672-2.html"
+  },
+  {
+    "name": "Hobo 1",
+    "cover": "/covers/673.png",
+    "url": "/games/673.html"
+  },
+  {
+    "name": "Hobo 2",
+    "cover": "/covers/674.png",
+    "url": "/games/674.html"
+  },
+  {
+    "name": "Hobo 3",
+    "cover": "/covers/675.png",
+    "url": "/games/675.html"
+  },
+  {
+    "name": "Hobo 4",
+    "cover": "/covers/676.png",
+    "url": "/games/676.html"
+  },
+  {
+    "name": "Hobo 5",
+    "cover": "/covers/677.png",
+    "url": "/games/677.html"
+  },
+  {
+    "name": "Hobo 6",
+    "cover": "/covers/678.png",
+    "url": "/games/678.html"
+  },
+  {
+    "name": "Hobo 7",
+    "cover": "/covers/679.png",
+    "url": "/games/679.html"
+  },
+  {
+    "name": "Kirby Super Star Ultra",
+    "cover": "/covers/680.png",
+    "url": "/games/680.html"
+  },
+  {
+    "name": "Cooking Mama",
+    "cover": "/covers/681.png",
+    "url": "/games/681.html"
+  },
+  {
+    "name": "Cooking Mama 2",
+    "cover": "/covers/682.png",
+    "url": "/games/682.html"
+  },
+  {
+    "name": "Cooking Mama 3",
+    "cover": "/covers/683.png",
+    "url": "/games/683.html"
+  },
+  {
+    "name": "Kirby Squeak Squad",
+    "cover": "/covers/684.png",
+    "url": "/games/684.html"
+  },
+  {
+    "name": "FIFA 11",
+    "cover": "/covers/685.png",
+    "url": "/games/685.html"
+  },
+  {
+    "name": "FIFA 10",
+    "cover": "/covers/686.png",
+    "url": "/games/686.html"
+  },
+  {
+    "name": "Pico's School (1999)",
+    "cover": "/covers/687.png",
+    "url": "/games/687.html"
+  },
+  {
+    "name": "Peggle",
+    "cover": "/covers/688.png",
+    "url": "/games/688.html"
+  },
+  {
+    "name": "Meatboy",
+    "cover": "/covers/689.png",
+    "url": "/games/689.html"
+  },
+  {
+    "name": "Friday Night Funkin': AKAGE",
+    "cover": "/covers/690.png",
+    "url": "/games/690.html"
+  },
+  {
+    "name": "Friday Night Funkin': Heartbreak Havoc [Vs. Sky: REDUX]",
+    "cover": "/covers/691.png",
+    "url": "/games/691.html"
+  },
+  {
+    "name": "Kirby ~ Soft & Wet",
+    "cover": "/covers/692.png",
+    "url": "/games/692.html"
+  },
+  {
+    "name": "Half Life: Opposing Force",
+    "cover": "/covers/693.png",
+    "url": "/games/693.html"
+  },
+  {
+    "name": "Pokemon Firered",
+    "cover": "/covers/694.png",
+    "url": "/games/694.html"
+  },
+  {
+    "name": "Duck Life 8",
+    "cover": "/covers/695.png",
+    "url": "/games/695.html"
+  },
+  {
+    "name": "Pokemon HeartGold",
+    "cover": "/covers/696.png",
+    "url": "/games/696.html"
+  },
+  {
+    "name": "Bank Robbery",
+    "cover": "/covers/697.png",
+    "url": "/games/697.html"
+  },
+  {
+    "name": "Bank Robbery 3",
+    "cover": "/covers/698.png",
+    "url": "/games/698.html"
+  },
+  {
+    "name": "Stickman Destruction",
+    "cover": "/covers/699.png",
+    "url": "/games/699.html"
+  },
+  {
+    "name": "FNF vs Pibby Corrupted",
+    "cover": "/covers/700.png",
+    "url": "/games/700.html"
+  },
+  {
+    "name": "Real Flight Simulator",
+    "cover": "/covers/701.png",
+    "url": "/games/701.html"
+  },
+  {
+    "name": "JavascriptPS1",
+    "cover": "/covers/702.png",
+    "url": "/games/702.html"
+  },
+  {
+    "name": "VS Rewrite: ROUND 2",
+    "cover": "/covers/703.png",
+    "url": "/games/703.html"
+  },
+  {
+    "name": "Five Nights at Freddy's: World Refreshed",
+    "cover": "/covers/704.png",
+    "url": "/games/704-fix.html"
+  },
+  {
+    "name": "Iron Lung",
+    "cover": "/covers/705.png",
+    "url": "/games/705-fix.html",
+    "featured": true
+  },
+  {
+    "name": "Fear & Hunger",
+    "cover": "/covers/706.png",
+    "url": "/games/706-fix.html"
+  },
+  {
+    "name": "Traffic Racer",
+    "cover": "/covers/707.png",
+    "url": "/games/707-fix.html"
+  },
+  {
+    "name": "Needy Streamer Overload",
+    "cover": "/covers/708.png",
+    "url": "/games/708-fix.html"
+  },
+  {
+    "name": "Survivor.io",
+    "cover": "/covers/709.png",
+    "url": "/games/709-fixagain.html"
+  },
+  {
+    "name": "Antonblast",
+    "cover": "/covers/711.png",
+    "url": "/games/711.html",
+    "featured": true
+  },
+  {
+    "name": "Jumbo Mario",
+    "cover": "/covers/712.png",
+    "url": "/games/712-f.html"
+  },
+  {
+    "name": "Silent Hill",
+    "cover": "/covers/713.png",
+    "url": "/games/713.html"
+  },
+  {
+    "name": "Friday Night Funkin vs Tabi",
+    "cover": "/covers/714.png",
+    "url": "/games/714.html"
+  },
+  {
+    "name": "Friday Night Funkin vs Zardy",
+    "cover": "/covers/715.png",
+    "url": "/games/715.html"
+  },
+  {
+    "name": "Clover Pit",
+    "cover": "/covers/716.png",
+    "url": "/games/716-fix2.html",
+    "featured": true
+  },
+  {
+    "name": "Peaks of Yore",
+    "cover": "/covers/717.png",
+    "url": "/games/717-fix2.html"
+  },
+  {
+    "name": "Untitled Goose Game",
+    "cover": "/covers/718.png",
+    "url": "/games/718.html",
+    "featured": true
+  },
+  {
+    "name": "A Game About Feeding A Black Hole",
+    "cover": "/covers/719.png",
+    "url": "/games/719.html"
+  },
+  {
+    "name": "Roulette Hero",
+    "cover": "/covers/720.png",
+    "url": "/games/720.html"
+  },
+  {
+    "name": "Shift at Midnight",
+    "cover": "/covers/721.png",
+    "url": "/games/721.html"
+  },
+  {
+    "name": "Fused 240",
+    "cover": "/covers/722.png",
+    "url": "/games/722.html"
+  },
+  {
+    "name": "Brotato",
+    "cover": "/covers/723.png",
+    "url": "/games/723.html"
+  },
+  {
+    "name": "Endoparasitic 2",
+    "cover": "/covers/724.png",
+    "url": "/games/724.html"
+  },
+  {
+    "name": "ShredSauce",
+    "cover": "/covers/725.png",
+    "url": "/games/725-ff.html"
+  },
+  {
+    "name": "Breath of the Wild NDS",
+    "cover": "/covers/726.png",
+    "url": "/games/726.html"
+  },
+  {
+    "name": "Dimension Incident",
+    "cover": "/covers/727.png",
+    "url": "/games/727.html"
+  },
+  {
+    "name": "Fear Assessment",
+    "cover": "/covers/728.png",
+    "url": "/games/728.html"
+  },
+  {
+    "name": "game inside a game inside a game inside a game inside a game inside a game",
+    "cover": "/covers/729.png",
+    "url": "/games/729.html"
+  },
+  {
+    "name": "Cell Machine",
+    "cover": "/covers/730.png",
+    "url": "/games/730.html"
+  },
+  {
+    "name": "Undertale: Last Breath",
+    "cover": "/covers/731.png",
+    "url": "/games/731.html"
+  },
+  {
+    "name": "64 in 1 NES",
+    "cover": "/covers/732.png",
+    "url": "/games/732.html"
+  },
+  {
+    "name": "Tetris",
+    "cover": "/covers/733.png",
+    "url": "/games/733.html"
+  },
+  {
+    "name": "Christmas Massacre",
+    "cover": "/covers/734.png",
+    "url": "/games/734.html"
+  },
+  {
+    "name": "Famidash",
+    "cover": "/covers/735.png",
+    "url": "/games/735.html"
+  },
+  {
+    "name": "Super Mario Bros. Remastered",
+    "cover": "/covers/736.png",
+    "url": "/games/736.html"
+  },
+  {
+    "name": "Saihate Station (さいはて駅)",
+    "cover": "/covers/737.png",
+    "url": "/games/737.html"
+  },
+  {
+    "name": "Dumb Ways to Die",
+    "cover": "/covers/738.png",
+    "url": "/games/738-u.html"
+  },
+  {
+    "name": "Soccer Random",
+    "cover": "/covers/739.png",
+    "url": "/games/739.html"
+  },
+  {
+    "name": "Bart Blast",
+    "cover": "/covers/740.png",
+    "url": "/games/740.html"
+  },
+  {
+    "name": "Resident Evil",
+    "cover": "/covers/741.png",
+    "url": "/games/741.html"
+  },
+  {
+    "name": "Resident Evil 2",
+    "cover": "/covers/742.png",
+    "url": "/games/742.html"
+  },
+  {
+    "name": "Power Hover",
+    "cover": "/covers/743.png",
+    "url": "/games/743.html"
+  },
+  {
+    "name": "Escape Road City 2",
+    "cover": "/covers/744.png",
+    "url": "/games/744-a.html"
+  },
+  {
+    "name": "Tetris",
+    "cover": "/covers/745.png",
+    "url": "/games/745.html"
+  },
+  {
+    "name": "Fundamental Paper Novel",
+    "cover": "/covers/746.png",
+    "url": "/games/746.html"
+  },
+  {
+    "name": "Worst Time Simulator",
+    "cover": "/covers/747.png",
+    "url": "/games/747.html"
+  },
+  {
+    "name": "Undertale Last Breath PHASE THREE",
+    "cover": "/covers/748.png",
+    "url": "/games/748.html"
+  },
+  {
+    "name": "Super Monkey Ball 1&2",
+    "cover": "/covers/749.png",
+    "url": "/games/749.html"
+  },
+  {
+    "name": "Five Nights at Last Breath",
+    "cover": "/covers/750.png",
+    "url": "/games/750-u.html"
+  },
+  {
+    "name": "Jeffrey Epstein Basics In Education And Kidnapping",
+    "cover": "/covers/751.png",
+    "url": "/games/751.html"
+  },
+  {
+    "name": "Bad Piggies",
+    "cover": "/covers/752.png",
+    "url": "/games/752.html"
+  },
+  {
+    "name": "Breaklock",
+    "cover": "/covers/753.png",
+    "url": "/games/753.html"
+  },
+  {
+    "name": "Minecraft Pocket Edition",
+    "cover": "/covers/754.png",
+    "url": "/games/754.html"
+  },
+  {
+    "name": "Brawl Simulator 3D",
+    "cover": "/covers/755.png",
+    "url": "/games/755.html"
+  },
+  {
+    "name": "Witch's Heart",
+    "cover": "/covers/756.png",
+    "url": "/games/756-f.html"
+  },
+  {
+    "name": "Ultrapool",
+    "cover": "/covers/757.png",
+    "url": "/games/757.html"
+  },
+  {
+    "name": "CaseOh's Basics in Eating and Fast Food",
+    "cover": "/covers/758.png",
+    "url": "/games/758a.html"
+  },
+  {
+    "name": "Dice a Million",
+    "cover": "/covers/759.png",
+    "url": "/games/759.html"
+  },
+  {
+    "name": "Overburden",
+    "cover": "/covers/760.png",
+    "url": "/games/760.html"
+  },
+  {
+    "name": "FISH",
+    "cover": "/covers/761.png",
+    "url": "/games/761.html"
+  },
+  {
+    "name": "Cheese Rolling",
+    "cover": "/covers/762.png",
+    "url": "/games/762.html"
+  },
+  {
+    "name": "Flying Gorilla 3D",
+    "cover": "/covers/763.png",
+    "url": "/games/763.html"
+  },
+  {
+    "name": "Five Night's at Shrek's Hotel",
+    "cover": "/covers/764.png",
+    "url": "/games/764.html"
+  },
+  {
+    "name": "Scary Shawarma Kiosk: the ANOMALY",
+    "cover": "/covers/765.png",
+    "url": "/games/765.html"
+  },
+  {
+    "name": "Suika Game",
+    "cover": "/covers/766.png",
+    "url": "/games/766.html"
+  },
+  {
+    "name": "Stick Slasher",
+    "cover": "/covers/767.png",
+    "url": "/games/767.html"
+  },
+  {
+    "name": "Stickman Kombat 2D",
+    "cover": "/covers/768.png",
+    "url": "/games/768.html"
+  },
+  {
+    "name": "Stickman Duel",
+    "cover": "/covers/769.png",
+    "url": "/games/769.html"
+  },
+  {
+    "name": "Sonic Robo Blast 2",
+    "cover": "/covers/770.png",
+    "url": "/games/770-update.html"
+  },
+  {
+    "name": "Hollow Knight: Silksong",
+    "cover": "/covers/771.png",
+    "url": "/games/771-z.html",
+    "featured": true
+  },
+  {
+    "name": "Sam & Max Hit the Road",
+    "cover": "/covers/772.png",
+    "url": "/games/772.html"
+  },
+  {
+    "name": "Command & Conquer",
+    "cover": "/covers/773.png",
+    "url": "/games/773.html"
+  },
+  {
+    "name": "Mountain Bike Racer",
+    "cover": "/covers/774.png",
+    "url": "/games/774.html"
+  },
+  {
+    "name": "Bart Bash",
+    "cover": "/covers/775.png",
+    "url": "/games/775.html"
+  },
+  {
+    "name": "Your Only Move Is HUSTLE",
+    "cover": "/covers/776.png",
+    "url": "/games/776.html",
+    "featured": true
+  },
+  {
+    "name": "Outhold",
+    "cover": "/covers/777.png",
+    "url": "/games/777.html"
+  },
+  {
+    "name": "Serial Experiments Lain",
+    "cover": "/covers/778.png",
+    "url": "/games/778.html"
+  },
+  {
+    "name": "I Have No Mouth, and I Must Scream",
+    "cover": "/covers/779.png",
+    "url": "/games/779.html"
+  },
+  {
+    "name": "Thing-Thing Arena 3",
+    "cover": "/covers/780.png",
+    "url": "/games/780.html"
+  },
+  {
+    "name": "Scratch Inc",
+    "cover": "/covers/781.png",
+    "url": "/games/781.html"
+  },
+  {
+    "name": "Um Jammer Lammy",
+    "cover": "/covers/782.png",
+    "url": "/games/782f.html"
+  },
+  {
+    "name": "Apes vs Helium",
+    "cover": "/covers/783.png",
+    "url": "/games/783.html"
+  },
+  {
+    "name": "Gabriel's Awesome Schoolhouse (GASH)",
+    "cover": "/covers/784.png",
+    "url": "/games/784.html"
+  },
+  {
+    "name": "Geometry Dash",
+    "cover": "/covers/785.png",
+    "url": "/games/785-upd2.html"
+  },
+  {
+    "name": "Volley Random",
+    "cover": "/covers/786.png",
+    "url": "/games/786.html"
+  },
+  {
+    "name": "BeatBlock",
+    "cover": "/covers/787.png",
+    "url": "/games/787.html"
+  },
+  {
+    "name": "Vib-Ribbon",
+    "cover": "/covers/788.png",
+    "url": "/games/788.html"
+  },
+  {
+    "name": "Stardew Valley",
+    "cover": "/covers/789.png",
+    "url": "/games/789-fix.html"
+  },
+  {
+    "name": "Helltaker",
+    "cover": "/covers/790.png",
+    "url": "/games/790.html"
+  },
+  {
+    "name": "Who's Your Daddy",
+    "cover": "/covers/791.png",
+    "url": "/games/791.html"
+  },
+  {
+    "name": "Escape Road 3",
+    "cover": "/covers/792.png",
+    "url": "/games/792.html"
+  },
+  {
+    "name": "Lethal Ape",
+    "cover": "/covers/793.png",
+    "url": "/games/793.html"
+  },
+  {
+    "name": "Fear & Hunger 2: Termina",
+    "cover": "/covers/794.png",
+    "url": "/games/794-fixed.html"
+  },
+  {
+    "name": "UvuvwevwevweOnyetenvewveUgwemubwemOssas",
+    "cover": "/covers/795.png",
+    "url": "/games/795.html"
+  },
+  {
+    "name": "Slendytubbies 1",
+    "cover": "/covers/796.png",
+    "url": "/games/796.html"
+  },
+  {
+    "name": "Fih",
+    "cover": "/covers/797.png",
+    "url": "/games/797.html"
+  },
+  {
+    "name": "Hungry Lamu",
+    "cover": "/covers/798.png",
+    "url": "/games/798.html"
+  },
+  {
+    "name": "Hungry Lamu 2",
+    "cover": "/covers/799.png",
+    "url": "/games/799-fix.html"
+  },
+  {
+    "name": "Rocket Goal.io",
+    "cover": "/covers/800.png",
+    "url": "/games/800-fix.html"
+  },
+  {
+    "name": "Trees Hate You",
+    "cover": "/covers/801.png",
+    "url": "/games/801-fix.html"
+  },
+  {
+    "name": "Scampton The Great",
+    "cover": "/covers/802.png",
+    "url": "/games/802.html"
+  },
+  {
+    "name": "Bendy and the Ink Machine: ALL CHAPTERS",
+    "cover": "/covers/803.png",
+    "url": "/games/803-fix.html"
+  },
+  {
+    "name": "Vampire Survivors",
+    "cover": "/covers/804.png",
+    "url": "/games/804.html"
+  },
+  {
+    "name": "Plague Inc",
+    "cover": "/covers/805.png",
+    "url": "/games/805.html"
+  },
+  {
+    "name": "Slendytubbies 2",
+    "cover": "/covers/806.png",
+    "url": "/games/806.html"
+  },
+  {
+    "name": "Slendytubbies 2D",
+    "cover": "/covers/807.png",
+    "url": "/games/807.html"
+  },
+  {
+    "name": "Spaceflight Simulator",
+    "cover": "/covers/808.png",
+    "url": "/games/808.html"
+  },
+  {
+    "name": "Rhythm Heaven",
+    "cover": "/covers/809.png",
+    "url": "/games/809.html"
+  },
+  {
+    "name": "Need For Speed: Carbon",
+    "cover": "/covers/810.png",
+    "url": "/games/810-fix.html"
+  },
+  {
+    "name": "Need For Speed: Most Wanted",
+    "cover": "/covers/811.png",
+    "url": "/games/811.html"
+  },
+  {
+    "name": "Need For Speed: Underground 2",
+    "cover": "/covers/812.png",
+    "url": "/games/812.html"
+  },
+  {
+    "name": "Five Nights at Frickbear's 3",
+    "cover": "/covers/813.png",
+    "url": "/games/813-f3.html"
+  },
+  {
+    "name": "MiSide",
+    "cover": "/covers/814.png",
+    "url": "/games/814.html"
+  },
+  {
+    "name": "Baldi's Basics The Ultra Decompile",
+    "cover": "/covers/815.png",
+    "url": "/games/815.html"
+  },
+  {
+    "name": "-3",
+    "cover": "/covers/816.png",
+    "url": "/games/816.html"
+  },
+  {
+    "name": "-b",
+    "cover": "/covers/817.png",
+    "url": "/games/817-f.html"
+  },
+  {
+    "name": "t³ (T cubed)",
+    "cover": "/covers/818.png",
+    "url": "/games/818.html"
+  },
+  {
+    "name": "20 Minutes Till Dawn",
+    "cover": "/covers/819.png",
+    "url": "/games/819-fix2.html"
+  },
+  {
+    "name": "Phoenix Wright - Ace Attorney",
+    "cover": "/covers/820.png",
+    "url": "/games/820-fix.html"
+  },
+  {
+    "name": "Apollo Justice - Ace Attorney",
+    "cover": "/covers/821.png",
+    "url": "/games/821-fix.html"
+  },
+  {
+    "name": "Phoenix Wright - Ace Attorney - Justice for All",
+    "cover": "/covers/822.png",
+    "url": "/games/822.html"
+  },
+  {
+    "name": "Ace Attorney Investigations - Miles Edgeworth",
+    "cover": "/covers/823.png",
+    "url": "/games/823-fix.html"
+  },
+  {
+    "name": "Phoenix Wright - Ace Attorney - Trials and Tribulations",
+    "cover": "/covers/824.png",
+    "url": "/games/824.html"
+  },
+  {
+    "name": "Cruelty Squad",
+    "cover": "/covers/825.png",
+    "url": "/games/825.html"
+  },
+  {
+    "name": "Just Shapes & Beats",
+    "cover": "/covers/826.png",
+    "url": "/games/826-f.html",
+    "featured": true
+  },
+  {
+    "name": "Totally Accurate Battle Simulator (TABS)",
+    "cover": "/covers/827.png",
+    "url": "/games/827-f.html",
+    "featured": true
+  },
+  {
+    "name": "Animal Crossing (GAMECUBE)",
+    "cover": "/covers/828.png",
+    "url": "/games/828.html"
+  },
+  {
+    "name": "Touhou 1 Touhou-Reiiden",
+    "cover": "/covers/829.png",
+    "url": "/games/829.html"
+  },
+  {
+    "name": "Touhou 2 Touhou-Fuumaroku",
+    "cover": "/covers/830.png",
+    "url": "/games/830.html"
+  },
+  {
+    "name": "Touhou 3 Touhou-Yumejikuu",
+    "cover": "/covers/831.png",
+    "url": "/games/831.html"
+  },
+  {
+    "name": "Touhou 4 Touhou-Gensokyou",
+    "cover": "/covers/832.png",
+    "url": "/games/832.html"
+  },
+  {
+    "name": "Touhou 5 Touhou-Kaikidan",
+    "cover": "/covers/833.png",
+    "url": "/games/833.html"
+  },
+  {
+    "name": "I Wanna Be The Guy",
+    "cover": "/covers/834.png",
+    "url": "/games/834.html"
+  },
+  {
+    "name": "YoHoHo.io",
+    "cover": "/covers/835.png",
+    "url": "/games/835.html"
+  },
+  {
+    "name": "Friday Night Funkin vs Shucks v2",
+    "cover": "/covers/836.png",
+    "url": "/games/836.html"
+  },
+  {
+    "name": "Into Space 2",
+    "cover": "/covers/837.png",
+    "url": "/games/837.html"
+  },
+  {
+    "name": "Vena",
+    "cover": "/covers/838.png",
+    "url": "/games/838.html"
+  },
+  {
+    "name": "s.p.l.i.t",
+    "cover": "/covers/839.png",
+    "url": "/games/839.html"
+  },
+  {
+    "name": "My Talking Baby Hippo",
+    "cover": "/covers/840.png",
+    "url": "/games/840-fix2.html"
+  },
+  {
+    "name": "WarioWare: Touched!",
+    "cover": "/covers/841.png",
+    "url": "/games/841.html"
   }
 ]

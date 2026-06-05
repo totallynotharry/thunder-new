@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const audio = new Audio();
   const DEFAULT_MUSIC_PROVIDER_KEY = "default_music_provider";
   const RESULTS_PER_PAGE = 15;
+  const BURLFULL = "https://vapor.plasmii.vip/";
 
   let currentService =
     localStorage.getItem(DEFAULT_MUSIC_PROVIDER_KEY) || "tidal";
