@@ -112,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "bookmarks",
     "bookmarksBarVisible",
     "clockFormat",
-    "vaiPersonality",
   ];
   const exportBtn = document.getElementById("exportBtn");
   if (exportBtn) {

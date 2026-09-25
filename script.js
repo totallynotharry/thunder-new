@@ -120,7 +120,7 @@
     🎵 <b>Listen</b>
     TIDAL + SoundCloud support with playlists and queue
     
-    📺 <b>Watch</b>
+    📺 <b>YouTube</b>
     YouTube, Twitch, and Movies with source switching
     
     🎨 <b>Customization</b>
@@ -133,17 +133,6 @@
     iconClass: "ri-history-line",
     title: "Changelog for v4.4",
     content: `
-    🤖 AI
-    - New AI source (that, yes, I pay for.)
-    - Models:
-    &nbsp;&nbsp;* Claude 4.5 Haiku
-    &nbsp;&nbsp;* Gemini 3 Flash
-    &nbsp;&nbsp;* GPT-OSS (low & high)
-    &nbsp;&nbsp;* Automatic
-
-    - Added personality system
-    - (AI also has knowledge about THUNDER)
-  
     🎮 Play
     - Added 3 new gamelists:
     &nbsp;&nbsp;* TGLSC
@@ -491,6 +480,12 @@
       newIframe.id = "content-frame";
       newIframe.src = url;
       newIframe.classList.add("nav-transitioning");
+      newIframe.allowFullscreen = true;
+      newIframe.setAttribute("allowfullscreen", "true");
+      newIframe.setAttribute(
+        "allow",
+        "autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write"
+      );
 
       newIframe.addEventListener("load", () => {
         try {
