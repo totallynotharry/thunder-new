@@ -19,13 +19,13 @@
     "iconClass": "ri-youtube-line",
     "name": "YouTube",
     "type": "item",
-    "url": "http://proxy.itsharry.lol/url?https://youtube.com/"
+    "url": "https://proxy.itsharry.lol/url?https://youtube.com/"
   },
   {
     "iconClass": "ri-music-2-line",
     "name": "Listen",
     "type": "item",
-    "url": "http://proxy.itsharry.lol/url?https://monochrome.tf/",
+    "url": "https://proxy.itsharry.lol/url?https://monochrome.tf/",
     "tag": "UPDATED"
   }
 ]
