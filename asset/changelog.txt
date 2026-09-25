@@ -6,7 +6,7 @@ v4.4
   * GPT-OSS (low & high)
   * Automatic
 - Added personality system
-- AI has knowledge about VAPOR
+- AI has knowledge about THUNDER
 
 - Play updates:
   * Added 3 new gamelists:
@@ -56,7 +56,7 @@ Added changelog to welcome popup
 
 v4.2.5
 Music now has Playlists & Lyrics
-Download your VAPOR config in Settings
+Download your THUNDER config in Settings
 Probably/possibly/maybily fixed nowgg to use browser engine
 
 v4.2.0
@@ -64,7 +64,7 @@ Browser should be fixed
 Ads are now toggleable in settings
 YouTube is more widely unrestricted
     [enabled Scrape & made it default]
-VAPOR v4 has reached 1M views
+THUNDER has reached 1M views
     Thank you so much for the support!
 Fixed game proxy embedding
 
@@ -91,4 +91,4 @@ v4.0.1
 - Added ads
 
 v4.0.0
-- Initialize VAPOR v4
+- Initialize THUNDER
