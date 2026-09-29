@@ -54,7 +54,89 @@ function pickRandomGames(count = 3) {
   return shuffled.slice(0, count);
 }
 
+const ADSENSE_CLIENT = "ca-pub-9728650971634720";
+const ADSENSE_SLOT = "6157592034";
+let gameAdPopup = null;
+
+function loadAdsenseScript() {
+  if (document.querySelector("script[data-thunder-adsense]")) return;
+  const script = document.createElement("script");
+  script.async = true;
+  script.crossOrigin = "anonymous";
+  script.setAttribute("data-thunder-adsense", "true");
+  script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
+  // Don't leave an empty popup behind if the loader is blocked (e.g. ad blockers).
+  script.addEventListener("error", closeGameAdPopup);
+  document.head.appendChild(script);
+}
+
+function closeGameAdPopup() {
+  if (gameAdPopup) {
+    gameAdPopup.remove();
+    gameAdPopup = null;
+  }
+}
+
+function showGameAdPopup() {
+  closeGameAdPopup();
+  loadAdsenseScript();
+
+  const overlay = document.createElement("div");
+  overlay.id = "game-ad-popup";
+  overlay.style.cssText =
+    "position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:100000;display:flex;align-items:center;justify-content:center;padding:16px;";
+
+  const card = document.createElement("div");
+  card.style.cssText =
+    "position:relative;width:min(520px,100%);background:#111827;color:#e5e7eb;border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:16px;box-shadow:0 20px 50px rgba(0,0,0,.5);font-family:inherit;";
+
+  const closeBtn = document.createElement("button");
+  closeBtn.type = "button";
+  closeBtn.setAttribute("aria-label", "Close ad");
+  closeBtn.innerHTML = '<i class="ri-close-line"></i>';
+  closeBtn.style.cssText =
+    "position:absolute;top:8px;right:8px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid rgba(255,255,255,.15);background:#1f2937;color:#e5e7eb;cursor:pointer;font-size:16px;line-height:1;";
+
+  const label = document.createElement("div");
+  label.textContent = "Advertisement";
+  label.style.cssText =
+    "font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:10px;padding-right:34px;";
+
+  const slot = document.createElement("div");
+  slot.style.cssText = "min-height:120px;";
+
+  const ins = document.createElement("ins");
+  ins.className = "adsbygoogle";
+  ins.style.display = "block";
+  ins.setAttribute("data-ad-client", ADSENSE_CLIENT);
+  ins.setAttribute("data-ad-slot", ADSENSE_SLOT);
+  ins.setAttribute("data-ad-format", "auto");
+  ins.setAttribute("data-full-width-responsive", "true");
+  slot.appendChild(ins);
+
+  card.appendChild(closeBtn);
+  card.appendChild(label);
+  card.appendChild(slot);
+  overlay.appendChild(card);
+  document.body.appendChild(overlay);
+  gameAdPopup = overlay;
+
+  try {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  } catch (e) {}
+
+  closeBtn.addEventListener("click", closeGameAdPopup);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeGameAdPopup();
+  });
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeGameAdPopup();
+});
+
 function showGameUnavailablePopup(gameName) {
+  closeGameAdPopup();
   const existing = document.getElementById("game-unavailable-overlay");
   if (existing) existing.remove();
   const recs = pickRandomGames(3);
@@ -521,6 +603,7 @@ function animateTextChange(text) {
 }
 
 function exitGame() {
+  closeGameAdPopup();
   gameOverlay.classList.remove("view-active");
   iframe.src = "about:blank";
   iframe.style.display = "none";
@@ -577,6 +660,7 @@ async function playGame(url, isDirectLoad, gameName, isNowgg, isPrx) {
 
   gameOverlay.style.display = "block";
   void gameOverlay.offsetWidth;
+  showGameAdPopup();
   loadingMessage.textContent = "LOADING..";
   loadingMessage.classList.remove("fade-slide-out", "fade-slide-in");
   iframe.src = "about:blank";
