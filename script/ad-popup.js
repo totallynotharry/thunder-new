@@ -27,8 +27,8 @@
       justify-content: center;
       padding: 16px;
       box-sizing: border-box;
-      background-color: var(--bg);
-      background-color: color-mix(in srgb, var(--bg) 70%, transparent);
+      background-color: var(--bg, #0a111d);
+      background-color: color-mix(in srgb, var(--bg, #0a111d) 70%, transparent);
       -webkit-backdrop-filter: blur(4px);
       backdrop-filter: blur(4px);
     }
@@ -36,9 +36,9 @@
       position: relative;
       width: min(520px, 100%);
       box-sizing: border-box;
-      background: var(--fourth-bg);
-      color: var(--text-color);
-      border: 1px solid var(--third-bg);
+      background: var(--fourth-bg, #212630);
+      color: var(--text-color, #d5dce8);
+      border: 1.5px solid rgba(var(--cb, 164, 184, 219), 0.12);
       border-radius: 14px;
       padding: 16px;
       box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
@@ -51,46 +51,57 @@
     }
     .thunder-ad-label {
       margin: 0 0 10px;
-      padding-right: 36px;
+      padding-right: 46px;
       font-size: 11px;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--secondary-text-color);
+      color: var(--secondary-text-color, #d5dce8);
       opacity: 0.7;
     }
     .thunder-ad-close {
       position: absolute;
-      top: 8px;
-      right: 8px;
-      z-index: 3;
-      width: 30px;
-      height: 30px;
+      top: 6px;
+      right: 6px;
+      z-index: 5;
+      width: 32px;
+      height: 32px;
       padding: 0;
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 8px;
-      border: 1px solid var(--third-bg);
-      background: var(--button-bg);
-      color: var(--text-color);
-      font-size: 16px;
+      border: 1px solid var(--third-bg, #444f60);
+      background: var(--button-bg, #2b384d);
+      color: var(--text-color, #d5dce8);
+      font-size: 17px;
       line-height: 1;
       cursor: pointer;
+      pointer-events: auto;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
       transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
     }
+    /* Grows the hit target ~10px past the button so the centre AND edges work. */
+    .thunder-ad-close::before {
+      content: "";
+      position: absolute;
+      inset: -10px;
+      border-radius: 12px;
+    }
+    /* The glyph is decoration only - clicks must land on the button itself. */
+    .thunder-ad-close i {
+      pointer-events: none;
+    }
     .thunder-ad-close:hover:not(:disabled) {
-      background: var(--button-hover);
+      background: var(--button-hover, #3c4a5d);
     }
     .thunder-ad-close:focus-visible {
-      outline: 2px solid var(--accent);
+      outline: 2px solid var(--accent, var(--primary, #a4b8db));
       outline-offset: 2px;
     }
     .thunder-ad-close:disabled {
       cursor: default;
-      font-size: 12px;
-      font-weight: 700;
-      opacity: 0.85;
-      color: var(--accent);
+      opacity: 0.5;
     }
     .thunder-ad-frame {
       width: 100%;
@@ -112,7 +123,7 @@
       min-height: 14px;
       text-align: right;
       font-size: 11px;
-      color: var(--secondary-text-color);
+      color: var(--secondary-text-color, #d5dce8);
       opacity: 0.7;
     }
     .thunder-ad-hint:empty {
@@ -137,8 +148,8 @@
       margin: 0;
       padding: 10px 16px;
       box-sizing: border-box;
-      background-color: var(--bg);
-      background-color: color-mix(in srgb, var(--bg) 75%, transparent);
+      background-color: var(--bg, #0a111d);
+      background-color: color-mix(in srgb, var(--bg, #0a111d) 75%, transparent);
       -webkit-backdrop-filter: blur(6px);
       backdrop-filter: blur(6px);
     }
@@ -155,6 +166,19 @@
     style.id = STYLE_ID;
     style.textContent = CSS;
     document.head.appendChild(style);
+  }
+
+  /**
+   * Safety net: if this document never got its theme stylesheet (e.g. theme.js
+   * was cached out or failed), re-run it so --bg / --fourth-bg / --button-bg
+   * exist before the popup paints.
+   */
+  function ensureTheme() {
+    try {
+      if (window.applyVtheme && !document.getElementById("theme-link")) {
+        window.applyVtheme();
+      }
+    } catch (e) {}
   }
 
   function clearCountdown() {
@@ -177,6 +201,7 @@
     options = options || {};
     close(true);
     ensureStyle();
+    ensureTheme();
 
     const lockSeconds =
       typeof options.lockSeconds === "number"
@@ -196,6 +221,7 @@
     const closeBtn = document.createElement("button");
     closeBtn.type = "button";
     closeBtn.className = "thunder-ad-close";
+    closeBtn.innerHTML = '<i class="ri-close-line"></i>';
 
     const label = document.createElement("div");
     label.className = "thunder-ad-label";
@@ -226,7 +252,6 @@
     function tick() {
       if (lockRemaining > 0) {
         closeBtn.disabled = true;
-        closeBtn.textContent = String(lockRemaining);
         closeBtn.setAttribute(
           "aria-label",
           `Close ad in ${lockRemaining} second${lockRemaining === 1 ? "" : "s"}`
@@ -237,7 +262,6 @@
       }
       clearCountdown();
       closeBtn.disabled = false;
-      closeBtn.innerHTML = '<i class="ri-close-line"></i>';
       closeBtn.setAttribute("aria-label", "Close ad");
       hint.textContent = "";
     }
@@ -267,6 +291,7 @@
   function showDocked(options) {
     options = options || {};
     ensureStyle();
+    ensureTheme();
     if (dock) dock.remove();
 
     const container = options.container || document.body;

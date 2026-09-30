@@ -678,7 +678,9 @@ async function playGame(url, isDirectLoad, gameName, isNowgg, isPrx) {
 document.addEventListener("mousedown", (e) => {
   if (
     gameOverlay.classList.contains("view-active") &&
-    !e.target.closest("#button-panel")
+    !e.target.closest("#button-panel") &&
+    // Don't yank focus into the game iframe mid-click while the ad popup is up.
+    !e.target.closest(".thunder-ad-popup")
   ) {
     setTimeout(() => iframe.focus(), 10);
   }
