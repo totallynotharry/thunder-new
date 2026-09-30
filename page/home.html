@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="/style/all.css" />
     <script src="/script/theme.js"></script>
+    <script src="/script/ad-popup.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-PPE9RTDYDG"
@@ -550,6 +551,15 @@
             console.error("vanta.js fog failed to load:", e);
           }
         }, 450);
+
+        setTimeout(() => {
+          if (window.ThunderAdPopup) {
+            // Sticky, non-closable ad docked above the "813 games..." footer text.
+            ThunderAdPopup.showDocked({
+              container: document.querySelector(".footer-info-container"),
+            });
+          }
+        }, 700);
       }
 
       document.addEventListener("DOMContentLoaded", async () => {

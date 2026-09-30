@@ -54,69 +54,14 @@ function pickRandomGames(count = 3) {
   return shuffled.slice(0, count);
 }
 
-const AADS_AD_UNIT = "2456981";
-let gameAdPopup = null;
+// The ad popup itself lives in /script/ad-popup.js (shared with the home page).
+function showGameAdPopup() {
+  if (window.ThunderAdPopup) window.ThunderAdPopup.show();
+}
 
 function closeGameAdPopup() {
-  if (gameAdPopup) {
-    gameAdPopup.remove();
-    gameAdPopup = null;
-  }
+  if (window.ThunderAdPopup) window.ThunderAdPopup.close(true);
 }
-
-function showGameAdPopup() {
-  closeGameAdPopup();
-
-  const overlay = document.createElement("div");
-  overlay.id = "game-ad-popup";
-  overlay.style.cssText =
-    "position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:100000;display:flex;align-items:center;justify-content:center;padding:16px;";
-
-  const card = document.createElement("div");
-  card.style.cssText =
-    "position:relative;width:min(520px,100%);background:#111827;color:#e5e7eb;border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:16px;box-shadow:0 20px 50px rgba(0,0,0,.5);font-family:inherit;";
-
-  const closeBtn = document.createElement("button");
-  closeBtn.type = "button";
-  closeBtn.setAttribute("aria-label", "Close ad");
-  closeBtn.innerHTML = '<i class="ri-close-line"></i>';
-  closeBtn.style.cssText =
-    "position:absolute;top:8px;right:8px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid rgba(255,255,255,.15);background:#1f2937;color:#e5e7eb;cursor:pointer;font-size:16px;line-height:1;";
-
-  const label = document.createElement("div");
-  label.textContent = "Advertisement";
-  label.style.cssText =
-    "font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:10px;padding-right:34px;";
-
-  // BEGIN AADS AD UNIT 2456981
-  const adFrame = document.createElement("div");
-  adFrame.id = "frame";
-  adFrame.style.cssText = "width:100%;margin:auto;position:relative;z-index:99998;";
-
-  const adIframe = document.createElement("iframe");
-  adIframe.setAttribute("data-aa", AADS_AD_UNIT);
-  adIframe.src = `https://acceptable.a-ads.com/${AADS_AD_UNIT}/?size=Adaptive`;
-  adIframe.style.cssText =
-    "border:0;padding:0;width:70%;height:auto;overflow:hidden;display:block;margin:auto;";
-  adFrame.appendChild(adIframe);
-  // END AADS AD UNIT 2456981
-
-  card.appendChild(closeBtn);
-  card.appendChild(label);
-  card.appendChild(adFrame);
-  overlay.appendChild(card);
-  document.body.appendChild(overlay);
-  gameAdPopup = overlay;
-
-  closeBtn.addEventListener("click", closeGameAdPopup);
-  overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) closeGameAdPopup();
-  });
-}
-
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeGameAdPopup();
-});
 
 function showGameUnavailablePopup(gameName) {
   closeGameAdPopup();
