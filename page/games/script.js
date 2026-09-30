@@ -54,21 +54,8 @@ function pickRandomGames(count = 3) {
   return shuffled.slice(0, count);
 }
 
-const ADSENSE_CLIENT = "ca-pub-9728650971634720";
-const ADSENSE_SLOT = "6157592034";
+const AADS_AD_UNIT = "2456981";
 let gameAdPopup = null;
-
-function loadAdsenseScript() {
-  if (document.querySelector("script[data-thunder-adsense]")) return;
-  const script = document.createElement("script");
-  script.async = true;
-  script.crossOrigin = "anonymous";
-  script.setAttribute("data-thunder-adsense", "true");
-  script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
-  // Don't leave an empty popup behind if the loader is blocked (e.g. ad blockers).
-  script.addEventListener("error", closeGameAdPopup);
-  document.head.appendChild(script);
-}
 
 function closeGameAdPopup() {
   if (gameAdPopup) {
@@ -79,7 +66,6 @@ function closeGameAdPopup() {
 
 function showGameAdPopup() {
   closeGameAdPopup();
-  loadAdsenseScript();
 
   const overlay = document.createElement("div");
   overlay.id = "game-ad-popup";
@@ -102,28 +88,25 @@ function showGameAdPopup() {
   label.style.cssText =
     "font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:10px;padding-right:34px;";
 
-  const slot = document.createElement("div");
-  slot.style.cssText = "min-height:120px;";
+  // BEGIN AADS AD UNIT 2456981
+  const adFrame = document.createElement("div");
+  adFrame.id = "frame";
+  adFrame.style.cssText = "width:100%;margin:auto;position:relative;z-index:99998;";
 
-  const ins = document.createElement("ins");
-  ins.className = "adsbygoogle";
-  ins.style.display = "block";
-  ins.setAttribute("data-ad-client", ADSENSE_CLIENT);
-  ins.setAttribute("data-ad-slot", ADSENSE_SLOT);
-  ins.setAttribute("data-ad-format", "auto");
-  ins.setAttribute("data-full-width-responsive", "true");
-  slot.appendChild(ins);
+  const adIframe = document.createElement("iframe");
+  adIframe.setAttribute("data-aa", AADS_AD_UNIT);
+  adIframe.src = `https://acceptable.a-ads.com/${AADS_AD_UNIT}/?size=Adaptive`;
+  adIframe.style.cssText =
+    "border:0;padding:0;width:70%;height:auto;overflow:hidden;display:block;margin:auto;";
+  adFrame.appendChild(adIframe);
+  // END AADS AD UNIT 2456981
 
   card.appendChild(closeBtn);
   card.appendChild(label);
-  card.appendChild(slot);
+  card.appendChild(adFrame);
   overlay.appendChild(card);
   document.body.appendChild(overlay);
   gameAdPopup = overlay;
-
-  try {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  } catch (e) {}
 
   closeBtn.addEventListener("click", closeGameAdPopup);
   overlay.addEventListener("click", (e) => {
