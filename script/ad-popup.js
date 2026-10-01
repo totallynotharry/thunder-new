@@ -32,6 +32,31 @@
   // and it anchors itself to its own script tag - so it belongs in the box.
   const AD_LOADER_SRC =
     "https://pl31609483.profitableratecpmnetwork.com/90/e3/fb/90e3fba52de49dff491775fac150217e.js";
+  // The Social Bar (pl tag) floats over the page and never leaves on its own:
+  // show a visible countdown and auto-close it after a minute.
+  const SOCIAL_AD_SECONDS = 60;
+  const BADGE_ID = "thunder-ad-badge";
+  // Matched against ancestors - anything inside these is never auto-closed
+  // (site UI: error overlay / reveal screen, and our own banner area).
+  const NEVER_CLOSE = [
+    "#game-unavailable-overlay",
+    ".initial-overlay",
+    "#menu-dismiss-overlay",
+    ".thunder-ad-fit",
+  ];
+  // Matched on the node itself - our own popup/dock chrome.
+  const OUR_CHROME = [
+    "thunder-ad-popup",
+    "thunder-ad-close",
+    "thunder-ad-card",
+    "thunder-ad-label",
+    "thunder-ad-hint",
+    "thunder-ad-dock",
+    "thunder-ad-fit",
+    "thunder-ad-fit-inner",
+    "thunder-ad-slot",
+    "thunder-ad-badge",
+  ];
   const DEFAULT_LOCK_SECONDS = 5;
   const STYLE_ID = "thunder-ad-popup-style";
 
@@ -181,6 +206,27 @@
       -webkit-backdrop-filter: blur(6px);
       backdrop-filter: blur(6px);
     }
+    /* Countdown shown while a Social Bar ad is waiting to auto-close.
+       Click it to close the ad immediately. */
+    .thunder-ad-badge {
+      position: fixed;
+      z-index: 2147483647;
+      padding: 4px 9px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      line-height: 1.3;
+      color: var(--text-color, #d5dce8);
+      background: var(--fourth-bg, #212630);
+      border: 1px solid rgba(var(--cb, 164, 184, 219), 0.25);
+      border-radius: 999px;
+      cursor: pointer;
+      user-select: none;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+    }
+    .thunder-ad-badge:hover {
+      background: var(--button-hover, #3c4a5d);
+    }
   `;
 
   let popup = null;
@@ -190,6 +236,12 @@
   let fits = [];
   let countdownTimer = null;
   let lockRemaining = 0;
+  // Social Bar auto-close state.
+  let socialObserver = null;
+  let socialTargets = null;
+  let socialBadge = null;
+  let socialTimer = null;
+  let socialLeft = SOCIAL_AD_SECONDS;
 
   function ensureStyle() {
     if (document.getElementById(STYLE_ID)) return;
@@ -279,6 +331,10 @@
     adSlot.appendChild(options);
     adSlot.appendChild(invoke);
     adSlot.appendChild(loader);
+
+    // From here on, watch for the Social Bar this loader may paint so it can
+    // be counted down and closed after a minute.
+    startSocialWatch();
 
     return adSlot;
   }
@@ -416,6 +472,154 @@
     // networks inject a second element) - take one more measurement pass.
     setTimeout(applyFits, 1500);
     return outer;
+  }
+
+  function positionOf(node) {
+    try {
+      return window.getComputedStyle(node).position;
+    } catch (e) {
+      return "static";
+    }
+  }
+
+  /**
+   * The Social Bar (pl tag) paints a floating overlay and then stays put, so
+   * we watch for it and give it a minute. Anything eligible must be:
+   *  - an element (never the scripts/styles the tags add),
+   *  - not our popup/dock chrome and not site UI (error overlay, reveal, ...),
+   *  - positioned (fixed/sticky/absolute) - in-flow content such as the banner
+   *    creative or page text is never touched.
+   */
+  function isSocialAdCandidate(node) {
+    if (!node || node.nodeType !== 1) return false;
+    const tag = String(node.tagName).toUpperCase();
+    if (
+      tag === "SCRIPT" ||
+      tag === "STYLE" ||
+      tag === "LINK" ||
+      tag === "META" ||
+      tag === "NOSCRIPT" ||
+      tag === "IFRAME"
+    )
+      return false;
+    if (node.id === STYLE_ID || node.id === BADGE_ID) return false;
+
+    const classes =
+      typeof node.className === "string" ? node.className.split(/\s+/) : [];
+    for (let i = 0; i < OUR_CHROME.length; i++) {
+      if (classes.indexOf(OUR_CHROME[i]) !== -1) return false;
+    }
+    if (node.closest) {
+      for (let i = 0; i < NEVER_CLOSE.length; i++) {
+        try {
+          if (node.closest(NEVER_CLOSE[i])) return false;
+        } catch (e) {}
+      }
+    }
+
+    const pos = positionOf(node);
+    return pos === "fixed" || pos === "sticky" || pos === "absolute";
+  }
+
+  function considerSocialNode(node) {
+    if (!isSocialAdCandidate(node)) return;
+    if (!socialTargets) socialTargets = new Set();
+    if (socialTargets.has(node)) return;
+    socialTargets.add(node);
+    startSocialCountdown(node);
+  }
+
+  function startSocialWatch() {
+    if (socialObserver || !window.MutationObserver || !document.documentElement)
+      return;
+    socialObserver = new MutationObserver((records) => {
+      records.forEach((record) => {
+        if (record.type !== "childList") return;
+        record.addedNodes.forEach((node) => considerSocialNode(node));
+      });
+    });
+    socialObserver.observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+    });
+  }
+
+  function positionSocialBadge(node) {
+    if (!socialBadge) return;
+    let placed = false;
+    try {
+      if (node && typeof node.getBoundingClientRect === "function") {
+        const rect = node.getBoundingClientRect();
+        const vw = window.innerWidth;
+        if (
+          rect &&
+          typeof rect.top === "number" &&
+          typeof rect.right === "number" &&
+          typeof vw === "number"
+        ) {
+          socialBadge.style.top = Math.max(6, rect.top - 30) + "px";
+          socialBadge.style.right = Math.max(6, vw - rect.right + 6) + "px";
+          placed = true;
+        }
+      }
+    } catch (e) {}
+    if (!placed) {
+      socialBadge.style.top = "6px";
+      socialBadge.style.right = "6px";
+    }
+  }
+
+  function ensureSocialBadge(node) {
+    if (!socialBadge) {
+      socialBadge = document.createElement("div");
+      socialBadge.className = "thunder-ad-badge";
+      socialBadge.id = BADGE_ID;
+      socialBadge.title = "Click to close this ad now";
+      socialBadge.addEventListener("click", () => closeSocialAd());
+      document.body.appendChild(socialBadge);
+    }
+    positionSocialBadge(node);
+  }
+
+  function renderSocialBadge() {
+    if (!socialBadge) return;
+    socialBadge.textContent = "ad closes in " + socialLeft + "s";
+  }
+
+  function startSocialCountdown(node) {
+    ensureSocialBadge(node);
+    if (socialTimer) return; // one clock covers every node of this ad
+    socialLeft = SOCIAL_AD_SECONDS;
+    renderSocialBadge();
+    socialTimer = setInterval(socialTick, 1000);
+  }
+
+  function socialTick() {
+    socialLeft -= 1;
+    if (socialLeft < 0) socialLeft = 0;
+    renderSocialBadge();
+    if (socialLeft <= 0) closeSocialAd();
+  }
+
+  /** Manual close (badge click) or the 60s timer: drop the ad and its badge. */
+  function closeSocialAd() {
+    if (socialTimer) {
+      clearInterval(socialTimer);
+      socialTimer = null;
+    }
+    if (socialTargets) {
+      socialTargets.forEach((node) => {
+        try {
+          node.remove();
+        } catch (e) {}
+      });
+      socialTargets = null;
+    }
+    if (socialBadge) {
+      socialBadge.remove();
+      socialBadge = null;
+    }
+    socialLeft = SOCIAL_AD_SECONDS;
   }
 
   function show(options) {
