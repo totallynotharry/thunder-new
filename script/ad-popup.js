@@ -1,5 +1,5 @@
 /**
- * THUNDER shared ad popup (Monetag zone 11931853).
+ * THUNDER shared ad popup (Adsterra inline banner units).
  *
  * Usage:
  *   ThunderAdPopup.show();                 // show with the default 5s lock on the X
@@ -13,8 +13,25 @@
  * so the popup follows whatever theme is active.
  */
 (function () {
-  const MONETAG_ZONE = "11931853";
-  const MONETAG_SRC = "https://nap5k.com/tag.min.js";
+  // Adsterra banner units (format: 'iframe'). Rebuilt from the snippet their
+  // dashboard gives out:
+  //   <script>atOptions = {'key':…,'format':'iframe','height':250,'width':300,
+  //     'params':{}};</script>
+  //   <script src="https://www.highrevenueformat.com/<key>/invoke.js"></script>
+  //
+  // One snippet per document: the slot is built once and reused, so a document
+  // never mounts two units (they share the one global atOptions and would race).
+  const AD_UNITS = {
+    popup: { key: "1fda902d1c0aca61e4cbabe3dfd67ae9", width: 300, height: 250 },
+    // TODO: replace with the 728x90 leaderboard unit for the home dock.
+    // Reusing the 300x250 until that snippet exists so Home still shows an ad.
+    dock: { key: "1fda902d1c0aca61e4cbabe3dfd67ae9", width: 300, height: 250 },
+  };
+  const AD_HOST = "https://www.highrevenueformat.com";
+  // Second Adsterra placement (pl<id> loader): no atOptions, async by design,
+  // and it anchors itself to its own script tag - so it belongs in the box.
+  const AD_LOADER_SRC =
+    "https://pl31609483.profitableratecpmnetwork.com/90/e3/fb/90e3fba52de49dff491775fac150217e.js";
   const DEFAULT_LOCK_SECONDS = 5;
   const STYLE_ID = "thunder-ad-popup-style";
 
@@ -22,6 +39,8 @@
     .thunder-ad-popup {
       position: fixed;
       inset: 0;
+      /* The banner renders INSIDE the card, so nothing has to paint above this
+         overlay - keep it well clear of #game-overlay (1000) / filters (999). */
       z-index: 100000;
       display: flex;
       align-items: center;
@@ -107,8 +126,25 @@
     .thunder-ad-slot {
       position: relative;
       z-index: 1;
+      /* invoke.js drops its creative next to its own tag, i.e. inside this
+         box - centre it so a 300x250 / 728x90 sits evenly in the card. */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
       width: 100%;
       min-height: 60px;
+    }
+    /* Fixed-size banner units are scaled down to the room the box actually
+       has, so a 728x90 dock or a 300x250 popup never overflows a phone. */
+    .thunder-ad-fit {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .thunder-ad-fit-inner {
+      transform-origin: top left;
     }
     .thunder-ad-hint {
       margin-top: 10px;
@@ -150,6 +186,8 @@
   let popup = null;
   let dock = null;
   let adSlot = null;
+  // Live banner fit boxes, re-measured on resize (stale ones are pruned).
+  let fits = [];
   let countdownTimer = null;
   let lockRemaining = 0;
 
@@ -191,29 +229,122 @@
   }
 
   /**
-   * Monetag tag, equivalent to pasting this snippet in the page:
-   *   <script>(function(s){s.dataset.zone='11931853',
-   *     s.src='https://nap5k.com/tag.min.js'})(...)
-   *     [document.documentElement, document.body].filter(Boolean)
-   *       .pop().appendChild(document.createElement('script')))</script>
+   * The Adsterra snippet for `kind`, rebuilt as script elements inside the slot
+   * so the creative lands inside our box rather than somewhere on the page:
+   *   1. an inline script assigning the global atOptions (key / format /
+   *      height / width), exactly like their snippet
+   *   2. invoke.js with async=false so it always runs after step 1
    *
-   * The slot is built once per document and reused across popup opens: the tag
-   * only executes the first time the slot is inserted, so reopening a game
-   * never piles up duplicate Monetag tags (and anything the tag injects into
-   * the slot travels with it).
+   * invoke.js contains no document.write: it builds an iframe and inserts it
+   * next to its own script tag (script[src$=…] -> parentNode.insertBefore),
+   * which from here is inside .thunder-ad-slot - i.e. inside the popup card or
+   * the footer dock.
+   *
+   * The slot is built once per document and reused across opens: re-inserting
+   * an already-inserted script does not execute it again, so reopening a game
+   * never piles up duplicate units (and exactly one atOptions ever exists).
    */
-  function getAdSlot() {
+  function getAdSlot(kind) {
     if (adSlot) return adSlot;
+
+    const unit = AD_UNITS[kind] || AD_UNITS.popup;
 
     adSlot = document.createElement("div");
     adSlot.className = "thunder-ad-slot";
+    adSlot.style.minHeight = unit.height + "px";
 
-    const tag = document.createElement("script");
-    tag.setAttribute("data-zone", MONETAG_ZONE);
-    tag.src = MONETAG_SRC;
-    adSlot.appendChild(tag);
+    const options = document.createElement("script");
+    options.textContent =
+      "atOptions = { 'key' : '" +
+      unit.key +
+      "', 'format' : 'iframe', 'height' : " +
+      unit.height +
+      ", 'width' : " +
+      unit.width +
+      ", 'params' : {} };";
+
+    const invoke = document.createElement("script");
+    invoke.src = AD_HOST + "/" + unit.key + "/invoke.js";
+    invoke.async = false;
+    invoke.addEventListener("load", applyFits);
+
+    // Second unit: the pl<id> loader. Independent of atOptions, so it just
+    // rides along in the same slot (and therefore in the same box).
+    const loader = document.createElement("script");
+    loader.src = AD_LOADER_SRC;
+    loader.async = true;
+    loader.setAttribute("data-cfasync", "false");
+    loader.addEventListener("load", applyFits);
+
+    adSlot.appendChild(options);
+    adSlot.appendChild(invoke);
+    adSlot.appendChild(loader);
 
     return adSlot;
+  }
+
+  function inDocument(node) {
+    let n = node;
+    while (n) {
+      if (n === document.body) return true;
+      n = n.parentNode || n.parent || null;
+    }
+    return false;
+  }
+
+  /**
+   * Banner units are sold at fixed sizes (300x250, 728x90), so instead of
+   * letting them overflow a narrow box we scale the creative to whatever room
+   * the box really has: measure the wrapper while it is fluid, then pin it to
+   * the scaled size so the card/dock reserves exactly the right height.
+   */
+  function applyFit(entry) {
+    const outer = entry.outer;
+    outer.style.width = "";
+    outer.style.height = "";
+    const avail = outer.clientWidth;
+    if (!(avail > 0)) return;
+    // The unit's nominal size is the floor, but if either tag renders
+    // something bigger alongside it, scale to the real content instead of
+    // clipping it.
+    const naturalW = Math.max(entry.unit.width, entry.inner.scrollWidth || 0);
+    const naturalH = Math.max(entry.unit.height, entry.inner.scrollHeight || 0);
+    const scale = Math.min(1, avail / naturalW);
+    outer.style.width = Math.max(1, Math.round(naturalW * scale)) + "px";
+    outer.style.height = Math.max(1, Math.round(naturalH * scale)) + "px";
+    entry.inner.style.transform = "scale(" + scale + ")";
+  }
+
+  function applyFits() {
+    for (let i = fits.length - 1; i >= 0; i--) {
+      const entry = fits[i];
+      if (!inDocument(entry.outer)) fits.splice(i, 1);
+      else applyFit(entry);
+    }
+  }
+
+  if (window.addEventListener) window.addEventListener("resize", applyFits);
+
+  /** The scaling wrapper around one banner unit (inner is the unscaled 300x250
+   *  / 728x90 box; the slot with the Adsterra snippet lives inside it). */
+  function makeBanner(kind) {
+    const unit = AD_UNITS[kind] || AD_UNITS.popup;
+
+    const outer = document.createElement("div");
+    outer.className = "thunder-ad-fit";
+
+    const inner = document.createElement("div");
+    inner.className = "thunder-ad-fit-inner";
+    inner.style.width = unit.width + "px";
+    inner.style.height = unit.height + "px";
+    inner.appendChild(getAdSlot(kind));
+
+    outer.appendChild(inner);
+    fits.push({ outer: outer, inner: inner, unit: unit });
+    // Creatives can arrive after their tags report load (and after that, some
+    // networks inject a second element) - take one more measurement pass.
+    setTimeout(applyFits, 1500);
+    return outer;
   }
 
   function show(options) {
@@ -251,11 +382,12 @@
 
     card.appendChild(closeBtn);
     card.appendChild(label);
-    card.appendChild(getAdSlot());
+    card.appendChild(makeBanner("popup"));
     card.appendChild(hint);
     overlay.appendChild(card);
     document.body.appendChild(overlay);
     popup = overlay;
+    applyFits();
 
     function tick() {
       if (lockRemaining > 0) {
@@ -314,12 +446,13 @@
     label.textContent = "Advertisement";
 
     bar.appendChild(label);
-    bar.appendChild(getAdSlot());
+    bar.appendChild(makeBanner("dock"));
     // Insert at the top of the container so the ad sits above existing content
     // (e.g. above the "813 games and counting! v2" footer text on Home).
     if (options.container) container.insertBefore(bar, container.firstChild);
     else container.appendChild(bar);
     dock = bar;
+    applyFits();
     return bar;
   }
 
