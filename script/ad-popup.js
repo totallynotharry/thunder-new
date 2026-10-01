@@ -25,7 +25,14 @@
     popup: { key: "1fda902d1c0aca61e4cbabe3dfd67ae9", width: 300, height: 250 },
     // TODO: replace with the 728x90 leaderboard unit for the home dock.
     // Reusing the 300x250 until that snippet exists so Home still shows an ad.
-    dock: { key: "1fda902d1c0aca61e4cbabe3dfd67ae9", width: 300, height: 250 },
+    // displayScale: the creative itself is sold at a fixed size, so the only
+    // way to show it smaller is to scale it down - Home asks for 85%.
+    dock: {
+      key: "1fda902d1c0aca61e4cbabe3dfd67ae9",
+      width: 300,
+      height: 250,
+      displayScale: 0.85,
+    },
   };
   const AD_HOST = "https://www.highrevenueformat.com";
   // Second Adsterra placement (pl<id> loader): no atOptions, async by design,
@@ -164,6 +171,9 @@
     /* Fixed-size banner units are scaled down to the room the box actually
        has, so a 728x90 dock or a 300x250 popup never overflows a phone. */
     .thunder-ad-fit {
+      /* Also the positioning context for the dock's hide ✕, which must sit on
+         the ad itself (the bar is full width - the ✕ would end up miles away). */
+      position: relative;
       width: 100%;
       margin: 0 auto;
       overflow: hidden;
@@ -226,6 +236,48 @@
     }
     .thunder-ad-badge:hover {
       background: var(--button-hover, #3c4a5d);
+    }
+    /* Hide-for-this-visit control on the home dock (temporary: nothing is
+       stored, so the ad returns on the next page load). */
+    .thunder-ad-hide {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      z-index: 6;
+      width: 26px;
+      height: 26px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      border: 1px solid var(--third-bg, #444f60);
+      background: var(--button-bg, #2b384d);
+      color: var(--text-color, #d5dce8);
+      font-size: 15px;
+      line-height: 1;
+      cursor: pointer;
+      pointer-events: auto;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    /* Grows the hit target past the button so the edges work too. */
+    .thunder-ad-hide::before {
+      content: "";
+      position: absolute;
+      inset: -8px;
+      border-radius: 12px;
+    }
+    .thunder-ad-hide i {
+      pointer-events: none;
+    }
+    .thunder-ad-hide:hover {
+      background: var(--button-hover, #3c4a5d);
+    }
+    .thunder-ad-hide:focus-visible {
+      outline: 2px solid var(--accent, var(--primary, #a4b8db));
+      outline-offset: 2px;
     }
   `;
 
@@ -380,6 +432,11 @@
     entry.naturalH = Math.max(entry.unit.height, entry.inner.scrollHeight || 0);
 
     let scale = Math.min(1, avail / entry.naturalW);
+    // Per-unit size preference: e.g. Home wants its dock shown a bit smaller
+    // than the unit's full size (85%), never bigger.
+    if (entry.unit.displayScale > 0 && entry.unit.displayScale < 1) {
+      scale = Math.min(scale, entry.unit.displayScale);
+    }
 
     // Height budget: never let the box outrun a short viewport (Chromebooks,
     // small windows) - reserve the room the surrounding furniture needs.
@@ -698,10 +755,14 @@
   });
 
   /**
-   * Sticky bottom ad with no close button. When `options.container` is given the
-   * ad is appended inside it (so it can sit directly above existing bottom
-   * content, e.g. the home page footer text); otherwise a fixed bottom bar is
-   * used. Never affected by close() / Escape.
+   * Sticky bottom ad. When `options.container` is given the ad is appended
+   * inside it (so it can sit directly above existing bottom content, e.g. the
+   * home page footer text); otherwise a fixed bottom bar is used. Never
+   * affected by close() / Escape.
+   *
+   * Unless `options.hideable === false` it carries a small ✕ that hides it for
+   * the rest of this page load only - nothing is written anywhere, so a reload
+   * brings the ad straight back.
    */
   function showDocked(options) {
     options = options || {};
@@ -715,15 +776,39 @@
     bar.className = options.container
       ? "thunder-ad-dock"
       : "thunder-ad-dock thunder-ad-dock--fixed";
+    if (options.hideable !== false) bar.className += " thunder-ad-dock--hideable";
 
     const label = document.createElement("div");
     label.className = "thunder-ad-label";
     label.textContent = "Advertisement";
 
     bar.appendChild(label);
-    bar.appendChild(
-      makeBanner("dock", { clearOf: options.clearOf, anchorBox: bar })
-    );
+
+    const banner = makeBanner("dock", {
+      clearOf: options.clearOf,
+      anchorBox: bar,
+    });
+
+    // Temporary hide: only affects this page load - no storage, so reloading
+    // the page brings the ad back exactly as before. The button is appended to
+    // the ad box itself (.thunder-ad-fit is position:relative and is pinned to
+    // the scaled creative's exact size), so it lands on the square ad's corner
+    // instead of the far edge of the full-width bar.
+    if (options.hideable !== false) {
+      const hideBtn = document.createElement("button");
+      hideBtn.type = "button";
+      hideBtn.className = "thunder-ad-hide";
+      hideBtn.setAttribute("aria-label", "Hide this ad for this visit");
+      hideBtn.title = "Hide ad (comes back on reload)";
+      hideBtn.innerHTML = '<i class="ri-close-line"></i>';
+      hideBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        hideDockForNow();
+      });
+      banner.appendChild(hideBtn);
+    }
+
+    bar.appendChild(banner);
     // Insert at the top of the container so the ad sits above existing content
     // (e.g. above the "813 games and counting! v2" footer text on Home).
     if (options.container) container.insertBefore(bar, container.firstChild);
@@ -738,6 +823,24 @@
       dock.remove();
       dock = null;
     }
+  }
+
+  /**
+   * Hide button handler: drop the dock for this page load only (no storage, so
+   * the next load shows it again). If the Social Bar countdown belongs to an ad
+   * living inside the dock, end that too so no orphaned badge is left behind.
+   */
+  function hideDockForNow() {
+    if (socialTargets) {
+      let insideDock = false;
+      socialTargets.forEach((node) => {
+        try {
+          if (node.closest && node.closest(".thunder-ad-dock")) insideDock = true;
+        } catch (e) {}
+      });
+      if (insideDock) closeSocialAd();
+    }
+    removeDock();
   }
 
   window.ThunderAdPopup = { show: show, close: close, showDocked: showDocked, removeDock: removeDock };
