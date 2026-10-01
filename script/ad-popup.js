@@ -1,5 +1,5 @@
 /**
- * THUNDER shared ad popup (A-Ads unit 2456981).
+ * THUNDER shared ad popup (Monetag zone 11931853).
  *
  * Usage:
  *   ThunderAdPopup.show();                 // show with the default 5s lock on the X
@@ -13,7 +13,8 @@
  * so the popup follows whatever theme is active.
  */
 (function () {
-  const AADS_AD_UNIT = "2456981";
+  const MONETAG_ZONE = "11931853";
+  const MONETAG_SRC = "https://nap5k.com/tag.min.js";
   const DEFAULT_LOCK_SECONDS = 5;
   const STYLE_ID = "thunder-ad-popup-style";
 
@@ -103,20 +104,11 @@
       cursor: default;
       opacity: 0.5;
     }
-    .thunder-ad-frame {
-      width: 100%;
-      margin: auto;
+    .thunder-ad-slot {
       position: relative;
       z-index: 1;
-    }
-    .thunder-ad-frame iframe {
-      border: 0;
-      padding: 0;
-      width: 70%;
-      height: auto;
-      overflow: hidden;
-      display: block;
-      margin: auto;
+      width: 100%;
+      min-height: 60px;
     }
     .thunder-ad-hint {
       margin-top: 10px;
@@ -157,6 +149,7 @@
 
   let popup = null;
   let dock = null;
+  let adSlot = null;
   let countdownTimer = null;
   let lockRemaining = 0;
 
@@ -197,6 +190,32 @@
     lockRemaining = 0;
   }
 
+  /**
+   * Monetag tag, equivalent to pasting this snippet in the page:
+   *   <script>(function(s){s.dataset.zone='11931853',
+   *     s.src='https://nap5k.com/tag.min.js'})(...)
+   *     [document.documentElement, document.body].filter(Boolean)
+   *       .pop().appendChild(document.createElement('script')))</script>
+   *
+   * The slot is built once per document and reused across popup opens: the tag
+   * only executes the first time the slot is inserted, so reopening a game
+   * never piles up duplicate Monetag tags (and anything the tag injects into
+   * the slot travels with it).
+   */
+  function getAdSlot() {
+    if (adSlot) return adSlot;
+
+    adSlot = document.createElement("div");
+    adSlot.className = "thunder-ad-slot";
+
+    const tag = document.createElement("script");
+    tag.setAttribute("data-zone", MONETAG_ZONE);
+    tag.src = MONETAG_SRC;
+    adSlot.appendChild(tag);
+
+    return adSlot;
+  }
+
   function show(options) {
     options = options || {};
     close(true);
@@ -227,23 +246,12 @@
     label.className = "thunder-ad-label";
     label.textContent = "Advertisement";
 
-    // BEGIN AADS AD UNIT 2456981
-    const adFrame = document.createElement("div");
-    adFrame.id = "frame";
-    adFrame.className = "thunder-ad-frame";
-
-    const adIframe = document.createElement("iframe");
-    adIframe.setAttribute("data-aa", AADS_AD_UNIT);
-    adIframe.src = `https://acceptable.a-ads.com/${AADS_AD_UNIT}/?size=Adaptive`;
-    adFrame.appendChild(adIframe);
-    // END AADS AD UNIT 2456981
-
     const hint = document.createElement("div");
     hint.className = "thunder-ad-hint";
 
     card.appendChild(closeBtn);
     card.appendChild(label);
-    card.appendChild(adFrame);
+    card.appendChild(getAdSlot());
     card.appendChild(hint);
     overlay.appendChild(card);
     document.body.appendChild(overlay);
@@ -305,19 +313,8 @@
     label.className = "thunder-ad-label";
     label.textContent = "Advertisement";
 
-    // BEGIN AADS AD UNIT 2456981
-    const adFrame = document.createElement("div");
-    adFrame.id = "frame";
-    adFrame.className = "thunder-ad-frame";
-
-    const adIframe = document.createElement("iframe");
-    adIframe.setAttribute("data-aa", AADS_AD_UNIT);
-    adIframe.src = `https://acceptable.a-ads.com/${AADS_AD_UNIT}/?size=Adaptive`;
-    adFrame.appendChild(adIframe);
-    // END AADS AD UNIT 2456981
-
     bar.appendChild(label);
-    bar.appendChild(adFrame);
+    bar.appendChild(getAdSlot());
     // Insert at the top of the container so the ad sits above existing content
     // (e.g. above the "813 games and counting! v2" footer text on Home).
     if (options.container) container.insertBefore(bar, container.firstChild);
