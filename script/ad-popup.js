@@ -298,21 +298,78 @@
    * the box really has: measure the wrapper while it is fluid, then pin it to
    * the scaled size so the card/dock reserves exactly the right height.
    */
+  const DOCK_CLEAR_GAP = 16; // px of breathing room under the logo
+  const MIN_BANNER_H = 70; // never shrink the ad out of existence
+
+  function setFitScale(entry, scale) {
+    entry.scale = scale;
+    entry.outer.style.width =
+      Math.max(1, Math.round(entry.naturalW * scale)) + "px";
+    entry.outer.style.height =
+      Math.max(1, Math.round(entry.naturalH * scale)) + "px";
+    entry.inner.style.transform = "scale(" + scale + ")";
+  }
+
   function applyFit(entry) {
     const outer = entry.outer;
     outer.style.width = "";
     outer.style.height = "";
     const avail = outer.clientWidth;
     if (!(avail > 0)) return;
+
     // The unit's nominal size is the floor, but if either tag renders
     // something bigger alongside it, scale to the real content instead of
     // clipping it.
-    const naturalW = Math.max(entry.unit.width, entry.inner.scrollWidth || 0);
-    const naturalH = Math.max(entry.unit.height, entry.inner.scrollHeight || 0);
-    const scale = Math.min(1, avail / naturalW);
-    outer.style.width = Math.max(1, Math.round(naturalW * scale)) + "px";
-    outer.style.height = Math.max(1, Math.round(naturalH * scale)) + "px";
-    entry.inner.style.transform = "scale(" + scale + ")";
+    entry.naturalW = Math.max(entry.unit.width, entry.inner.scrollWidth || 0);
+    entry.naturalH = Math.max(entry.unit.height, entry.inner.scrollHeight || 0);
+
+    let scale = Math.min(1, avail / entry.naturalW);
+
+    // Height budget: never let the box outrun a short viewport (Chromebooks,
+    // small windows) - reserve the room the surrounding furniture needs.
+    const vh = window.innerHeight || 0;
+    if (vh > 0) {
+      const reserve = entry.kind === "dock" ? 160 : 200;
+      const budget = vh - reserve;
+      if (budget > 60) scale = Math.min(scale, budget / entry.naturalH);
+    }
+
+    setFitScale(entry, scale);
+    keepClearOfAnchor(entry);
+  }
+
+  /**
+   * Home centres its logo (.content-container) and pins the ad to the bottom,
+   * so on a short screen the banner grows up over the logo. Shrink - never
+   * grow - until the top of the ad bar clears the anchor by DOCK_CLEAR_GAP.
+   */
+  function keepClearOfAnchor(entry) {
+    if (!entry.clearOf || !entry.anchorBox) return;
+    let anchor = null;
+    try {
+      anchor = document.querySelector(entry.clearOf);
+    } catch (e) {}
+    if (
+      !anchor ||
+      typeof anchor.getBoundingClientRect !== "function" ||
+      typeof entry.anchorBox.getBoundingClientRect !== "function"
+    )
+      return;
+
+    for (let i = 0; i < 8; i++) {
+      const barTop = entry.anchorBox.getBoundingClientRect().top;
+      const anchorBottom = anchor.getBoundingClientRect().bottom;
+      const overshoot = anchorBottom + DOCK_CLEAR_GAP - barTop;
+      if (!(overshoot > 0)) return; // already clear
+      const height = parseFloat(entry.outer.style.height) || 0;
+      if (!(height > 0)) return;
+      const next = height - overshoot;
+      if (!(next >= MIN_BANNER_H)) {
+        setFitScale(entry, Math.max(entry.scale * (MIN_BANNER_H / height), 0.1));
+        return;
+      }
+      setFitScale(entry, entry.scale * (next / height));
+    }
   }
 
   function applyFits() {
@@ -326,9 +383,13 @@
   if (window.addEventListener) window.addEventListener("resize", applyFits);
 
   /** The scaling wrapper around one banner unit (inner is the unscaled 300x250
-   *  / 728x90 box; the slot with the Adsterra snippet lives inside it). */
-  function makeBanner(kind) {
+   *  / 728x90 box; the slot with the Adsterra snippet lives inside it).
+   *  `meta.clearOf` = selector whose bottom edge the ad must stay below
+   *  (Home passes ".content-container" so the logo stays visible);
+   *  `meta.anchorBox` = the element to measure that clearance against. */
+  function makeBanner(kind, meta) {
     const unit = AD_UNITS[kind] || AD_UNITS.popup;
+    meta = meta || {};
 
     const outer = document.createElement("div");
     outer.className = "thunder-ad-fit";
@@ -340,7 +401,17 @@
     inner.appendChild(getAdSlot(kind));
 
     outer.appendChild(inner);
-    fits.push({ outer: outer, inner: inner, unit: unit });
+    fits.push({
+      outer: outer,
+      inner: inner,
+      unit: unit,
+      kind: kind,
+      clearOf: meta.clearOf || null,
+      anchorBox: meta.anchorBox || null,
+      naturalW: unit.width,
+      naturalH: unit.height,
+      scale: 1,
+    });
     // Creatives can arrive after their tags report load (and after that, some
     // networks inject a second element) - take one more measurement pass.
     setTimeout(applyFits, 1500);
@@ -446,7 +517,9 @@
     label.textContent = "Advertisement";
 
     bar.appendChild(label);
-    bar.appendChild(makeBanner("dock"));
+    bar.appendChild(
+      makeBanner("dock", { clearOf: options.clearOf, anchorBox: bar })
+    );
     // Insert at the top of the container so the ad sits above existing content
     // (e.g. above the "813 games and counting! v2" footer text on Home).
     if (options.container) container.insertBefore(bar, container.firstChild);
