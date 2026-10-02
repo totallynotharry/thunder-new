@@ -1,5 +1,5 @@
 /**
- * THUNDER shared ad popup (Adsterra inline banner units).
+ * THUNDER shared ad popup (A-Ads unit rendered inside a themed box).
  *
  * Usage:
  *   ThunderAdPopup.show();                 // show with the default 5s lock on the X
@@ -13,57 +13,20 @@
  * so the popup follows whatever theme is active.
  */
 (function () {
-  // Adsterra banner units (format: 'iframe'). Rebuilt from the snippet their
-  // dashboard gives out:
-  //   <script>atOptions = {'key':…,'format':'iframe','height':250,'width':300,
-  //     'params':{}};</script>
-  //   <script src="https://www.highrevenueformat.com/<key>/invoke.js"></script>
-  //
-  // One snippet per document: the slot is built once and reused, so a document
-  // never mounts two units (they share the one global atOptions and would race).
+  // A-Ads adaptive unit - the site's only ad platform. It is a plain iframe:
+  // no global config, no loader script, it just fills the box we give it.
+  // One unit per document - the slot is built once and reused, so a document
+  // never mounts a second iframe.
+  const AD_UNIT_ID = "2457264";
+  const AD_UNIT_SRC = "https://acceptable.a-ads.com/2457264/?size=Adaptive";
+  // Nominal box each placement reserves for the unit. The adaptive creative
+  // fills whatever box it gets; the fit wrapper scales that box down on narrow
+  // or short screens (displayScale lets a placement ask for less than full
+  // size - e.g. the home dock wants 85%).
   const AD_UNITS = {
-    popup: { key: "1fda902d1c0aca61e4cbabe3dfd67ae9", width: 300, height: 250 },
-    // TODO: replace with the 728x90 leaderboard unit for the home dock.
-    // Reusing the 300x250 until that snippet exists so Home still shows an ad.
-    // displayScale: the creative itself is sold at a fixed size, so the only
-    // way to show it smaller is to scale it down - Home asks for 85%.
-    dock: {
-      key: "1fda902d1c0aca61e4cbabe3dfd67ae9",
-      width: 300,
-      height: 250,
-      displayScale: 0.85,
-    },
+    popup: { width: 300, height: 250 },
+    dock: { width: 300, height: 250, displayScale: 0.85 },
   };
-  const AD_HOST = "https://www.highrevenueformat.com";
-  // Second Adsterra placement (pl<id> loader): no atOptions, async by design,
-  // and it anchors itself to its own script tag - so it belongs in the box.
-  const AD_LOADER_SRC =
-    "https://pl31609483.profitableratecpmnetwork.com/90/e3/fb/90e3fba52de49dff491775fac150217e.js";
-  // The Social Bar (pl tag) floats over the page and never leaves on its own:
-  // show a visible countdown and auto-close it after a minute.
-  const SOCIAL_AD_SECONDS = 60;
-  const BADGE_ID = "thunder-ad-badge";
-  // Matched against ancestors - anything inside these is never auto-closed
-  // (site UI: error overlay / reveal screen, and our own banner area).
-  const NEVER_CLOSE = [
-    "#game-unavailable-overlay",
-    ".initial-overlay",
-    "#menu-dismiss-overlay",
-    ".thunder-ad-fit",
-  ];
-  // Matched on the node itself - our own popup/dock chrome.
-  const OUR_CHROME = [
-    "thunder-ad-popup",
-    "thunder-ad-close",
-    "thunder-ad-card",
-    "thunder-ad-label",
-    "thunder-ad-hint",
-    "thunder-ad-dock",
-    "thunder-ad-fit",
-    "thunder-ad-fit-inner",
-    "thunder-ad-slot",
-    "thunder-ad-badge",
-  ];
   const DEFAULT_LOCK_SECONDS = 5;
   const STYLE_ID = "thunder-ad-popup-style";
 
@@ -158,8 +121,8 @@
     .thunder-ad-slot {
       position: relative;
       z-index: 1;
-      /* invoke.js drops its creative next to its own tag, i.e. inside this
-         box - centre it so a 300x250 / 728x90 sits evenly in the card. */
+      /* The unit is an iframe that fills this box - centre it so a 300x250 /
+         728x90 sits evenly in the card. */
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -216,27 +179,6 @@
       -webkit-backdrop-filter: blur(6px);
       backdrop-filter: blur(6px);
     }
-    /* Countdown shown while a Social Bar ad is waiting to auto-close.
-       Click it to close the ad immediately. */
-    .thunder-ad-badge {
-      position: fixed;
-      z-index: 2147483647;
-      padding: 4px 9px;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.03em;
-      line-height: 1.3;
-      color: var(--text-color, #d5dce8);
-      background: var(--fourth-bg, #212630);
-      border: 1px solid rgba(var(--cb, 164, 184, 219), 0.25);
-      border-radius: 999px;
-      cursor: pointer;
-      user-select: none;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
-    }
-    .thunder-ad-badge:hover {
-      background: var(--button-hover, #3c4a5d);
-    }
     /* Hide-for-this-visit control on the home dock (temporary: nothing is
        stored, so the ad returns on the next page load). */
     .thunder-ad-hide {
@@ -288,12 +230,6 @@
   let fits = [];
   let countdownTimer = null;
   let lockRemaining = 0;
-  // Social Bar auto-close state.
-  let socialObserver = null;
-  let socialTargets = null;
-  let socialBadge = null;
-  let socialTimer = null;
-  let socialLeft = SOCIAL_AD_SECONDS;
 
   function ensureStyle() {
     if (document.getElementById(STYLE_ID)) return;
@@ -333,20 +269,12 @@
   }
 
   /**
-   * The Adsterra snippet for `kind`, rebuilt as script elements inside the slot
-   * so the creative lands inside our box rather than somewhere on the page:
-   *   1. an inline script assigning the global atOptions (key / format /
-   *      height / width), exactly like their snippet
-   *   2. invoke.js with async=false so it always runs after step 1
+   * The A-Ads unit for this document, built as a plain iframe inside the slot
+   * so the creative lands INSIDE our box rather than somewhere on the page:
+   * one iframe, no global config, no loader script, no document.write.
    *
-   * invoke.js contains no document.write: it builds an iframe and inserts it
-   * next to its own script tag (script[src$=…] -> parentNode.insertBefore),
-   * which from here is inside .thunder-ad-slot - i.e. inside the popup card or
-   * the footer dock.
-   *
-   * The slot is built once per document and reused across opens: re-inserting
-   * an already-inserted script does not execute it again, so reopening a game
-   * never piles up duplicate units (and exactly one atOptions ever exists).
+   * The slot is built once per document and reused across opens, so reopening
+   * a game never piles up a second unit - same iframe, same impression slot.
    */
   function getAdSlot(kind) {
     if (adSlot) return adSlot;
@@ -357,36 +285,24 @@
     adSlot.className = "thunder-ad-slot";
     adSlot.style.minHeight = unit.height + "px";
 
-    const options = document.createElement("script");
-    options.textContent =
-      "atOptions = { 'key' : '" +
-      unit.key +
-      "', 'format' : 'iframe', 'height' : " +
-      unit.height +
-      ", 'width' : " +
-      unit.width +
-      ", 'params' : {} };";
+    const frame = document.createElement("iframe");
+    frame.setAttribute("data-aa", AD_UNIT_ID);
+    frame.src = AD_UNIT_SRC;
+    frame.title = "Advertisement";
+    frame.setAttribute("scrolling", "no");
+    // Adaptive by design: fill the box the fit wrapper hands us exactly, so
+    // there is no gap under the creative and nothing gets clipped.
+    frame.style.border = "0";
+    frame.style.padding = "0";
+    frame.style.margin = "0";
+    frame.style.width = "100%";
+    frame.style.height = unit.height + "px";
+    frame.style.display = "block";
+    frame.style.overflow = "hidden";
+    // Creatives arrive after the box is measured - re-measure when it lands.
+    frame.addEventListener("load", applyFits);
 
-    const invoke = document.createElement("script");
-    invoke.src = AD_HOST + "/" + unit.key + "/invoke.js";
-    invoke.async = false;
-    invoke.addEventListener("load", applyFits);
-
-    // Second unit: the pl<id> loader. Independent of atOptions, so it just
-    // rides along in the same slot (and therefore in the same box).
-    const loader = document.createElement("script");
-    loader.src = AD_LOADER_SRC;
-    loader.async = true;
-    loader.setAttribute("data-cfasync", "false");
-    loader.addEventListener("load", applyFits);
-
-    adSlot.appendChild(options);
-    adSlot.appendChild(invoke);
-    adSlot.appendChild(loader);
-
-    // From here on, watch for the Social Bar this loader may paint so it can
-    // be counted down and closed after a minute.
-    startSocialWatch();
+    adSlot.appendChild(frame);
 
     return adSlot;
   }
@@ -496,7 +412,7 @@
   if (window.addEventListener) window.addEventListener("resize", applyFits);
 
   /** The scaling wrapper around one banner unit (inner is the unscaled 300x250
-   *  / 728x90 box; the slot with the Adsterra snippet lives inside it).
+   *  / 728x90 box; the slot with the A-Ads unit lives inside it).
    *  `meta.clearOf` = selector whose bottom edge the ad must stay below
    *  (Home passes ".content-container" so the logo stays visible);
    *  `meta.anchorBox` = the element to measure that clearance against. */
@@ -529,154 +445,6 @@
     // networks inject a second element) - take one more measurement pass.
     setTimeout(applyFits, 1500);
     return outer;
-  }
-
-  function positionOf(node) {
-    try {
-      return window.getComputedStyle(node).position;
-    } catch (e) {
-      return "static";
-    }
-  }
-
-  /**
-   * The Social Bar (pl tag) paints a floating overlay and then stays put, so
-   * we watch for it and give it a minute. Anything eligible must be:
-   *  - an element (never the scripts/styles the tags add),
-   *  - not our popup/dock chrome and not site UI (error overlay, reveal, ...),
-   *  - positioned (fixed/sticky/absolute) - in-flow content such as the banner
-   *    creative or page text is never touched.
-   */
-  function isSocialAdCandidate(node) {
-    if (!node || node.nodeType !== 1) return false;
-    const tag = String(node.tagName).toUpperCase();
-    if (
-      tag === "SCRIPT" ||
-      tag === "STYLE" ||
-      tag === "LINK" ||
-      tag === "META" ||
-      tag === "NOSCRIPT" ||
-      tag === "IFRAME"
-    )
-      return false;
-    if (node.id === STYLE_ID || node.id === BADGE_ID) return false;
-
-    const classes =
-      typeof node.className === "string" ? node.className.split(/\s+/) : [];
-    for (let i = 0; i < OUR_CHROME.length; i++) {
-      if (classes.indexOf(OUR_CHROME[i]) !== -1) return false;
-    }
-    if (node.closest) {
-      for (let i = 0; i < NEVER_CLOSE.length; i++) {
-        try {
-          if (node.closest(NEVER_CLOSE[i])) return false;
-        } catch (e) {}
-      }
-    }
-
-    const pos = positionOf(node);
-    return pos === "fixed" || pos === "sticky" || pos === "absolute";
-  }
-
-  function considerSocialNode(node) {
-    if (!isSocialAdCandidate(node)) return;
-    if (!socialTargets) socialTargets = new Set();
-    if (socialTargets.has(node)) return;
-    socialTargets.add(node);
-    startSocialCountdown(node);
-  }
-
-  function startSocialWatch() {
-    if (socialObserver || !window.MutationObserver || !document.documentElement)
-      return;
-    socialObserver = new MutationObserver((records) => {
-      records.forEach((record) => {
-        if (record.type !== "childList") return;
-        record.addedNodes.forEach((node) => considerSocialNode(node));
-      });
-    });
-    socialObserver.observe(document.documentElement, {
-      childList: true,
-      subtree: true,
-    });
-  }
-
-  function positionSocialBadge(node) {
-    if (!socialBadge) return;
-    let placed = false;
-    try {
-      if (node && typeof node.getBoundingClientRect === "function") {
-        const rect = node.getBoundingClientRect();
-        const vw = window.innerWidth;
-        if (
-          rect &&
-          typeof rect.top === "number" &&
-          typeof rect.right === "number" &&
-          typeof vw === "number"
-        ) {
-          socialBadge.style.top = Math.max(6, rect.top - 30) + "px";
-          socialBadge.style.right = Math.max(6, vw - rect.right + 6) + "px";
-          placed = true;
-        }
-      }
-    } catch (e) {}
-    if (!placed) {
-      socialBadge.style.top = "6px";
-      socialBadge.style.right = "6px";
-    }
-  }
-
-  function ensureSocialBadge(node) {
-    if (!socialBadge) {
-      socialBadge = document.createElement("div");
-      socialBadge.className = "thunder-ad-badge";
-      socialBadge.id = BADGE_ID;
-      socialBadge.title = "Click to close this ad now";
-      socialBadge.addEventListener("click", () => closeSocialAd());
-      document.body.appendChild(socialBadge);
-    }
-    positionSocialBadge(node);
-  }
-
-  function renderSocialBadge() {
-    if (!socialBadge) return;
-    socialBadge.textContent = "ad closes in " + socialLeft + "s";
-  }
-
-  function startSocialCountdown(node) {
-    ensureSocialBadge(node);
-    if (socialTimer) return; // one clock covers every node of this ad
-    socialLeft = SOCIAL_AD_SECONDS;
-    renderSocialBadge();
-    socialTimer = setInterval(socialTick, 1000);
-  }
-
-  function socialTick() {
-    socialLeft -= 1;
-    if (socialLeft < 0) socialLeft = 0;
-    renderSocialBadge();
-    if (socialLeft <= 0) closeSocialAd();
-  }
-
-  /** Manual close (badge click) or the 60s timer: drop the ad and its badge. */
-  function closeSocialAd() {
-    if (socialTimer) {
-      clearInterval(socialTimer);
-      socialTimer = null;
-    }
-    if (socialTargets) {
-      socialTargets.forEach((node) => {
-        try {
-          node.remove();
-        } catch (e) {}
-      });
-      socialTargets = null;
-    }
-    if (socialBadge) {
-      socialBadge.remove();
-      socialBadge = null;
-    }
-    socialLeft = SOCIAL_AD_SECONDS;
   }
 
   function show(options) {
@@ -826,20 +594,10 @@
   }
 
   /**
-   * Hide button handler: drop the dock for this page load only (no storage, so
-   * the next load shows it again). If the Social Bar countdown belongs to an ad
-   * living inside the dock, end that too so no orphaned badge is left behind.
+   * Hide button handler: drop the dock for this page load only - no storage, so
+   * the next load shows the ad again.
    */
   function hideDockForNow() {
-    if (socialTargets) {
-      let insideDock = false;
-      socialTargets.forEach((node) => {
-        try {
-          if (node.closest && node.closest(".thunder-ad-dock")) insideDock = true;
-        } catch (e) {}
-      });
-      if (insideDock) closeSocialAd();
-    }
     removeDock();
   }
 
