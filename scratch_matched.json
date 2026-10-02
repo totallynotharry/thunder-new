@@ -1,0 +1,2963 @@
+[
+  {
+    "name": "OvO",
+    "ugsFile": "clovo",
+    "originalUrl": "/games/1-fde.html",
+    "cover": "/covers/1.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "OvO 2",
+    "ugsFile": "clovo2",
+    "originalUrl": "/games/2e.html",
+    "cover": "/covers/2.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "OvO 3 Dimensions",
+    "ugsFile": "clovodimensions",
+    "originalUrl": "/games/3.html",
+    "cover": "/covers/3.png",
+    "method": "alias"
+  },
+  {
+    "name": "Ice Dodo",
+    "ugsFile": "clicedodo",
+    "originalUrl": "/games/5.html",
+    "cover": "/covers/5.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Block Blast",
+    "ugsFile": "clblockblast",
+    "originalUrl": "/games/6.html",
+    "cover": "/covers/6.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Jetpack Joyride",
+    "ugsFile": "cljetpackjoyride",
+    "originalUrl": "/games/7.html",
+    "cover": "/covers/7.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Friday Night Funkin",
+    "ugsFile": "clfridaynightfunkin",
+    "originalUrl": "/games/8-wow.html",
+    "cover": "/covers/8.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sprunki",
+    "ugsFile": "clsprunki",
+    "originalUrl": "/games/9.html",
+    "cover": "/covers/9.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Temple Run 2",
+    "ugsFile": "cltemplerun2",
+    "originalUrl": "/games/10.html",
+    "cover": "/covers/10.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stickman Hook",
+    "ugsFile": "clstickmanhook",
+    "originalUrl": "/games/11.html",
+    "cover": "/covers/11.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Attack Hole",
+    "ugsFile": "clattackhole",
+    "originalUrl": "/games/13.html",
+    "cover": "/covers/13.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bridge Race",
+    "ugsFile": "clbridgerace",
+    "originalUrl": "/games/14.html",
+    "cover": "/covers/14.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Color Water Sort 3D",
+    "ugsFile": "clcolorwatersort3d",
+    "originalUrl": "/games/15.html",
+    "cover": "/covers/15.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Magic Tiles 3",
+    "ugsFile": "clmagictiles3",
+    "originalUrl": "/games/17.html",
+    "cover": "/covers/17.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stacky Dash",
+    "ugsFile": "clstackydash",
+    "originalUrl": "/games/18.html",
+    "cover": "/covers/18.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Supreme Duelist",
+    "ugsFile": "clsupremeduelist",
+    "originalUrl": "/games/19.html",
+    "cover": "/covers/19.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tall Man Run",
+    "ugsFile": "cltallmanrun",
+    "originalUrl": "/games/20a.html",
+    "cover": "/covers/20.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Turbo Stars",
+    "ugsFile": "clturbostars",
+    "originalUrl": "/games/21.html",
+    "cover": "/covers/21.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Mob Control HTML5",
+    "ugsFile": "clmobcontrolhtml5",
+    "originalUrl": "/games/22.html",
+    "cover": "/covers/22.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pou",
+    "ugsFile": "clPou",
+    "originalUrl": "/games/23.html",
+    "cover": "/covers/23.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Crossy Road",
+    "ugsFile": "clcrossyroad",
+    "originalUrl": "/games/24.html",
+    "cover": "/covers/24.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Basket Battle",
+    "ugsFile": "clbasketbattle",
+    "originalUrl": "/games/25.html",
+    "cover": "/covers/25.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Amaze",
+    "ugsFile": "clamaze",
+    "originalUrl": "/games/26.html",
+    "cover": "/covers/26.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Geometry Dash Lite (REMAKE)",
+    "ugsFile": "clgeometrydashscratch",
+    "originalUrl": "/games/27-f.html",
+    "cover": "/covers/27.png",
+    "method": "html_title_ugs_json"
+  },
+  {
+    "name": "Basketball Frvr",
+    "ugsFile": "clbasketballfrvr",
+    "originalUrl": "/games/28.html",
+    "cover": "/covers/28.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bazooka Boy",
+    "ugsFile": "clbazookaboy",
+    "originalUrl": "/games/29.html",
+    "cover": "/covers/29.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Color Match",
+    "ugsFile": "clcolormatch",
+    "originalUrl": "/games/31.html",
+    "cover": "/covers/31.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Dig Deep",
+    "ugsFile": "cldigdeep",
+    "originalUrl": "/games/32.html",
+    "cover": "/covers/32.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Retro Bowl",
+    "ugsFile": "clretrobowl",
+    "originalUrl": "/games/33.html",
+    "cover": "/covers/33.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Retro Bowl College",
+    "ugsFile": "clretrobowlcollege",
+    "originalUrl": "/games/34-fixed.html",
+    "cover": "/covers/34.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Monster Tracks",
+    "ugsFile": "clmonstertracks",
+    "originalUrl": "/games/36.html",
+    "cover": "/covers/36.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Gobble",
+    "ugsFile": "clgobble",
+    "originalUrl": "/games/37.html",
+    "cover": "/covers/37.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Five Nights at Freddy's",
+    "ugsFile": "clFNAF",
+    "originalUrl": "/games/38.html",
+    "cover": "/covers/38.png",
+    "method": "alias"
+  },
+  {
+    "name": "Five Nights at Freddy's 2",
+    "ugsFile": "clFNAF2",
+    "originalUrl": "/games/39.html",
+    "cover": "/covers/39.png",
+    "method": "alias"
+  },
+  {
+    "name": "Five Nights at Freddy's 3",
+    "ugsFile": "clFNAF3",
+    "originalUrl": "/games/40.html",
+    "cover": "/covers/40.png",
+    "method": "alias"
+  },
+  {
+    "name": "Five Nights at Freddy's 4",
+    "ugsFile": "clFNAF4",
+    "originalUrl": "/games/41.html",
+    "cover": "/covers/41.png",
+    "method": "alias"
+  },
+  {
+    "name": "Road of Fury",
+    "ugsFile": "clroadoffury",
+    "originalUrl": "/games/42.html",
+    "cover": "/covers/42.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Driven Wild",
+    "ugsFile": "cldrivenwild",
+    "originalUrl": "/games/43.html",
+    "cover": "/covers/43.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Ragdoll Hit",
+    "ugsFile": "clragdollhit",
+    "originalUrl": "/games/44-fix.html",
+    "cover": "/covers/44.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 1",
+    "ugsFile": "clvex",
+    "originalUrl": "/games/45.html",
+    "cover": "/covers/45.png",
+    "method": "alias"
+  },
+  {
+    "name": "Vex 2",
+    "ugsFile": "clvex2",
+    "originalUrl": "/games/46.html",
+    "cover": "/covers/46.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 3",
+    "ugsFile": "clvex3",
+    "originalUrl": "/games/47.html",
+    "cover": "/covers/47.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 3 XMAS",
+    "ugsFile": "clvex3xmas",
+    "originalUrl": "/games/48.html",
+    "cover": "/covers/48.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 4",
+    "ugsFile": "clvex4",
+    "originalUrl": "/games/49.html",
+    "cover": "/covers/49.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 5",
+    "ugsFile": "clvex5",
+    "originalUrl": "/games/50.html",
+    "cover": "/covers/50.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 6",
+    "ugsFile": "clvex6",
+    "originalUrl": "/games/51.html",
+    "cover": "/covers/51.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 7",
+    "ugsFile": "clvex7",
+    "originalUrl": "/games/52.html",
+    "cover": "/covers/52.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex 8",
+    "ugsFile": "clvex8",
+    "originalUrl": "/games/53.html",
+    "cover": "/covers/53.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex Challenges",
+    "ugsFile": "clvexchallenges",
+    "originalUrl": "/games/54.html",
+    "cover": "/covers/54.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex X3M",
+    "ugsFile": "clvexx3m",
+    "originalUrl": "/games/55.html",
+    "cover": "/covers/55.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vex X3M 2",
+    "ugsFile": "clvexx3m2",
+    "originalUrl": "/games/56.html",
+    "cover": "/covers/56.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "1v1.LoL",
+    "ugsFile": "cl1v1lol",
+    "originalUrl": "/games/58.html",
+    "cover": "/covers/58.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "A Dance of Fire and Ice",
+    "ugsFile": "clADOFAI",
+    "originalUrl": "/games/59.html",
+    "cover": "/covers/59.png",
+    "method": "alias"
+  },
+  {
+    "name": "Achievement Unlocked",
+    "ugsFile": "clachievementunlocked",
+    "originalUrl": "/games/60.html",
+    "cover": "/covers/60.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Achievement Unlocked 2",
+    "ugsFile": "clachievmentunlocked2",
+    "originalUrl": "/games/61.html",
+    "cover": "/covers/61.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Achievement Unlocked 3",
+    "ugsFile": "clachievmentunlocked3",
+    "originalUrl": "/games/62.html",
+    "cover": "/covers/62.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Angry Birds",
+    "ugsFile": "clangrybirds",
+    "originalUrl": "/games/63.html",
+    "cover": "/covers/63.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Backrooms",
+    "ugsFile": "clbackrooms",
+    "originalUrl": "/games/64-fix.html",
+    "cover": "/covers/64.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Baldi's Basics",
+    "ugsFile": "clbaldisbasics",
+    "originalUrl": "/games/65-fixed.html",
+    "cover": "/covers/65.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Basket Random",
+    "ugsFile": "clbasketrandom",
+    "originalUrl": "/games/66.html",
+    "cover": "/covers/66.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Big Tower Tiny Square",
+    "ugsFile": "clbigtowertinysquare",
+    "originalUrl": "/games/67-f.html",
+    "cover": "/covers/67.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Big NEON Tower Tiny Square",
+    "ugsFile": "clbigneontowertinysquare",
+    "originalUrl": "/games/68.html",
+    "cover": "/covers/68.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Big ICE Tower Tiny Square",
+    "ugsFile": "clbigicetowertinysquare",
+    "originalUrl": "/games/69.html",
+    "cover": "/covers/69.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BitLife",
+    "ugsFile": "clbitlife",
+    "originalUrl": "/games/70.html",
+    "cover": "/covers/70.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bloons TD",
+    "ugsFile": "clBTD1",
+    "originalUrl": "/games/71.html",
+    "cover": "/covers/71.png",
+    "method": "alias"
+  },
+  {
+    "name": "Bloons TD 2",
+    "ugsFile": "clbloonsTD2",
+    "originalUrl": "/games/72.html",
+    "cover": "/covers/72.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bloons TD 3",
+    "ugsFile": "clbloonsTD3",
+    "originalUrl": "/games/73.html",
+    "cover": "/covers/73.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bloons TD 4",
+    "ugsFile": "clbloonsTD4",
+    "originalUrl": "/games/74.html",
+    "cover": "/covers/74.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bloons TD 5",
+    "ugsFile": "clbloonsTD5",
+    "originalUrl": "/games/75-fix.html",
+    "cover": "/covers/75.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bob The Robber 2",
+    "ugsFile": "clbobtherobber2",
+    "originalUrl": "/games/76-fix.html",
+    "cover": "/covers/76.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Boxing Random",
+    "ugsFile": "clboxingrandom",
+    "originalUrl": "/games/77.html",
+    "cover": "/covers/77.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Burrito Bison: Launcha Libre",
+    "ugsFile": "clburritobisonlaunchalibre",
+    "originalUrl": "/games/78.html",
+    "cover": "/covers/78.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cluster Rush",
+    "ugsFile": "clclusterrush",
+    "originalUrl": "/games/81.html",
+    "cover": "/covers/81.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cookie Clicker",
+    "ugsFile": "clcookieclicker",
+    "originalUrl": "/games/82-a.html",
+    "cover": "/covers/82.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Coreball",
+    "ugsFile": "clcoreball",
+    "originalUrl": "/games/83.html",
+    "cover": "/covers/83.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cut the Rope",
+    "ugsFile": "clcuttherope",
+    "originalUrl": "/games/85-f.html",
+    "cover": "/covers/85.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Draw Climber",
+    "ugsFile": "cldrawclimber",
+    "originalUrl": "/games/86.html",
+    "cover": "/covers/86.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fireboy and Watergirl 2",
+    "ugsFile": "clfireboyandwatergirl2",
+    "originalUrl": "/games/88.html",
+    "cover": "/covers/88.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fireboy and Watergirl 3",
+    "ugsFile": "clfireboyandwatergirl3",
+    "originalUrl": "/games/89.html",
+    "cover": "/covers/89.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Granny",
+    "ugsFile": "clgranny",
+    "originalUrl": "/games/90-fix2.html",
+    "cover": "/covers/90.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Gunspin",
+    "ugsFile": "clgun-spin",
+    "originalUrl": "/games/91.html",
+    "cover": "/covers/91.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Highway Racer 2",
+    "ugsFile": "clhighwayracer2",
+    "originalUrl": "/games/92.html",
+    "cover": "/covers/92.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Johnny Trigger",
+    "ugsFile": "cljohnnytrigger",
+    "originalUrl": "/games/93.html",
+    "cover": "/covers/93.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Journey Downhill",
+    "ugsFile": "cljourneydownhill",
+    "originalUrl": "/games/94.html",
+    "cover": "/covers/94.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Line Rider",
+    "ugsFile": "cllinerider",
+    "originalUrl": "/games/95.html",
+    "cover": "/covers/95.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Moto X3M",
+    "ugsFile": "clmotox3mm",
+    "originalUrl": "/games/96.html",
+    "cover": "/covers/96.png",
+    "method": "alias"
+  },
+  {
+    "name": "Moto X3M 2",
+    "ugsFile": "clmotox3m2",
+    "originalUrl": "/games/97.html",
+    "cover": "/covers/97.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Moto X3M 3",
+    "ugsFile": "clmotox3m3",
+    "originalUrl": "/games/98.html",
+    "cover": "/covers/98.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Moto X3M Spooky",
+    "ugsFile": "clmotox3mspookyland",
+    "originalUrl": "/games/99.html",
+    "cover": "/covers/99.png",
+    "method": "alias"
+  },
+  {
+    "name": "Moto X3M Winter",
+    "ugsFile": "clmotox3mwinter",
+    "originalUrl": "/games/100-f.html",
+    "cover": "/covers/100.png",
+    "method": "alias"
+  },
+  {
+    "name": "This Is The Only Level",
+    "ugsFile": "clthisistheonlylevel",
+    "originalUrl": "/games/106.html",
+    "cover": "/covers/106.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "This Is The Only Level 2",
+    "ugsFile": "clthisistheonlylevel2",
+    "originalUrl": "/games/107.html",
+    "cover": "/covers/107.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tiny Fishing",
+    "ugsFile": "cltinyfishing",
+    "originalUrl": "/games/108.html",
+    "cover": "/covers/108.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Toss The Turtle",
+    "ugsFile": "cltosstheturtle",
+    "originalUrl": "/games/110-f.html",
+    "cover": "/covers/110.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tube Jumpers",
+    "ugsFile": "cltubejumpers",
+    "originalUrl": "/games/111.html",
+    "cover": "/covers/111.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wordle",
+    "ugsFile": "clwordle",
+    "originalUrl": "/games/112-fix.html",
+    "cover": "/covers/112.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Ruffle",
+    "ugsFile": "clruffle",
+    "originalUrl": "/games/113.html",
+    "cover": "/covers/113.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "2048",
+    "ugsFile": "cl2048",
+    "originalUrl": "/games/114-f.html",
+    "cover": "/covers/114.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "8 Ball Pool",
+    "ugsFile": "cl8ballpool",
+    "originalUrl": "/games/115.html",
+    "cover": "/covers/115.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Space Waves",
+    "ugsFile": "clspacewaves",
+    "originalUrl": "/games/117-fix.html",
+    "cover": "/covers/117.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Solar Smash",
+    "ugsFile": "clsolarsmash",
+    "originalUrl": "/games/118.html",
+    "cover": "/covers/118.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Snow Rider 3D",
+    "ugsFile": "clsnowrider",
+    "originalUrl": "/games/119.html",
+    "cover": "/covers/119.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Moto X3M Pool Party",
+    "ugsFile": "clmotox3mpoolparty",
+    "originalUrl": "/games/124.html",
+    "cover": "/covers/124.png",
+    "method": "alias"
+  },
+  {
+    "name": "Granny 2",
+    "ugsFile": "clgranny2",
+    "originalUrl": "/games/125.html",
+    "cover": "/covers/125.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Granny 3",
+    "ugsFile": "clgranny3",
+    "originalUrl": "/games/126.html",
+    "cover": "/covers/126.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fashion Battle",
+    "ugsFile": "clfashionbattle",
+    "originalUrl": "/games/127.html",
+    "cover": "/covers/127.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Slice it All",
+    "ugsFile": "clsliceitall",
+    "originalUrl": "/games/128.html",
+    "cover": "/covers/128.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Flappy Bird",
+    "ugsFile": "clflappybird",
+    "originalUrl": "/games/129.html",
+    "cover": "/covers/129.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "osu!",
+    "ugsFile": "closu",
+    "originalUrl": "/games/130.html",
+    "cover": "/covers/130.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "8 Ball Classic",
+    "ugsFile": "cl8ballclassic",
+    "originalUrl": "/games/146.html",
+    "cover": "/covers/146.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Angry Birds Showdown",
+    "ugsFile": "clangrybirdsshowdown",
+    "originalUrl": "/games/147.html",
+    "cover": "/covers/147.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Archery World Tour",
+    "ugsFile": "clarcheryworldtour",
+    "originalUrl": "/games/148.html",
+    "cover": "/covers/148.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Ball Blast",
+    "ugsFile": "clballblast",
+    "originalUrl": "/games/149.html",
+    "cover": "/covers/149.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cannon Balls 3D",
+    "ugsFile": "clcannonballs3d",
+    "originalUrl": "/games/150.html",
+    "cover": "/covers/150.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Chess Classic",
+    "ugsFile": "clchessclassic",
+    "originalUrl": "/games/151.html",
+    "cover": "/covers/151.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Draw the Line",
+    "ugsFile": "cldrawtheline",
+    "originalUrl": "/games/152.html",
+    "cover": "/covers/152.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fork n Sausage",
+    "ugsFile": "clforknsausage",
+    "originalUrl": "/games/154.html",
+    "cover": "/covers/154.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Guess Their Answer",
+    "ugsFile": "clguesstheiranswer",
+    "originalUrl": "/games/155.html",
+    "cover": "/covers/155.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Harvest.io",
+    "ugsFile": "clharvestio",
+    "originalUrl": "/games/156.html",
+    "cover": "/covers/156.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hill Climb Racing Lite",
+    "ugsFile": "clhillclimbracinglite",
+    "originalUrl": "/games/157.html",
+    "cover": "/covers/157.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pac-Man Superfast",
+    "ugsFile": "clpacmansuperfast",
+    "originalUrl": "/games/158.html",
+    "cover": "/covers/158.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Parking Rush",
+    "ugsFile": "clparkingrush",
+    "originalUrl": "/games/159.html",
+    "cover": "/covers/159.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Race Master 3D",
+    "ugsFile": "clracemaster3d",
+    "originalUrl": "/games/160.html",
+    "cover": "/covers/160.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "State.io",
+    "ugsFile": "clstateio",
+    "originalUrl": "/games/161.html",
+    "cover": "/covers/161.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tower Crash 3D",
+    "ugsFile": "cltowercrash3d",
+    "originalUrl": "/games/162.html",
+    "cover": "/covers/162.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Trivia Crack",
+    "ugsFile": "cltriviacrack",
+    "originalUrl": "/games/163.html",
+    "cover": "/covers/163.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Crazy Cattle 3D",
+    "ugsFile": "clcrazycattle3d",
+    "originalUrl": "/games/164-temp2.html",
+    "cover": "/covers/164.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cheese Chompers 3D",
+    "ugsFile": "clcheesechompers3d",
+    "originalUrl": "/games/165.html",
+    "cover": "/covers/165.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Blocky Snakes",
+    "ugsFile": "clblockysnakes",
+    "originalUrl": "/games/168.html",
+    "cover": "/covers/168.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bloxorz",
+    "ugsFile": "clbloxorz",
+    "originalUrl": "/games/169.html",
+    "cover": "/covers/169.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Big Tower Tiny Square 2",
+    "ugsFile": "clbigtowertinysquare2",
+    "originalUrl": "/games/170.html",
+    "cover": "/covers/170.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Melon Playground",
+    "ugsFile": "clmelonplayground",
+    "originalUrl": "/games/172.html",
+    "cover": "/covers/172.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Run 2",
+    "ugsFile": "clrun2",
+    "originalUrl": "/games/176.html",
+    "cover": "/covers/176.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Run 3",
+    "ugsFile": "clrun3",
+    "originalUrl": "/games/177.html",
+    "cover": "/covers/177.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Swords and Souls",
+    "ugsFile": "clswordsandsouls",
+    "originalUrl": "/games/178.html",
+    "cover": "/covers/178.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "n-gon",
+    "ugsFile": "clngon",
+    "originalUrl": "/games/180.html",
+    "cover": "/covers/180.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Minecraft 1.8.8",
+    "ugsFile": "clminecraft1-8-8",
+    "originalUrl": "/games/181.html",
+    "cover": "/covers/181.png",
+    "method": "alias"
+  },
+  {
+    "name": "Ragdoll Archers",
+    "ugsFile": "clragdollarchers",
+    "originalUrl": "/games/186.html",
+    "cover": "/covers/186.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Scrap Metal 3",
+    "ugsFile": "clscrapmetal3",
+    "originalUrl": "/games/188e.html",
+    "cover": "/covers/188.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "ULTRAKILL",
+    "ugsFile": "clultrakill",
+    "originalUrl": "/games/196-fixed.html",
+    "cover": "/covers/196.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Elastic Man",
+    "ugsFile": "clelasticface",
+    "originalUrl": "/games/197.html",
+    "cover": "/covers/197.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Slope",
+    "ugsFile": "clslope",
+    "originalUrl": "/games/198.html",
+    "cover": "/covers/198.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Time Shooter 2",
+    "ugsFile": "cltimeshooter2",
+    "originalUrl": "/games/200.html",
+    "cover": "/covers/200.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "DOOM",
+    "ugsFile": "cldoom",
+    "originalUrl": "/games/203-a.html",
+    "cover": "/covers/203.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Buckshot Roulette",
+    "ugsFile": "clbuckshotroulette",
+    "originalUrl": "/games/205-f.html",
+    "cover": "/covers/205.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tunnel Rush",
+    "ugsFile": "cltunnelrush",
+    "originalUrl": "/games/206.html",
+    "cover": "/covers/206.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Rolly Vortex",
+    "ugsFile": "clrollyvortex",
+    "originalUrl": "/games/208.html",
+    "cover": "/covers/208.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cut the Rope",
+    "ugsFile": "clcuttherope",
+    "originalUrl": "/games/212-f.html",
+    "cover": "/covers/212.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cut the Rope: Time Travel",
+    "ugsFile": "clcuttheropetimetravel",
+    "originalUrl": "/games/213-f.html",
+    "cover": "/covers/213.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Bakeria",
+    "ugsFile": "clpapabakeria",
+    "originalUrl": "/games/218.html",
+    "cover": "/covers/218.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Papa's Burgeria",
+    "ugsFile": "clpapasburgerIIIAAAAA",
+    "originalUrl": "/games/219.html",
+    "cover": "/covers/219.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Papa's Cheeseria",
+    "ugsFile": "clpapascheeseria",
+    "originalUrl": "/games/220.html",
+    "cover": "/covers/220.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Cupcakeria",
+    "ugsFile": "clpapascupcakeria",
+    "originalUrl": "/games/221.html",
+    "cover": "/covers/221.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Donuteria",
+    "ugsFile": "clpapadonut",
+    "originalUrl": "/games/222.html",
+    "cover": "/covers/222.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Papa's Freezeria",
+    "ugsFile": "clpapasfreezeria",
+    "originalUrl": "/games/223.html",
+    "cover": "/covers/223.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Hot Doggeria",
+    "ugsFile": "clpapashotdoggeria",
+    "originalUrl": "/games/224.html",
+    "cover": "/covers/224.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Pancakeria",
+    "ugsFile": "clpapaspancakeria",
+    "originalUrl": "/games/225.html",
+    "cover": "/covers/225.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Pastaria",
+    "ugsFile": "clpapaspastaria",
+    "originalUrl": "/games/226.html",
+    "cover": "/covers/226.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Scooperia",
+    "ugsFile": "clpapasscooperia",
+    "originalUrl": "/games/228.html",
+    "cover": "/covers/228.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Sushiria",
+    "ugsFile": "clpapassushiria",
+    "originalUrl": "/games/229.html",
+    "cover": "/covers/229.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Taco Mia",
+    "ugsFile": "clpapastacomia",
+    "originalUrl": "/games/230.html",
+    "cover": "/covers/230.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Papa's Wingeria",
+    "ugsFile": "clpapaswingeria",
+    "originalUrl": "/games/231.html",
+    "cover": "/covers/231.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Plants vs Zombies",
+    "ugsFile": "clplantsvszombies",
+    "originalUrl": "/games/232.html",
+    "cover": "/covers/232.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Superhot",
+    "ugsFile": "clsuperhot",
+    "originalUrl": "/games/233.html",
+    "cover": "/covers/233.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Duck Life",
+    "ugsFile": "clducklife",
+    "originalUrl": "/games/234.html",
+    "cover": "/covers/234.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Duck Life 2",
+    "ugsFile": "clducklife2",
+    "originalUrl": "/games/235.html",
+    "cover": "/covers/235.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Duck Life 3",
+    "ugsFile": "clducklife3",
+    "originalUrl": "/games/236.html",
+    "cover": "/covers/236.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Duck Life 4",
+    "ugsFile": "clducklife4",
+    "originalUrl": "/games/237.html",
+    "cover": "/covers/237.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Duck Life 5",
+    "ugsFile": "clducklfe5",
+    "originalUrl": "/games/238.html",
+    "cover": "/covers/238.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Red Ball",
+    "ugsFile": "clredball",
+    "originalUrl": "/games/239.html",
+    "cover": "/covers/239.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Red Ball 2",
+    "ugsFile": "clredball2",
+    "originalUrl": "/games/240.html",
+    "cover": "/covers/240.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Red Ball 3",
+    "ugsFile": "clredball3",
+    "originalUrl": "/games/241.html",
+    "cover": "/covers/241.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Red Ball 4",
+    "ugsFile": "clRedBall4",
+    "originalUrl": "/games/242.html",
+    "cover": "/covers/242.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Red Ball 4 Vol. 2",
+    "ugsFile": "clredball4vol2",
+    "originalUrl": "/games/243.html",
+    "cover": "/covers/243.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Red Ball 4 Vol. 3",
+    "ugsFile": "clredball4vol3",
+    "originalUrl": "/games/244.html",
+    "cover": "/covers/244.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely",
+    "ugsFile": "clwheely",
+    "originalUrl": "/games/245.html",
+    "cover": "/covers/245.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 2",
+    "ugsFile": "clwheely2",
+    "originalUrl": "/games/246.html",
+    "cover": "/covers/246.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 3",
+    "ugsFile": "clwheely3",
+    "originalUrl": "/games/247.html",
+    "cover": "/covers/247.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 4",
+    "ugsFile": "clwheely4",
+    "originalUrl": "/games/248.html",
+    "cover": "/covers/248.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 5",
+    "ugsFile": "clwheely5",
+    "originalUrl": "/games/249.html",
+    "cover": "/covers/249.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 6",
+    "ugsFile": "clwheely6",
+    "originalUrl": "/games/250.html",
+    "cover": "/covers/250.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 7",
+    "ugsFile": "clwheely7",
+    "originalUrl": "/games/251.html",
+    "cover": "/covers/251.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Wheely 8",
+    "ugsFile": "clwheely8",
+    "originalUrl": "/games/252.html",
+    "cover": "/covers/252.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Chat Bot AI (A.I GPT)",
+    "ugsFile": "clai",
+    "originalUrl": "/games/253-update.html",
+    "cover": "/covers/253.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Crazy Chicken 3D",
+    "ugsFile": "clcrazychicken3D",
+    "originalUrl": "/games/255.html",
+    "cover": "/covers/255.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Google Baseball",
+    "ugsFile": "clgooglebaseball",
+    "originalUrl": "/games/257.html",
+    "cover": "/covers/257.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Class of '09",
+    "ugsFile": "clclassof09",
+    "originalUrl": "/games/259.html",
+    "cover": "/covers/259.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fruit Ninja",
+    "ugsFile": "clfruitninja",
+    "originalUrl": "/games/261.html",
+    "cover": "/covers/261.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Half Life",
+    "ugsFile": "clhalflife",
+    "originalUrl": "/games/262.html",
+    "cover": "/covers/262.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Escape Road",
+    "ugsFile": "clescaperoad",
+    "originalUrl": "/games/264.html",
+    "cover": "/covers/264.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Speed Stars",
+    "ugsFile": "clspeedstars",
+    "originalUrl": "/games/266-a.html",
+    "cover": "/covers/266.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pizza Tower",
+    "ugsFile": "clpizzatower",
+    "originalUrl": "/games/267.html",
+    "cover": "/covers/267.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bacon May Die",
+    "ugsFile": "clbaconmaydie",
+    "originalUrl": "/games/268.html",
+    "cover": "/covers/268.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Ice Cream",
+    "ugsFile": "clbadicecream",
+    "originalUrl": "/games/269.html",
+    "cover": "/covers/269.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Ice Cream 2",
+    "ugsFile": "clbadicecream2",
+    "originalUrl": "/games/270.html",
+    "cover": "/covers/270.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Ice Cream 3",
+    "ugsFile": "clbadicecream3",
+    "originalUrl": "/games/271.html",
+    "cover": "/covers/271.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Basketball Stars",
+    "ugsFile": "clbasketballstars",
+    "originalUrl": "/games/272.html",
+    "cover": "/covers/272.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BlockPost",
+    "ugsFile": "clblockpost",
+    "originalUrl": "/games/273.html",
+    "cover": "/covers/273.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "CircloO 2",
+    "ugsFile": "clCircloO2",
+    "originalUrl": "/games/275.html",
+    "cover": "/covers/275.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Drift Boss",
+    "ugsFile": "cldriftboss",
+    "originalUrl": "/games/276.html",
+    "cover": "/covers/276.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Evil Glitch",
+    "ugsFile": "clevilglitch",
+    "originalUrl": "/games/277.html",
+    "cover": "/covers/277.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Rooftop Snipers",
+    "ugsFile": "clrooftopsnipers",
+    "originalUrl": "/games/283.html",
+    "cover": "/covers/283.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Basket Bros",
+    "ugsFile": "clbasketbros",
+    "originalUrl": "/games/285.html",
+    "cover": "/covers/285.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Riddle School",
+    "ugsFile": "clriddleschool",
+    "originalUrl": "/games/287.html",
+    "cover": "/covers/287.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Riddle School 2",
+    "ugsFile": "clriddleschool2",
+    "originalUrl": "/games/288.html",
+    "cover": "/covers/288.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Riddle School 3",
+    "ugsFile": "clriddleschool3",
+    "originalUrl": "/games/289.html",
+    "cover": "/covers/289.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Riddle School 4",
+    "ugsFile": "clriddleschool445544444$$444$444",
+    "originalUrl": "/games/290.html",
+    "cover": "/covers/290.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Riddle Transfer",
+    "ugsFile": "clriddletransfer",
+    "originalUrl": "/games/292.html",
+    "cover": "/covers/292.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Riddle Transfer 2",
+    "ugsFile": "clriddletransfer2",
+    "originalUrl": "/games/293.html",
+    "cover": "/covers/293.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Idle Dice",
+    "ugsFile": "clidledice",
+    "originalUrl": "/games/294.html",
+    "cover": "/covers/294.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "12 Mini Battles",
+    "ugsFile": "cl12minibattles",
+    "originalUrl": "/games/295.html",
+    "cover": "/covers/295.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Minecraft 1.5.2",
+    "ugsFile": "cleaglercraft152",
+    "originalUrl": "/games/297.html",
+    "cover": "/covers/297.png",
+    "method": "alias"
+  },
+  {
+    "name": "Minecraft Alpha 1.2.6",
+    "ugsFile": "clEaglercraft-Alpha-126-Offline",
+    "originalUrl": "/games/298.html",
+    "cover": "/covers/298.png",
+    "method": "alias"
+  },
+  {
+    "name": "Minecraft Beta 1.3",
+    "ugsFile": "clEaglercraft-Beta-1.3-Offline",
+    "originalUrl": "/games/299.html",
+    "cover": "/covers/299.png",
+    "method": "alias"
+  },
+  {
+    "name": "Minecraft Indev",
+    "ugsFile": "clEaglercraft-Indev-Offline",
+    "originalUrl": "/games/301.html",
+    "cover": "/covers/301.png",
+    "method": "alias"
+  },
+  {
+    "name": "Little Runmo",
+    "ugsFile": "cllittlerunmo",
+    "originalUrl": "/games/302.html",
+    "cover": "/covers/302.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Territorial.io",
+    "ugsFile": "clterritorialio",
+    "originalUrl": "/games/303.html",
+    "cover": "/covers/303.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Alien Hominid",
+    "ugsFile": "clalienhominid",
+    "originalUrl": "/games/304.html",
+    "cover": "/covers/304.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tanuki Sunset",
+    "ugsFile": "cltanukisunset",
+    "originalUrl": "/games/305.html",
+    "cover": "/covers/305.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Nazi Zombies: Portable",
+    "ugsFile": "clnzp",
+    "originalUrl": "/games/308.html",
+    "cover": "/covers/308.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Sandboxels",
+    "ugsFile": "clsandboxels",
+    "originalUrl": "/games/309.html",
+    "cover": "/covers/309.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Dreadhead Parkour",
+    "ugsFile": "cldreadheadparkour",
+    "originalUrl": "/games/310.html",
+    "cover": "/covers/310.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sandtris",
+    "ugsFile": "clsandtris",
+    "originalUrl": "/games/311.html",
+    "cover": "/covers/311.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BlackJack",
+    "ugsFile": "clblackjack",
+    "originalUrl": "/games/312.html",
+    "cover": "/covers/312.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Super Mario 63",
+    "ugsFile": "clsupermario63",
+    "originalUrl": "/games/314.html",
+    "cover": "/covers/314.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Jelly Mario",
+    "ugsFile": "cljellymario",
+    "originalUrl": "/games/315.html",
+    "cover": "/covers/315.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Side Effects",
+    "ugsFile": "clsideeffects",
+    "originalUrl": "/games/318.html",
+    "cover": "/covers/318.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Find the Alien",
+    "ugsFile": "clfindthealien",
+    "originalUrl": "/games/323.html",
+    "cover": "/covers/323.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BitPlanes",
+    "ugsFile": "clbitplanes",
+    "originalUrl": "/games/330.html",
+    "cover": "/covers/330.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Crazy Cars",
+    "ugsFile": "clcrazycars",
+    "originalUrl": "/games/331.html",
+    "cover": "/covers/331.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fancy Pants Adventure",
+    "ugsFile": "clfancypantsadventure",
+    "originalUrl": "/games/333.html",
+    "cover": "/covers/333.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fancy Pants Adventure 2",
+    "ugsFile": "clfancypantsadventure2",
+    "originalUrl": "/games/334.html",
+    "cover": "/covers/334.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fancy Pants Adventure 3",
+    "ugsFile": "clfancypantsadventure3",
+    "originalUrl": "/games/335.html",
+    "cover": "/covers/335.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Getaway Shootout",
+    "ugsFile": "clgetawayshootout",
+    "originalUrl": "/games/338.html",
+    "cover": "/covers/338.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "House of Hazards",
+    "ugsFile": "clhouseofhazards",
+    "originalUrl": "/games/339.html",
+    "cover": "/covers/339.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Learn to Fly",
+    "ugsFile": "cllearntofly",
+    "originalUrl": "/games/340.html",
+    "cover": "/covers/340.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Learn to Fly 2",
+    "ugsFile": "cllearntofly2",
+    "originalUrl": "/games/341.html",
+    "cover": "/covers/341.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Learn to Fly 3",
+    "ugsFile": "cllearntofly3",
+    "originalUrl": "/games/342.html",
+    "cover": "/covers/342.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Learn to Fly Idle",
+    "ugsFile": "cllearntoflyidle",
+    "originalUrl": "/games/343.html",
+    "cover": "/covers/343.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Raft Wars",
+    "ugsFile": "clraftwars",
+    "originalUrl": "/games/344.html",
+    "cover": "/covers/344.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Raft Wars 2",
+    "ugsFile": "clraftwars2",
+    "originalUrl": "/games/345.html",
+    "cover": "/covers/345.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sort the Court",
+    "ugsFile": "clsortthecourt",
+    "originalUrl": "/games/346.html",
+    "cover": "/covers/346.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "They Are Coming",
+    "ugsFile": "cltheyarecoming",
+    "originalUrl": "/games/348.html",
+    "cover": "/covers/348.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Spiral Roll",
+    "ugsFile": "clspiralroll",
+    "originalUrl": "/games/349.html",
+    "cover": "/covers/349.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Blumgi Rocket",
+    "ugsFile": "clblumgirocket",
+    "originalUrl": "/games/353.html",
+    "cover": "/covers/353.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Adventure Capatalist",
+    "ugsFile": "clAdventureCapatalist",
+    "originalUrl": "/games/354-a.html",
+    "cover": "/covers/354.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Dadish",
+    "ugsFile": "cldadish",
+    "originalUrl": "/games/357.html",
+    "cover": "/covers/357.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Idle Breakout",
+    "ugsFile": "clidlebreakout",
+    "originalUrl": "/games/362.html",
+    "cover": "/covers/362.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "JustFall.lol",
+    "ugsFile": "cljustfalllol",
+    "originalUrl": "/games/365.html",
+    "cover": "/covers/365.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Slowroads",
+    "ugsFile": "clslowroads",
+    "originalUrl": "/games/369.html",
+    "cover": "/covers/369.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Smash Karts",
+    "ugsFile": "clsmashkarts",
+    "originalUrl": "/games/370-f.html",
+    "cover": "/covers/370.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Money Rush",
+    "ugsFile": "clmoneyrush",
+    "originalUrl": "/games/400.html",
+    "cover": "/covers/400.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "WebFishing",
+    "ugsFile": "clwebfishing",
+    "originalUrl": "/games/423.html",
+    "cover": "/covers/423.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "ugsFile": "cl10minutestildawn",
+    "originalUrl": "/games/430.html",
+    "cover": "/covers/430.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "99 Balls",
+    "ugsFile": "cl99balls",
+    "originalUrl": "/games/431.html",
+    "cover": "/covers/431.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Yume Nikki",
+    "ugsFile": "clyumenikki",
+    "originalUrl": "/games/433.html",
+    "cover": "/covers/433.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "A Small World Cup",
+    "ugsFile": "clasmallworldcup",
+    "originalUrl": "/games/435.html",
+    "cover": "/covers/435.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Awesome Tanks",
+    "ugsFile": "clawesometanks",
+    "originalUrl": "/games/436.html",
+    "cover": "/covers/436.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bouncemasters",
+    "ugsFile": "clbouncemasters",
+    "originalUrl": "/games/437.html",
+    "cover": "/covers/437.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Awesome Tanks 2",
+    "ugsFile": "clawesometanks2",
+    "originalUrl": "/games/438.html",
+    "cover": "/covers/438.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bank Robbery 2",
+    "ugsFile": "clbankrobbery2",
+    "originalUrl": "/games/439.html",
+    "cover": "/covers/439.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Ages of Conflict",
+    "ugsFile": "clagesofconflict",
+    "originalUrl": "/games/444.html",
+    "cover": "/covers/444.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Aquapark.io",
+    "ugsFile": "claquaparkio",
+    "originalUrl": "/games/448.html",
+    "cover": "/covers/448.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Station 141",
+    "ugsFile": "clstation141",
+    "originalUrl": "/games/452.html",
+    "cover": "/covers/452.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Station Saturn",
+    "ugsFile": "clstationsaturn",
+    "originalUrl": "/games/453.html",
+    "cover": "/covers/453.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BLOODMONEY!",
+    "ugsFile": "clbloodmoney",
+    "originalUrl": "/games/454.html",
+    "cover": "/covers/454.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BERGENTRUCK 201x",
+    "ugsFile": "clbergentruck201x",
+    "originalUrl": "/games/455.html",
+    "cover": "/covers/455.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Undertale Yellow",
+    "ugsFile": "clundertaleyellow",
+    "originalUrl": "/games/456.html",
+    "cover": "/covers/456.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "The Deadseat",
+    "ugsFile": "clthedeadseat",
+    "originalUrl": "/games/458.html",
+    "cover": "/covers/458.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "The Man In The Window",
+    "ugsFile": "clthemaninthewindow",
+    "originalUrl": "/games/459.html",
+    "cover": "/covers/459.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fears to Fathom: Home Alone",
+    "ugsFile": "clfearstofathomhomealone",
+    "originalUrl": "/games/460.html",
+    "cover": "/covers/460.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Slither.io",
+    "ugsFile": "clslitherio",
+    "originalUrl": "/games/461.html",
+    "cover": "/covers/461.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "DEAD PLATE",
+    "ugsFile": "cldeadplate",
+    "originalUrl": "/games/462.html",
+    "cover": "/covers/462.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Lacey's Flash Games",
+    "ugsFile": "cllaceysflashgames",
+    "originalUrl": "/games/463.html",
+    "cover": "/covers/463.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Choppy Orc",
+    "ugsFile": "clchoppyorc",
+    "originalUrl": "/games/464.html",
+    "cover": "/covers/464.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hollow Knight",
+    "ugsFile": "clhollowknight",
+    "originalUrl": "/games/468-f.html",
+    "cover": "/covers/468.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "sandstone",
+    "ugsFile": "clsandstone",
+    "originalUrl": "/games/469.html",
+    "cover": "/covers/469.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Doodle Jump",
+    "ugsFile": "cldoodlejump",
+    "originalUrl": "/games/470.html",
+    "cover": "/covers/470.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Time Simulator",
+    "ugsFile": "clbadtimesimulator",
+    "originalUrl": "/games/472.html",
+    "cover": "/covers/472.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Spacebar Clicker",
+    "ugsFile": "clspacebarclicker",
+    "originalUrl": "/games/473.html",
+    "cover": "/covers/473.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Friday Night Funkin': V.S. Whitty",
+    "ugsFile": "clfnfwhitty",
+    "originalUrl": "/games/474.html",
+    "cover": "/covers/474.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Friday Night Funkin': B-Sides",
+    "ugsFile": "clfridaynightfunkin",
+    "originalUrl": "/games/475.html",
+    "cover": "/covers/475.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Friday Night Funkin': Vs. Hex",
+    "ugsFile": "clfnfhex",
+    "originalUrl": "/games/476.html",
+    "cover": "/covers/476.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Friday Night Funkin': Neo",
+    "ugsFile": "clfnfneo",
+    "originalUrl": "/games/478.html",
+    "cover": "/covers/478.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Friday Night Funkin': vs. Tricky",
+    "ugsFile": "clfnftricky",
+    "originalUrl": "/games/481.html",
+    "cover": "/covers/481.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Human Expenditure Program",
+    "ugsFile": "clhumanexpenditureprogram",
+    "originalUrl": "/games/482-2.html",
+    "cover": "/covers/482.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Friday Night Funkin': Hit Single Real",
+    "ugsFile": "clhitsinglereal",
+    "originalUrl": "/games/483.html",
+    "cover": "/covers/483.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Rooftop Snipers 2",
+    "ugsFile": "clrooftopsnipers2",
+    "originalUrl": "/games/490.html",
+    "cover": "/covers/490.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stick With It",
+    "ugsFile": "clstickwithit",
+    "originalUrl": "/games/502-fixed.html",
+    "cover": "/covers/502.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pokemon Red",
+    "ugsFile": "clpokered",
+    "originalUrl": "/games/505.html",
+    "cover": "/covers/505.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Pokemon Emerald",
+    "ugsFile": "clpokemonemerald",
+    "originalUrl": "/games/506.html",
+    "cover": "/covers/506.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "The Impossible Quiz",
+    "ugsFile": "climpossiblequiz",
+    "originalUrl": "/games/507.html",
+    "cover": "/covers/507.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Super Mario Bros",
+    "ugsFile": "clsupermariobros",
+    "originalUrl": "/games/508.html",
+    "cover": "/covers/508.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tomodachi Collection",
+    "ugsFile": "cltomodachicollection",
+    "originalUrl": "/games/510.html",
+    "cover": "/covers/510.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Doge Miner",
+    "ugsFile": "cldogeminer",
+    "originalUrl": "/games/511.html",
+    "cover": "/covers/511.png",
+    "method": "alias"
+  },
+  {
+    "name": "Final Earth 2",
+    "ugsFile": "clfinalearth2",
+    "originalUrl": "/games/512.html",
+    "cover": "/covers/512.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Swordfight!!",
+    "ugsFile": "clswordfight",
+    "originalUrl": "/games/513.html",
+    "cover": "/covers/513.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "PacMan (Horror)",
+    "ugsFile": "cl?",
+    "originalUrl": "/games/515.html",
+    "cover": "/covers/515.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Nubby's Number Factory",
+    "ugsFile": "clnubbysnumberfactory",
+    "originalUrl": "/games/517.html",
+    "cover": "/covers/517.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Generic Fighter Maybe",
+    "ugsFile": "clgenericfightermaybe",
+    "originalUrl": "/games/519.html",
+    "cover": "/covers/519.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Monday Simulator",
+    "ugsFile": "clbadmondaysimulator",
+    "originalUrl": "/games/522.html",
+    "cover": "/covers/522.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Parappa The Rapper",
+    "ugsFile": "clparappatherapper",
+    "originalUrl": "/games/524.html",
+    "cover": "/covers/524.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "myTeardrop",
+    "ugsFile": "clmyteardrop",
+    "originalUrl": "/games/540.html",
+    "cover": "/covers/540.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Friday Night Funkin': Pibby: Apocalypse",
+    "ugsFile": "clpibbyapocalypse",
+    "originalUrl": "/games/541.html",
+    "cover": "/covers/541.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Karlson",
+    "ugsFile": "clkarlson",
+    "originalUrl": "/games/542-a.html",
+    "cover": "/covers/542.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Jelly Drift",
+    "ugsFile": "cljellydrift",
+    "originalUrl": "/games/543-a.html",
+    "cover": "/covers/543.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Plinko",
+    "ugsFile": "clplinko",
+    "originalUrl": "/games/544.html",
+    "cover": "/covers/544.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Clash Of Vikings",
+    "ugsFile": "clclashofvikings",
+    "originalUrl": "/games/545.html",
+    "cover": "/covers/545.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Recoil",
+    "ugsFile": "clrecoil",
+    "originalUrl": "/games/546.html",
+    "cover": "/covers/546.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Baseball Bros",
+    "ugsFile": "clbaseballbros",
+    "originalUrl": "/games/547.html",
+    "cover": "/covers/547.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Football Bros",
+    "ugsFile": "clfootballbros",
+    "originalUrl": "/games/548.html",
+    "cover": "/covers/548.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hypper Sandbox",
+    "ugsFile": "clhyppersandbox",
+    "originalUrl": "/games/551.html",
+    "cover": "/covers/551.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Aviamasters",
+    "ugsFile": "claviamasters",
+    "originalUrl": "/games/552.html",
+    "cover": "/covers/552.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Rolling Sky",
+    "ugsFile": "clrollingsky",
+    "originalUrl": "/games/553.html",
+    "cover": "/covers/553.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Yandere Simulator",
+    "ugsFile": "clyanderesimulator",
+    "originalUrl": "/games/554.html",
+    "cover": "/covers/554.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Deltatraveler",
+    "ugsFile": "cldeltatraveler",
+    "originalUrl": "/games/560.html",
+    "cover": "/covers/560.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Count Masters: Stickman Games",
+    "ugsFile": "clcountmastersstickmangames",
+    "originalUrl": "/games/564.html",
+    "cover": "/covers/564.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sky Riders",
+    "ugsFile": "clSkyRiders",
+    "originalUrl": "/games/576.html",
+    "cover": "/covers/576.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Steal Brainrot Online",
+    "ugsFile": "clstealbrainrotonline",
+    "originalUrl": "/games/577.html",
+    "cover": "/covers/577.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stickman and Guns",
+    "ugsFile": "clstickmanandguns",
+    "originalUrl": "/games/578.html",
+    "cover": "/covers/578.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BuildNow.gg",
+    "ugsFile": "clbuildnowgg",
+    "originalUrl": "/games/581.html",
+    "cover": "/covers/581.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fallout",
+    "ugsFile": "clfallout",
+    "originalUrl": "/games/585.html",
+    "cover": "/covers/585.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "The Oregon Trail",
+    "ugsFile": "cl?",
+    "originalUrl": "/games/586.html",
+    "cover": "/covers/586.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Newgrounds Rumble",
+    "ugsFile": "clnewgroundsrumble",
+    "originalUrl": "/games/587.html",
+    "cover": "/covers/587.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Super Mario 64",
+    "ugsFile": "clsupermario64",
+    "originalUrl": "/games/588.html",
+    "cover": "/covers/588.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sonic CD",
+    "ugsFile": "clsoniccd",
+    "originalUrl": "/games/589-f.html",
+    "cover": "/covers/589.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Sonic Mania",
+    "ugsFile": "clsonicmania",
+    "originalUrl": "/games/590-f.html",
+    "cover": "/covers/590.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Waterworks!",
+    "ugsFile": "clwaterworks",
+    "originalUrl": "/games/594.html",
+    "cover": "/covers/594.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Metal Gear Solid",
+    "ugsFile": "clmetalgearsolid",
+    "originalUrl": "/games/599.html",
+    "cover": "/covers/599.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Doom 2",
+    "ugsFile": "cldoom2",
+    "originalUrl": "/games/602.html",
+    "cover": "/covers/602.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Growden.io",
+    "ugsFile": "clgrowdenio",
+    "originalUrl": "/games/603-aa.html",
+    "cover": "/covers/603.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Minesweeper Plus",
+    "ugsFile": "clminesweeperplus",
+    "originalUrl": "/games/604-a.html",
+    "cover": "/covers/604.png",
+    "method": "alias"
+  },
+  {
+    "name": "Schoolboy Runaway",
+    "ugsFile": "clschoolboyrunaway",
+    "originalUrl": "/games/605-e.html",
+    "cover": "/covers/605.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Postal",
+    "ugsFile": "clpostal",
+    "originalUrl": "/games/617-a.html",
+    "cover": "/covers/617.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Three Goblets",
+    "ugsFile": "clthreegoblets",
+    "originalUrl": "/games/620.html",
+    "cover": "/covers/620.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Celeste",
+    "ugsFile": "clceleste",
+    "originalUrl": "/games/623-work.html",
+    "cover": "/covers/623.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Happy Wheels",
+    "ugsFile": "clhappywheels",
+    "originalUrl": "/games/624.html",
+    "cover": "/covers/624.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Get Yoked",
+    "ugsFile": "clgetyoked",
+    "originalUrl": "/games/625.html",
+    "cover": "/covers/625.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tag",
+    "ugsFile": "cltag-",
+    "originalUrl": "/games/627.html",
+    "cover": "/covers/627.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cave Story",
+    "ugsFile": "clcavestory",
+    "originalUrl": "/games/632-a.html",
+    "cover": "/covers/632.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "BFDIA 5b",
+    "ugsFile": "clbfdia5b",
+    "originalUrl": "/games/637-f.html",
+    "cover": "/covers/637.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Arthur's Nightmare",
+    "ugsFile": "clarthursnightmare",
+    "originalUrl": "/games/645-e.html",
+    "cover": "/covers/645.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Buster Jam",
+    "ugsFile": "clBusterJam",
+    "originalUrl": "/games/646-fixed.html",
+    "cover": "/covers/646.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Super Smash Flash",
+    "ugsFile": "clsupersmashflash",
+    "originalUrl": "/games/647.html",
+    "cover": "/covers/647.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Mindwave",
+    "ugsFile": "clmindwave",
+    "originalUrl": "/games/648-el.html",
+    "cover": "/covers/648.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Final Fantasy VII",
+    "ugsFile": "clfinalfantasyVII",
+    "originalUrl": "/games/654.html",
+    "cover": "/covers/654.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Orange Roulette",
+    "ugsFile": "clOrangeRoulette",
+    "originalUrl": "/games/659.html",
+    "cover": "/covers/659.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Going Balls",
+    "ugsFile": "clgoingballs",
+    "originalUrl": "/games/662.html",
+    "cover": "/covers/662.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tall.io",
+    "ugsFile": "cltallio",
+    "originalUrl": "/games/664.html",
+    "cover": "/covers/664.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Gorilla Tag",
+    "ugsFile": "clgorillatag",
+    "originalUrl": "/games/668-fix2.html",
+    "cover": "/covers/668.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Raldi's Crackhouse",
+    "ugsFile": "clraldiscrackhouse",
+    "originalUrl": "/games/670.html",
+    "cover": "/covers/670.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "We Become What We Behold",
+    "ugsFile": "clwebecomewhatwebehold",
+    "originalUrl": "/games/671.html",
+    "cover": "/covers/671.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 2",
+    "ugsFile": "clhobo2",
+    "originalUrl": "/games/674.html",
+    "cover": "/covers/674.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 3",
+    "ugsFile": "clhobo3",
+    "originalUrl": "/games/675.html",
+    "cover": "/covers/675.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 4",
+    "ugsFile": "clhobo4",
+    "originalUrl": "/games/676.html",
+    "cover": "/covers/676.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 5",
+    "ugsFile": "clhobo5",
+    "originalUrl": "/games/677.html",
+    "cover": "/covers/677.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 6",
+    "ugsFile": "clhobo6",
+    "originalUrl": "/games/678.html",
+    "cover": "/covers/678.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hobo 7",
+    "ugsFile": "clhobo7",
+    "originalUrl": "/games/679.html",
+    "cover": "/covers/679.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Kirby Super Star Ultra",
+    "ugsFile": "clkirbysuperstarultra",
+    "originalUrl": "/games/680.html",
+    "cover": "/covers/680.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cooking Mama",
+    "ugsFile": "clcookingmama",
+    "originalUrl": "/games/681.html",
+    "cover": "/covers/681.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cooking Mama 2",
+    "ugsFile": "clcookingmama2",
+    "originalUrl": "/games/682.html",
+    "cover": "/covers/682.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cooking Mama 3",
+    "ugsFile": "clcookingmama3",
+    "originalUrl": "/games/683.html",
+    "cover": "/covers/683.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Kirby Squeak Squad",
+    "ugsFile": "clkirbysqueaksquad",
+    "originalUrl": "/games/684.html",
+    "cover": "/covers/684.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "FIFA 11",
+    "ugsFile": "clFIFA11",
+    "originalUrl": "/games/685.html",
+    "cover": "/covers/685.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "FIFA 10",
+    "ugsFile": "clFIFA10",
+    "originalUrl": "/games/686.html",
+    "cover": "/covers/686.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Peggle",
+    "ugsFile": "clpeggle",
+    "originalUrl": "/games/688.html",
+    "cover": "/covers/688.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Meatboy",
+    "ugsFile": "clmeatboy",
+    "originalUrl": "/games/689.html",
+    "cover": "/covers/689.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pokemon Firered",
+    "ugsFile": "clpokemonfirered",
+    "originalUrl": "/games/694.html",
+    "cover": "/covers/694.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Pokemon HeartGold",
+    "ugsFile": "clpokeheartgold",
+    "originalUrl": "/games/696.html",
+    "cover": "/covers/696.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Bank Robbery",
+    "ugsFile": "clBank Robbery",
+    "originalUrl": "/games/697.html",
+    "cover": "/covers/697.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Survivor.io",
+    "ugsFile": "clsurvivorio",
+    "originalUrl": "/games/709-fixagain.html",
+    "cover": "/covers/709.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Jumbo Mario",
+    "ugsFile": "cljumbomario",
+    "originalUrl": "/games/712-f.html",
+    "cover": "/covers/712.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Silent Hill",
+    "ugsFile": "clsilenthill",
+    "originalUrl": "/games/713.html",
+    "cover": "/covers/713.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Friday Night Funkin vs Zardy",
+    "ugsFile": "clfridaynightfunkin",
+    "originalUrl": "/games/715.html",
+    "cover": "/covers/715.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Untitled Goose Game",
+    "ugsFile": "cluntitledgoosegame",
+    "originalUrl": "/games/718.html",
+    "cover": "/covers/718.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Roulette Hero",
+    "ugsFile": "clroulettehero",
+    "originalUrl": "/games/720.html",
+    "cover": "/covers/720.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Shift at Midnight",
+    "ugsFile": "clshiftatmidnight",
+    "originalUrl": "/games/721.html",
+    "cover": "/covers/721.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fused 240",
+    "ugsFile": "clfused240",
+    "originalUrl": "/games/722.html",
+    "cover": "/covers/722.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Brotato",
+    "ugsFile": "clbrotato",
+    "originalUrl": "/games/723.html",
+    "cover": "/covers/723.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "ShredSauce",
+    "ugsFile": "clshredsauce",
+    "originalUrl": "/games/725-ff.html",
+    "cover": "/covers/725.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Fear Assessment",
+    "ugsFile": "clfearassessment",
+    "originalUrl": "/games/728.html",
+    "cover": "/covers/728.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "64 in 1 NES",
+    "ugsFile": "cl64in1nes",
+    "originalUrl": "/games/732.html",
+    "cover": "/covers/732.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tetris",
+    "ugsFile": "cltetris",
+    "originalUrl": "/games/733.html",
+    "cover": "/covers/733.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Famidash",
+    "ugsFile": "clfamidash",
+    "originalUrl": "/games/735.html",
+    "cover": "/covers/735.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Saihate Station (さいはて駅)",
+    "ugsFile": "clsaihatestation",
+    "originalUrl": "/games/737.html",
+    "cover": "/covers/737.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Dumb Ways to Die",
+    "ugsFile": "cldumbwaystodie",
+    "originalUrl": "/games/738-u.html",
+    "cover": "/covers/738.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Soccer Random",
+    "ugsFile": "clsoccerrandom",
+    "originalUrl": "/games/739.html",
+    "cover": "/covers/739.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bart Blast",
+    "ugsFile": "clbartblast",
+    "originalUrl": "/games/740.html",
+    "cover": "/covers/740.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Resident Evil",
+    "ugsFile": "clresidentevil",
+    "originalUrl": "/games/741.html",
+    "cover": "/covers/741.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Resident Evil 2",
+    "ugsFile": "clresidentevil2",
+    "originalUrl": "/games/742.html",
+    "cover": "/covers/742.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Escape Road City 2",
+    "ugsFile": "clescaperoadcity2",
+    "originalUrl": "/games/744-a.html",
+    "cover": "/covers/744.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Tetris",
+    "ugsFile": "cltetris",
+    "originalUrl": "/games/745.html",
+    "cover": "/covers/745.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Bad Piggies",
+    "ugsFile": "clbadpiggies",
+    "originalUrl": "/games/752.html",
+    "cover": "/covers/752.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Minecraft Pocket Edition",
+    "ugsFile": "clminecraftpocketedition",
+    "originalUrl": "/games/754.html",
+    "cover": "/covers/754.png",
+    "method": "alias"
+  },
+  {
+    "name": "Brawl Simulator 3D",
+    "ugsFile": "clbrawlsimulator3d",
+    "originalUrl": "/games/755.html",
+    "cover": "/covers/755.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Overburden",
+    "ugsFile": "cloverburden",
+    "originalUrl": "/games/760.html",
+    "cover": "/covers/760.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Cheese Rolling",
+    "ugsFile": "clcheeserolling",
+    "originalUrl": "/games/762.html",
+    "cover": "/covers/762.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Five Night's at Shrek's Hotel",
+    "ugsFile": "clfivenightsatshrekshotel",
+    "originalUrl": "/games/764.html",
+    "cover": "/covers/764.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Suika Game",
+    "ugsFile": "clsuika",
+    "originalUrl": "/games/766.html",
+    "cover": "/covers/766.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Stick Slasher",
+    "ugsFile": "clstickslasher",
+    "originalUrl": "/games/767.html",
+    "cover": "/covers/767.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stickman Kombat 2D",
+    "ugsFile": "clstickmankombat2d",
+    "originalUrl": "/games/768.html",
+    "cover": "/covers/768.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Stickman Duel",
+    "ugsFile": "clstickmanduel",
+    "originalUrl": "/games/769.html",
+    "cover": "/covers/769.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Command & Conquer",
+    "ugsFile": "cl?",
+    "originalUrl": "/games/773.html",
+    "cover": "/covers/773.png",
+    "method": "html_title_clean"
+  },
+  {
+    "name": "Mountain Bike Racer",
+    "ugsFile": "clmountainbikeracer",
+    "originalUrl": "/games/774.html",
+    "cover": "/covers/774.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Outhold",
+    "ugsFile": "clouthold",
+    "originalUrl": "/games/777.html",
+    "cover": "/covers/777.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Um Jammer Lammy",
+    "ugsFile": "clumjammerlammy",
+    "originalUrl": "/games/782f.html",
+    "cover": "/covers/782.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Apes vs Helium",
+    "ugsFile": "clapesvshelium",
+    "originalUrl": "/games/783.html",
+    "cover": "/covers/783.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Geometry Dash",
+    "ugsFile": "clgeometrydashscratch",
+    "originalUrl": "/games/785-upd2.html",
+    "cover": "/covers/785.png",
+    "method": "ugs_json_name"
+  },
+  {
+    "name": "Volley Random",
+    "ugsFile": "clvolleyrandom",
+    "originalUrl": "/games/786.html",
+    "cover": "/covers/786.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vib-Ribbon",
+    "ugsFile": "clvibribbon",
+    "originalUrl": "/games/788.html",
+    "cover": "/covers/788.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Helltaker",
+    "ugsFile": "clHelltaker",
+    "originalUrl": "/games/790.html",
+    "cover": "/covers/790.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Escape Road 3",
+    "ugsFile": "clescaperoad3",
+    "originalUrl": "/games/792.html",
+    "cover": "/covers/792.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "UvuvwevwevweOnyetenvewveUgwemubwemOssas",
+    "ugsFile": "clUvuvwevwevweOnyetenvewveUgwemubwemOssas",
+    "originalUrl": "/games/795.html",
+    "cover": "/covers/795.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hungry Lamu",
+    "ugsFile": "clhungrylamu",
+    "originalUrl": "/games/798.html",
+    "cover": "/covers/798.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Hungry Lamu 2",
+    "ugsFile": "clhungrylamu2",
+    "originalUrl": "/games/799-fix.html",
+    "cover": "/covers/799.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Rocket Goal.io",
+    "ugsFile": "clrocketgoalio",
+    "originalUrl": "/games/800-fix.html",
+    "cover": "/covers/800.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Trees Hate You",
+    "ugsFile": "cltreeshateyou",
+    "originalUrl": "/games/801-fix.html",
+    "cover": "/covers/801.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Vampire Survivors",
+    "ugsFile": "clvampiresurvivors",
+    "originalUrl": "/games/804.html",
+    "cover": "/covers/804.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Rhythm Heaven",
+    "ugsFile": "clrhythmheaven",
+    "originalUrl": "/games/809.html",
+    "cover": "/covers/809.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Five Nights at Frickbear's 3",
+    "ugsFile": "clfivenightsatfrickbears3",
+    "originalUrl": "/games/813-f3.html",
+    "cover": "/covers/813.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "YoHoHo.io",
+    "ugsFile": "clyohohoio",
+    "originalUrl": "/games/835.html",
+    "cover": "/covers/835.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "Into Space 2",
+    "ugsFile": "clintospace2",
+    "originalUrl": "/games/837.html",
+    "cover": "/covers/837.png",
+    "method": "direct_clean"
+  },
+  {
+    "name": "WarioWare: Touched!",
+    "ugsFile": "clwariowaretouched",
+    "originalUrl": "/games/841.html",
+    "cover": "/covers/841.png",
+    "method": "direct_clean"
+  }
+]

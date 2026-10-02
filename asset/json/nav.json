@@ -16,31 +16,16 @@
     "tag": "UPDATED"
   },
   {
-    "iconClass": "ri-film-line",
-    "name": "Watch",
+    "iconClass": "ri-youtube-line",
+    "name": "YouTube",
     "type": "item",
-    "url": "/page/media/index.html"
-  },
-  {
-    "iconClass": "ri-robot-2-line",
-    "name": "AI",
-    "type": "item",
-    "url": "/page/ai/index.html",
-    "tag": "NEW"
+    "url": "https://proxy.itsharry.lol/url?https://youtube.com/"
   },
   {
     "iconClass": "ri-music-2-line",
     "name": "Listen",
     "type": "item",
-    "url": "/page/music/index.html",
+    "url": "https://proxy.itsharry.lol/url?https://monochrome.tf/",
     "tag": "UPDATED"
-
-  },
-  {
-    "iconClass": "ri-global-line",
-    "name": "Browse",
-    "type": "item",
-    "url": "/browser.html",
-    "disabled": true
   }
 ]

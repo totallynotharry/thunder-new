@@ -111,20 +111,20 @@
   becomeAnOnlineUser();
 
   const STARTUP_NOTIFICATION = {
-    iconClass: "ri-meteor-line",
-    title: "VAPOR v4.4",
+    iconClass: "thunder-logo",
+    title: "Welcome to THUNDER!",
     content: `
-    🤖 <b>New AI System</b>
-    Multi-model AI Chat with custom personalities
+    ⚡ <b>Games</b>
+    Multiple game sources with search and filters
     
-    🎮 <b>Expanded Gamelists</b>
-    ~4,000 games across 10 gamelists
+    🎵 <b>Listen</b>
+    TIDAL + SoundCloud support with playlists and queue
     
-    🎵 <b>Music Improvements</b>
-    Favorites, queue system, and shuffling
+    📺 <b>YouTube</b>
+    YouTube, Twitch, and Movies with source switching
     
-    🎨 <b>Settings Redesign</b>
-    New UI with custom themes and Light Mode
+    🎨 <b>Customization</b>
+    Themes, fonts, and personalized settings
     `,
     buttonText: "Continue",
   };
@@ -133,17 +133,6 @@
     iconClass: "ri-history-line",
     title: "Changelog for v4.4",
     content: `
-    🤖 AI
-    - New AI source (that, yes, I pay for.)
-    - Models:
-    &nbsp;&nbsp;* Claude 4.5 Haiku
-    &nbsp;&nbsp;* Gemini 3 Flash
-    &nbsp;&nbsp;* GPT-OSS (low & high)
-    &nbsp;&nbsp;* Automatic
-
-    - Added personality system
-    - (AI also has knowledge about VAPOR)
-  
     🎮 Play
     - Added 3 new gamelists:
     &nbsp;&nbsp;* TGLSC
@@ -179,7 +168,10 @@
     buttonText: "Back",
   };
 
-  const H2_TITLE_ICON = (icon) => `<i class="${icon}"></i>`;
+  const H2_TITLE_ICON = (icon) =>
+    icon === "thunder-logo"
+      ? `<img src="/asset/thunder.svg" alt="THUNDER" style="width:18px;height:18px;vertical-align:-3px;margin-right:6px;filter:brightness(0) invert(1);">`
+      : `<i class="${icon}"></i>`;
 
   function resetSideButtonActiveState() {
     if (currentActiveSideBtn) {
@@ -488,6 +480,12 @@
       newIframe.id = "content-frame";
       newIframe.src = url;
       newIframe.classList.add("nav-transitioning");
+      newIframe.allowFullscreen = true;
+      newIframe.setAttribute("allowfullscreen", "true");
+      newIframe.setAttribute(
+        "allow",
+        "autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write"
+      );
 
       newIframe.addEventListener("load", () => {
         try {
